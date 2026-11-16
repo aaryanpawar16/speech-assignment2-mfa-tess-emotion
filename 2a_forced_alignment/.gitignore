@@ -1,0 +1,5 @@
+_adapt_tmp/
+__pycache__/
+*.pyc
+models/*.zip
+models/*.dict

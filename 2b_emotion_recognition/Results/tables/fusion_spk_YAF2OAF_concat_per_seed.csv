@@ -1,0 +1,4 @@
+modality,protocol,seed,n_test,accuracy,macro_f1,recall_angry,recall_disgust,recall_fear,recall_happy,recall_neutral,recall_pleasant_surprise,recall_sad
+fusion,spk_YAF2OAF,0,1400,0.5507,0.4895,0.000,0.740,0.915,0.000,0.980,0.385,0.835
+fusion,spk_YAF2OAF,1,1400,0.3986,0.2809,0.005,0.955,1.000,0.000,0.790,0.040,0.000
+fusion,spk_YAF2OAF,2,1400,0.3693,0.3154,0.040,1.000,0.560,0.000,0.820,0.080,0.085

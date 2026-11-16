@@ -1,0 +1,9 @@
+# Python packages for the analysis / visualisation scripts (scripts/analyze_alignments.py, scripts/visualize.py).
+# MFA itself is installed with setup_mfa.sh (conda-forge), not with pip.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+soundfile>=0.12
+librosa>=0.10
+tgt>=1.5
+praat-parselmouth>=0.4.3   # only for scripts/isle_vowels.py (formant measurement of the non-native vowels)

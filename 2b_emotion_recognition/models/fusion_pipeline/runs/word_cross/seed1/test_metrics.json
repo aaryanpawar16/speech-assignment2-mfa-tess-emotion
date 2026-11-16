@@ -1,0 +1,119 @@
+{
+ "accuracy": 0.9910714285714286,
+ "macro_f1": 0.9910700200159656,
+ "per_class": {
+  "angry": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 80
+  },
+  "disgust": {
+   "precision": 0.975609756097561,
+   "recall": 1.0,
+   "f1": 0.9876543209876543,
+   "support": 80
+  },
+  "fear": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 80
+  },
+  "happy": {
+   "precision": 1.0,
+   "recall": 0.9625,
+   "f1": 0.9808917197452229,
+   "support": 80
+  },
+  "neutral": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 80
+  },
+  "pleasant_surprise": {
+   "precision": 0.9629629629629629,
+   "recall": 0.975,
+   "f1": 0.968944099378882,
+   "support": 80
+  },
+  "sad": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 80
+  }
+ },
+ "confusion": [
+  [
+   80,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   80,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   80,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   77,
+   0,
+   3,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   80,
+   0,
+   0
+  ],
+  [
+   0,
+   2,
+   0,
+   0,
+   0,
+   78,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   80
+  ]
+ ],
+ "protocol": "word",
+ "seed": 1,
+ "modality": "fusion",
+ "n": 560,
+ "best_epoch": 15,
+ "val_acc": 1.0
+}

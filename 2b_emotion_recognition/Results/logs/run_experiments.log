@@ -1,0 +1,636 @@
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\train.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --epochs 30
+== speech | protocol word | seed 0
+  ep  1 | train loss 1.704 acc 0.393 | val loss 0.993 acc 0.579 | best val acc 0.579 | 19s
+  ep  5 | train loss 0.388 acc 0.957 | val loss 0.079 acc 0.982 | best val acc 0.982 | 36s
+  ep 10 | train loss 0.310 acc 0.987 | val loss 0.045 acc 0.989 | best val acc 1.000 | 58s
+  ep 15 | train loss 0.285 acc 0.994 | val loss 0.031 acc 1.000 | best val acc 1.000 | 81s
+  ep 20 | train loss 0.284 acc 0.994 | val loss 0.034 acc 1.000 | best val acc 1.000 | 111s
+  ep 25 | train loss 0.274 acc 0.997 | val loss 0.032 acc 1.000 | best val acc 1.000 | 140s
+   best validation accuracy: 1.000
+== speech | protocol word | seed 1
+  ep  1 | train loss 1.698 acc 0.376 | val loss 0.853 acc 0.650 | best val acc 0.650 | 6s
+  ep  5 | train loss 0.372 acc 0.965 | val loss 0.052 acc 0.989 | best val acc 0.993 | 26s
+  ep 10 | train loss 0.318 acc 0.984 | val loss 0.030 acc 1.000 | best val acc 1.000 | 48s
+  ep 15 | train loss 0.292 acc 0.992 | val loss 0.031 acc 1.000 | best val acc 1.000 | 73s
+  ep 20 | train loss 0.273 acc 0.998 | val loss 0.031 acc 1.000 | best val acc 1.000 | 96s
+  ep 25 | train loss 0.271 acc 0.998 | val loss 0.032 acc 1.000 | best val acc 1.000 | 119s
+   best validation accuracy: 1.000
+== speech | protocol word | seed 2
+  ep  1 | train loss 1.716 acc 0.380 | val loss 1.019 acc 0.579 | best val acc 0.579 | 4s
+  ep  5 | train loss 0.381 acc 0.967 | val loss 0.043 acc 0.993 | best val acc 0.993 | 21s
+  ep 10 | train loss 0.319 acc 0.985 | val loss 0.025 acc 1.000 | best val acc 1.000 | 42s
+  ep 15 | train loss 0.294 acc 0.990 | val loss 0.032 acc 1.000 | best val acc 1.000 | 63s
+  ep 20 | train loss 0.278 acc 0.995 | val loss 0.033 acc 1.000 | best val acc 1.000 | 84s
+  ep 25 | train loss 0.277 acc 0.996 | val loss 0.033 acc 1.000 | best val acc 1.000 | 105s
+   best validation accuracy: 1.000
+== speech | protocol word | seed 3
+  ep  1 | train loss 1.722 acc 0.379 | val loss 0.815 acc 0.721 | best val acc 0.721 | 4s
+  ep  5 | train loss 0.404 acc 0.955 | val loss 0.065 acc 0.986 | best val acc 0.986 | 21s
+  ep 10 | train loss 0.298 acc 0.992 | val loss 0.041 acc 0.996 | best val acc 1.000 | 42s
+  ep 15 | train loss 0.282 acc 0.997 | val loss 0.043 acc 0.996 | best val acc 1.000 | 61s
+  ep 20 | train loss 0.281 acc 0.995 | val loss 0.034 acc 1.000 | best val acc 1.000 | 82s
+   best validation accuracy: 1.000
+== speech | protocol word | seed 4
+  ep  1 | train loss 1.714 acc 0.383 | val loss 0.955 acc 0.625 | best val acc 0.625 | 4s
+  ep  5 | train loss 0.406 acc 0.948 | val loss 0.053 acc 0.989 | best val acc 0.989 | 22s
+  ep 10 | train loss 0.323 acc 0.982 | val loss 0.035 acc 1.000 | best val acc 1.000 | 45s
+  ep 15 | train loss 0.285 acc 0.994 | val loss 0.028 acc 1.000 | best val acc 1.000 | 69s
+  ep 20 | train loss 0.279 acc 0.995 | val loss 0.032 acc 1.000 | best val acc 1.000 | 94s
+  ep 25 | train loss 0.271 acc 0.999 | val loss 0.031 acc 1.000 | best val acc 1.000 | 122s
+  ep 30 | train loss 0.274 acc 0.998 | val loss 0.032 acc 1.000 | best val acc 1.000 | 147s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\test.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+speech | word | 5 seeds | test accuracy 99.8% +- 0.2 | macro-F1 0.998 +- 0.002 | chance 14.3%
+   seed 0: accuracy 0.998  macro-F1 0.998  (best epoch 11)
+   seed 1: accuracy 0.996  macro-F1 0.996  (best epoch 12)
+   seed 2: accuracy 0.995  macro-F1 0.995  (best epoch 10)
+   seed 3: accuracy 1.000  macro-F1 1.000  (best epoch 9)
+   seed 4: accuracy 1.000  macro-F1 1.000  (best epoch 15)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\train.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --epochs 30
+== text | protocol word | seed 0
+  ep  1 | train loss 1.951 acc 0.140 | val loss 1.949 acc 0.143 | best val acc 0.143 | 6s
+  ep  5 | train loss 1.948 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 10 | train loss 1.947 acc 0.141 | val loss 1.946 acc 0.143 | best val acc 0.143 | 13s
+  ep 15 | train loss 1.947 acc 0.146 | val loss 1.946 acc 0.143 | best val acc 0.143 | 17s
+  ep 20 | train loss 1.946 acc 0.145 | val loss 1.946 acc 0.143 | best val acc 0.143 | 21s
+  ep 25 | train loss 1.946 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 24s
+  ep 30 | train loss 1.946 acc 0.149 | val loss 1.946 acc 0.143 | best val acc 0.143 | 28s
+   best validation accuracy: 0.143
+== text | protocol word | seed 1
+  ep  1 | train loss 1.950 acc 0.135 | val loss 1.948 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.948 acc 0.135 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 10 | train loss 1.947 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 15 | train loss 1.947 acc 0.143 | val loss 1.946 acc 0.143 | best val acc 0.143 | 16s
+  ep 20 | train loss 1.946 acc 0.136 | val loss 1.946 acc 0.143 | best val acc 0.143 | 21s
+  ep 25 | train loss 1.946 acc 0.142 | val loss 1.946 acc 0.143 | best val acc 0.143 | 25s
+  ep 30 | train loss 1.945 acc 0.145 | val loss 1.946 acc 0.143 | best val acc 0.143 | 29s
+   best validation accuracy: 0.143
+== text | protocol word | seed 2
+  ep  1 | train loss 1.951 acc 0.141 | val loss 1.951 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.948 acc 0.134 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 10 | train loss 1.947 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 8s
+  ep 15 | train loss 1.946 acc 0.135 | val loss 1.946 acc 0.143 | best val acc 0.143 | 12s
+  ep 20 | train loss 1.946 acc 0.140 | val loss 1.946 acc 0.143 | best val acc 0.143 | 16s
+  ep 25 | train loss 1.946 acc 0.149 | val loss 1.946 acc 0.143 | best val acc 0.143 | 19s
+  ep 30 | train loss 1.946 acc 0.151 | val loss 1.946 acc 0.143 | best val acc 0.143 | 23s
+   best validation accuracy: 0.143
+== text | protocol word | seed 3
+  ep  1 | train loss 1.949 acc 0.146 | val loss 1.958 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.947 acc 0.137 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 10 | train loss 1.946 acc 0.147 | val loss 1.946 acc 0.143 | best val acc 0.143 | 8s
+  ep 15 | train loss 1.946 acc 0.138 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+  ep 20 | train loss 1.946 acc 0.135 | val loss 1.946 acc 0.143 | best val acc 0.143 | 15s
+  ep 25 | train loss 1.946 acc 0.142 | val loss 1.946 acc 0.143 | best val acc 0.143 | 19s
+  ep 30 | train loss 1.946 acc 0.151 | val loss 1.946 acc 0.143 | best val acc 0.143 | 23s
+   best validation accuracy: 0.143
+== text | protocol word | seed 4
+  ep  1 | train loss 1.951 acc 0.130 | val loss 1.951 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.949 acc 0.133 | val loss 1.946 acc 0.143 | best val acc 0.143 | 5s
+  ep 10 | train loss 1.947 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 15 | train loss 1.947 acc 0.150 | val loss 1.946 acc 0.143 | best val acc 0.143 | 13s
+  ep 20 | train loss 1.946 acc 0.142 | val loss 1.946 acc 0.143 | best val acc 0.143 | 19s
+  ep 25 | train loss 1.946 acc 0.140 | val loss 1.946 acc 0.143 | best val acc 0.143 | 24s
+  ep 30 | train loss 1.946 acc 0.141 | val loss 1.946 acc 0.143 | best val acc 0.143 | 29s
+   best validation accuracy: 0.143
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\test.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+text | word | 5 seeds | test accuracy 14.3% +- 0.0 | macro-F1 0.038 +- 0.004 | chance 14.3%
+   seed 0: accuracy 0.143  macro-F1 0.046  (best epoch 24)
+   seed 1: accuracy 0.143  macro-F1 0.036  (best epoch 22)
+   seed 2: accuracy 0.143  macro-F1 0.036  (best epoch 17)
+   seed 3: accuracy 0.143  macro-F1 0.036  (best epoch 25)
+   seed 4: accuracy 0.143  macro-F1 0.036  (best epoch 19)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode concat --epochs 30
+== fusion | protocol word | seed 0 | fusion concat
+  ep  1 | train loss 1.802 acc 0.271 | val loss 1.193 acc 0.571 | best val acc 0.571 | 19s
+  ep  5 | train loss 0.470 acc 0.932 | val loss 0.054 acc 0.993 | best val acc 0.993 | 41s
+  ep 10 | train loss 0.336 acc 0.984 | val loss 0.025 acc 1.000 | best val acc 1.000 | 69s
+  ep 15 | train loss 0.300 acc 0.994 | val loss 0.024 acc 1.000 | best val acc 1.000 | 100s
+  ep 20 | train loss 0.293 acc 0.993 | val loss 0.031 acc 1.000 | best val acc 1.000 | 127s
+  ep 25 | train loss 0.280 acc 0.998 | val loss 0.029 acc 1.000 | best val acc 1.000 | 154s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 1 | fusion concat
+  ep  1 | train loss 1.818 acc 0.277 | val loss 1.086 acc 0.568 | best val acc 0.568 | 5s
+  ep  5 | train loss 0.430 acc 0.946 | val loss 0.039 acc 0.993 | best val acc 0.993 | 25s
+  ep 10 | train loss 0.337 acc 0.982 | val loss 0.038 acc 0.996 | best val acc 0.996 | 51s
+  ep 15 | train loss 0.306 acc 0.989 | val loss 0.034 acc 0.996 | best val acc 1.000 | 82s
+  ep 20 | train loss 0.281 acc 0.999 | val loss 0.032 acc 1.000 | best val acc 1.000 | 109s
+  ep 25 | train loss 0.278 acc 0.999 | val loss 0.033 acc 1.000 | best val acc 1.000 | 131s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 2 | fusion concat
+  ep  1 | train loss 1.802 acc 0.266 | val loss 1.172 acc 0.532 | best val acc 0.532 | 5s
+  ep  5 | train loss 0.493 acc 0.921 | val loss 0.037 acc 0.996 | best val acc 0.996 | 23s
+  ep 10 | train loss 0.345 acc 0.979 | val loss 0.019 acc 1.000 | best val acc 1.000 | 47s
+  ep 15 | train loss 0.302 acc 0.991 | val loss 0.025 acc 1.000 | best val acc 1.000 | 72s
+  ep 20 | train loss 0.291 acc 0.995 | val loss 0.033 acc 1.000 | best val acc 1.000 | 97s
+  ep 25 | train loss 0.282 acc 0.998 | val loss 0.030 acc 1.000 | best val acc 1.000 | 122s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 3 | fusion concat
+  ep  1 | train loss 1.807 acc 0.259 | val loss 1.168 acc 0.546 | best val acc 0.546 | 5s
+  ep  5 | train loss 0.465 acc 0.935 | val loss 0.069 acc 0.989 | best val acc 0.989 | 22s
+  ep 10 | train loss 0.330 acc 0.984 | val loss 0.043 acc 0.996 | best val acc 0.996 | 44s
+  ep 15 | train loss 0.294 acc 0.994 | val loss 0.029 acc 1.000 | best val acc 1.000 | 70s
+  ep 20 | train loss 0.290 acc 0.995 | val loss 0.036 acc 0.996 | best val acc 1.000 | 96s
+  ep 25 | train loss 0.279 acc 0.998 | val loss 0.043 acc 0.996 | best val acc 1.000 | 122s
+  ep 30 | train loss 0.283 acc 0.998 | val loss 0.040 acc 0.996 | best val acc 1.000 | 141s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 4 | fusion concat
+  ep  1 | train loss 1.821 acc 0.269 | val loss 1.168 acc 0.543 | best val acc 0.543 | 4s
+  ep  5 | train loss 0.452 acc 0.943 | val loss 0.041 acc 0.993 | best val acc 0.993 | 19s
+  ep 10 | train loss 0.335 acc 0.983 | val loss 0.025 acc 1.000 | best val acc 1.000 | 38s
+  ep 15 | train loss 0.299 acc 0.993 | val loss 0.028 acc 1.000 | best val acc 1.000 | 57s
+  ep 20 | train loss 0.280 acc 0.998 | val loss 0.034 acc 1.000 | best val acc 1.000 | 77s
+  ep 25 | train loss 0.278 acc 0.999 | val loss 0.032 acc 1.000 | best val acc 1.000 | 95s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode concat
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | word_concat | 5 seeds | test accuracy 99.9% +- 0.1 | macro-F1 0.999 +- 0.001 | chance 14.3%
+   seed 0: accuracy 1.000  macro-F1 1.000  (best epoch 14)
+   seed 1: accuracy 0.996  macro-F1 0.996  (best epoch 14)
+   seed 2: accuracy 0.998  macro-F1 0.998  (best epoch 10)
+   seed 3: accuracy 1.000  macro-F1 1.000  (best epoch 15)
+   seed 4: accuracy 1.000  macro-F1 1.000  (best epoch 10)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode gated --epochs 30
+== fusion | protocol word | seed 0 | fusion gated
+  ep  1 | train loss 1.796 acc 0.297 | val loss 1.160 acc 0.614 | best val acc 0.614 | 12s
+  ep  5 | train loss 0.405 acc 0.952 | val loss 0.042 acc 0.996 | best val acc 0.996 | 27s
+  ep 10 | train loss 0.323 acc 0.981 | val loss 0.039 acc 0.996 | best val acc 0.996 | 50s
+  ep 15 | train loss 0.286 acc 0.994 | val loss 0.031 acc 1.000 | best val acc 1.000 | 75s
+  ep 20 | train loss 0.289 acc 0.994 | val loss 0.032 acc 1.000 | best val acc 1.000 | 100s
+  ep 25 | train loss 0.276 acc 0.998 | val loss 0.032 acc 1.000 | best val acc 1.000 | 126s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 1 | fusion gated
+  ep  1 | train loss 1.785 acc 0.332 | val loss 0.948 acc 0.714 | best val acc 0.714 | 5s
+  ep  5 | train loss 0.398 acc 0.959 | val loss 0.051 acc 0.982 | best val acc 0.989 | 26s
+  ep 10 | train loss 0.334 acc 0.977 | val loss 0.023 acc 1.000 | best val acc 1.000 | 52s
+  ep 15 | train loss 0.297 acc 0.990 | val loss 0.028 acc 1.000 | best val acc 1.000 | 76s
+  ep 20 | train loss 0.278 acc 0.997 | val loss 0.031 acc 1.000 | best val acc 1.000 | 101s
+  ep 25 | train loss 0.272 acc 1.000 | val loss 0.033 acc 1.000 | best val acc 1.000 | 126s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 2 | fusion gated
+  ep  1 | train loss 1.778 acc 0.326 | val loss 1.039 acc 0.696 | best val acc 0.696 | 5s
+  ep  5 | train loss 0.431 acc 0.946 | val loss 0.068 acc 0.986 | best val acc 0.986 | 25s
+  ep 10 | train loss 0.332 acc 0.982 | val loss 0.026 acc 1.000 | best val acc 1.000 | 50s
+  ep 15 | train loss 0.300 acc 0.989 | val loss 0.028 acc 1.000 | best val acc 1.000 | 75s
+  ep 20 | train loss 0.282 acc 0.997 | val loss 0.031 acc 1.000 | best val acc 1.000 | 100s
+  ep 25 | train loss 0.278 acc 0.997 | val loss 0.033 acc 1.000 | best val acc 1.000 | 125s
+  ep 30 | train loss 0.275 acc 0.998 | val loss 0.033 acc 1.000 | best val acc 1.000 | 149s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 3 | fusion gated
+  ep  1 | train loss 1.778 acc 0.303 | val loss 1.055 acc 0.625 | best val acc 0.625 | 5s
+  ep  5 | train loss 0.431 acc 0.945 | val loss 0.052 acc 0.993 | best val acc 0.993 | 26s
+  ep 10 | train loss 0.327 acc 0.980 | val loss 0.032 acc 0.996 | best val acc 0.996 | 52s
+  ep 15 | train loss 0.294 acc 0.993 | val loss 0.033 acc 1.000 | best val acc 1.000 | 77s
+  ep 20 | train loss 0.295 acc 0.992 | val loss 0.032 acc 0.996 | best val acc 1.000 | 103s
+  ep 25 | train loss 0.276 acc 0.997 | val loss 0.033 acc 1.000 | best val acc 1.000 | 128s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 4 | fusion gated
+  ep  1 | train loss 1.788 acc 0.327 | val loss 1.137 acc 0.589 | best val acc 0.589 | 4s
+  ep  5 | train loss 0.420 acc 0.948 | val loss 0.046 acc 0.993 | best val acc 0.993 | 23s
+  ep 10 | train loss 0.330 acc 0.978 | val loss 0.038 acc 0.996 | best val acc 0.996 | 48s
+  ep 15 | train loss 0.299 acc 0.989 | val loss 0.038 acc 0.996 | best val acc 0.996 | 73s
+  ep 20 | train loss 0.283 acc 0.996 | val loss 0.044 acc 0.996 | best val acc 0.996 | 98s
+  ep 25 | train loss 0.278 acc 0.997 | val loss 0.040 acc 0.996 | best val acc 1.000 | 122s
+  ep 30 | train loss 0.278 acc 0.997 | val loss 0.036 acc 0.996 | best val acc 1.000 | 147s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode gated
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | word_gated | 5 seeds | test accuracy 99.8% +- 0.2 | macro-F1 0.998 +- 0.002 | chance 14.3%
+   seed 0: accuracy 0.995  macro-F1 0.995  (best epoch 14)
+   seed 1: accuracy 0.996  macro-F1 0.996  (best epoch 10)
+   seed 2: accuracy 1.000  macro-F1 1.000  (best epoch 16)
+   seed 3: accuracy 1.000  macro-F1 1.000  (best epoch 11)
+   seed 4: accuracy 1.000  macro-F1 1.000  (best epoch 22)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode cross --epochs 30
+== fusion | protocol word | seed 0 | fusion cross
+  ep  1 | train loss 1.554 acc 0.439 | val loss 0.691 acc 0.725 | best val acc 0.725 | 13s
+  ep  5 | train loss 0.397 acc 0.954 | val loss 0.081 acc 0.979 | best val acc 0.979 | 33s
+  ep 10 | train loss 0.319 acc 0.981 | val loss 0.069 acc 0.986 | best val acc 0.989 | 59s
+  ep 15 | train loss 0.284 acc 0.994 | val loss 0.041 acc 0.996 | best val acc 1.000 | 84s
+  ep 20 | train loss 0.284 acc 0.992 | val loss 0.039 acc 1.000 | best val acc 1.000 | 109s
+  ep 25 | train loss 0.270 acc 0.998 | val loss 0.038 acc 1.000 | best val acc 1.000 | 135s
+  ep 30 | train loss 0.269 acc 0.999 | val loss 0.037 acc 1.000 | best val acc 1.000 | 160s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 1 | fusion cross
+  ep  1 | train loss 1.545 acc 0.458 | val loss 0.485 acc 0.886 | best val acc 0.886 | 5s
+  ep  5 | train loss 0.378 acc 0.961 | val loss 0.050 acc 0.986 | best val acc 1.000 | 25s
+  ep 10 | train loss 0.317 acc 0.985 | val loss 0.034 acc 1.000 | best val acc 1.000 | 51s
+  ep 15 | train loss 0.296 acc 0.989 | val loss 0.033 acc 1.000 | best val acc 1.000 | 76s
+  ep 20 | train loss 0.269 acc 0.999 | val loss 0.038 acc 1.000 | best val acc 1.000 | 101s
+  ep 25 | train loss 0.271 acc 0.999 | val loss 0.036 acc 1.000 | best val acc 1.000 | 127s
+  ep 30 | train loss 0.271 acc 0.998 | val loss 0.038 acc 1.000 | best val acc 1.000 | 154s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 2 | fusion cross
+  ep  1 | train loss 1.545 acc 0.435 | val loss 0.557 acc 0.879 | best val acc 0.879 | 6s
+  ep  5 | train loss 0.393 acc 0.955 | val loss 0.051 acc 0.996 | best val acc 1.000 | 32s
+  ep 10 | train loss 0.328 acc 0.979 | val loss 0.034 acc 1.000 | best val acc 1.000 | 60s
+  ep 15 | train loss 0.289 acc 0.992 | val loss 0.033 acc 1.000 | best val acc 1.000 | 108s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 3 | fusion cross
+  ep  1 | train loss 1.561 acc 0.430 | val loss 0.781 acc 0.654 | best val acc 0.654 | 12s
+  ep  5 | train loss 0.391 acc 0.956 | val loss 0.029 acc 0.996 | best val acc 0.996 | 35s
+  ep 10 | train loss 0.318 acc 0.984 | val loss 0.032 acc 1.000 | best val acc 1.000 | 76s
+  ep 15 | train loss 0.284 acc 0.994 | val loss 0.039 acc 0.996 | best val acc 1.000 | 132s
+  ep 20 | train loss 0.276 acc 0.997 | val loss 0.047 acc 0.996 | best val acc 1.000 | 189s
+  ep 25 | train loss 0.270 acc 0.999 | val loss 0.046 acc 0.996 | best val acc 1.000 | 246s
+   best validation accuracy: 1.000
+== fusion | protocol word | seed 4 | fusion cross
+  ep  1 | train loss 1.551 acc 0.434 | val loss 0.621 acc 0.875 | best val acc 0.875 | 12s
+  ep  5 | train loss 0.392 acc 0.956 | val loss 0.048 acc 0.989 | best val acc 0.993 | 55s
+  ep 10 | train loss 0.335 acc 0.977 | val loss 0.037 acc 1.000 | best val acc 1.000 | 112s
+  ep 15 | train loss 0.293 acc 0.990 | val loss 0.034 acc 1.000 | best val acc 1.000 | 169s
+  ep 20 | train loss 0.271 acc 0.999 | val loss 0.037 acc 1.000 | best val acc 1.000 | 224s
+  ep 25 | train loss 0.272 acc 0.997 | val loss 0.038 acc 1.000 | best val acc 1.000 | 280s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol word --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 3 4 --fusion_mode cross
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | word_cross | 5 seeds | test accuracy 99.8% +- 0.3 | macro-F1 0.998 +- 0.003 | chance 14.3%
+   seed 0: accuracy 1.000  macro-F1 1.000  (best epoch 21)
+   seed 1: accuracy 0.991  macro-F1 0.991  (best epoch 15)
+   seed 2: accuracy 0.998  macro-F1 0.998  (best epoch 4)
+   seed 3: accuracy 1.000  macro-F1 1.000  (best epoch 10)
+   seed 4: accuracy 1.000  macro-F1 1.000  (best epoch 11)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\train.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== speech | protocol random | seed 0
+  ep  1 | train loss 1.704 acc 0.379 | val loss 0.874 acc 0.736 | best val acc 0.736 | 25s
+  ep  5 | train loss 0.414 acc 0.951 | val loss 0.050 acc 0.993 | best val acc 0.996 | 62s
+  ep 10 | train loss 0.317 acc 0.982 | val loss 0.034 acc 1.000 | best val acc 1.000 | 110s
+  ep 15 | train loss 0.282 acc 0.996 | val loss 0.034 acc 1.000 | best val acc 1.000 | 157s
+  ep 20 | train loss 0.277 acc 0.997 | val loss 0.032 acc 1.000 | best val acc 1.000 | 204s
+   best validation accuracy: 1.000
+== speech | protocol random | seed 1
+  ep  1 | train loss 1.698 acc 0.383 | val loss 0.803 acc 0.814 | best val acc 0.814 | 10s
+  ep  5 | train loss 0.405 acc 0.952 | val loss 0.072 acc 0.986 | best val acc 0.986 | 48s
+  ep 10 | train loss 0.318 acc 0.985 | val loss 0.053 acc 0.993 | best val acc 1.000 | 95s
+  ep 15 | train loss 0.290 acc 0.995 | val loss 0.033 acc 1.000 | best val acc 1.000 | 143s
+  ep 20 | train loss 0.277 acc 0.997 | val loss 0.031 acc 1.000 | best val acc 1.000 | 191s
+   best validation accuracy: 1.000
+== speech | protocol random | seed 2
+  ep  1 | train loss 1.711 acc 0.385 | val loss 0.903 acc 0.729 | best val acc 0.729 | 5s
+  ep  5 | train loss 0.410 acc 0.949 | val loss 0.039 acc 0.993 | best val acc 0.993 | 20s
+  ep 10 | train loss 0.329 acc 0.977 | val loss 0.025 acc 1.000 | best val acc 1.000 | 37s
+  ep 15 | train loss 0.288 acc 0.993 | val loss 0.029 acc 1.000 | best val acc 1.000 | 54s
+  ep 20 | train loss 0.280 acc 0.996 | val loss 0.033 acc 1.000 | best val acc 1.000 | 71s
+  ep 25 | train loss 0.271 acc 0.998 | val loss 0.033 acc 1.000 | best val acc 1.000 | 88s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\test.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+speech | random | 3 seeds | test accuracy 99.8% +- 0.2 | macro-F1 0.998 +- 0.002 | chance 14.3%
+   seed 0: accuracy 0.996  macro-F1 0.996  (best epoch 9)
+   seed 1: accuracy 1.000  macro-F1 1.000  (best epoch 8)
+   seed 2: accuracy 0.996  macro-F1 0.996  (best epoch 10)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\train.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== text | protocol random | seed 0
+  ep  1 | train loss 1.949 acc 0.148 | val loss 1.949 acc 0.143 | best val acc 0.143 | 3s
+  ep  5 | train loss 1.947 acc 0.134 | val loss 1.946 acc 0.143 | best val acc 0.143 | 6s
+  ep 10 | train loss 1.948 acc 0.127 | val loss 1.946 acc 0.143 | best val acc 0.146 | 9s
+  ep 15 | train loss 1.946 acc 0.131 | val loss 1.946 acc 0.143 | best val acc 0.146 | 12s
+  ep 20 | train loss 1.946 acc 0.140 | val loss 1.946 acc 0.139 | best val acc 0.146 | 14s
+  ep 25 | train loss 1.945 acc 0.141 | val loss 1.947 acc 0.139 | best val acc 0.146 | 17s
+  ep 30 | train loss 1.944 acc 0.142 | val loss 1.948 acc 0.121 | best val acc 0.146 | 20s
+   best validation accuracy: 0.146
+== text | protocol random | seed 1
+  ep  1 | train loss 1.951 acc 0.148 | val loss 1.948 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.947 acc 0.137 | val loss 1.946 acc 0.143 | best val acc 0.143 | 3s
+  ep 10 | train loss 1.946 acc 0.144 | val loss 1.946 acc 0.143 | best val acc 0.143 | 5s
+  ep 15 | train loss 1.947 acc 0.143 | val loss 1.946 acc 0.139 | best val acc 0.143 | 8s
+  ep 20 | train loss 1.945 acc 0.137 | val loss 1.954 acc 0.136 | best val acc 0.143 | 11s
+  ep 25 | train loss 1.943 acc 0.152 | val loss 1.960 acc 0.125 | best val acc 0.143 | 14s
+   best validation accuracy: 0.143
+== text | protocol random | seed 2
+  ep  1 | train loss 1.949 acc 0.147 | val loss 1.949 acc 0.143 | best val acc 0.143 | 1s
+  ep  5 | train loss 1.947 acc 0.133 | val loss 1.946 acc 0.143 | best val acc 0.143 | 3s
+  ep 10 | train loss 1.947 acc 0.145 | val loss 1.946 acc 0.143 | best val acc 0.150 | 6s
+  ep 15 | train loss 1.946 acc 0.129 | val loss 1.946 acc 0.143 | best val acc 0.150 | 9s
+  ep 20 | train loss 1.946 acc 0.139 | val loss 1.946 acc 0.132 | best val acc 0.150 | 12s
+   best validation accuracy: 0.150
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\test.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+text | random | 3 seeds | test accuracy 13.8% +- 0.6 | macro-F1 0.037 +- 0.002 | chance 14.3%
+   seed 0: accuracy 0.141  macro-F1 0.036  (best epoch 22)
+   seed 1: accuracy 0.143  macro-F1 0.036  (best epoch 12)
+   seed 2: accuracy 0.130  macro-F1 0.041  (best epoch 7)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat --epochs 30
+== fusion | protocol random | seed 0 | fusion concat
+  ep  1 | train loss 1.818 acc 0.258 | val loss 1.180 acc 0.700 | best val acc 0.700 | 11s
+  ep  5 | train loss 0.447 acc 0.934 | val loss 0.046 acc 0.993 | best val acc 0.996 | 26s
+  ep 10 | train loss 0.352 acc 0.976 | val loss 0.027 acc 1.000 | best val acc 1.000 | 45s
+  ep 15 | train loss 0.301 acc 0.992 | val loss 0.029 acc 1.000 | best val acc 1.000 | 64s
+  ep 20 | train loss 0.287 acc 0.997 | val loss 0.033 acc 1.000 | best val acc 1.000 | 82s
+   best validation accuracy: 1.000
+== fusion | protocol random | seed 1 | fusion concat
+  ep  1 | train loss 1.816 acc 0.270 | val loss 1.021 acc 0.646 | best val acc 0.646 | 4s
+  ep  5 | train loss 0.458 acc 0.936 | val loss 0.079 acc 0.986 | best val acc 0.986 | 19s
+  ep 10 | train loss 0.332 acc 0.981 | val loss 0.053 acc 0.993 | best val acc 1.000 | 38s
+  ep 15 | train loss 0.302 acc 0.992 | val loss 0.028 acc 0.996 | best val acc 1.000 | 57s
+  ep 20 | train loss 0.283 acc 0.998 | val loss 0.033 acc 1.000 | best val acc 1.000 | 75s
+  ep 25 | train loss 0.284 acc 0.997 | val loss 0.032 acc 1.000 | best val acc 1.000 | 94s
+  ep 30 | train loss 0.277 acc 0.999 | val loss 0.033 acc 1.000 | best val acc 1.000 | 113s
+   best validation accuracy: 1.000
+== fusion | protocol random | seed 2 | fusion concat
+  ep  1 | train loss 1.818 acc 0.253 | val loss 1.232 acc 0.486 | best val acc 0.486 | 4s
+  ep  5 | train loss 0.482 acc 0.937 | val loss 0.058 acc 0.993 | best val acc 0.996 | 19s
+  ep 10 | train loss 0.351 acc 0.973 | val loss 0.023 acc 1.000 | best val acc 1.000 | 38s
+  ep 15 | train loss 0.306 acc 0.989 | val loss 0.026 acc 1.000 | best val acc 1.000 | 58s
+  ep 20 | train loss 0.290 acc 0.995 | val loss 0.031 acc 1.000 | best val acc 1.000 | 79s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol random --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | random_concat | 3 seeds | test accuracy 99.9% +- 0.1 | macro-F1 0.999 +- 0.001 | chance 14.3%
+   seed 0: accuracy 0.998  macro-F1 0.998  (best epoch 7)
+   seed 1: accuracy 1.000  macro-F1 1.000  (best epoch 18)
+   seed 2: accuracy 0.998  macro-F1 0.998  (best epoch 8)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\train.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== speech | protocol spk_OAF2YAF | seed 0
+  ep  1 | train loss 1.769 acc 0.349 | val loss 1.076 acc 0.721 | best val acc 0.721 | 10s
+  ep  5 | train loss 0.384 acc 0.957 | val loss 0.039 acc 0.993 | best val acc 0.993 | 20s
+  ep 10 | train loss 0.324 acc 0.980 | val loss 0.024 acc 1.000 | best val acc 1.000 | 31s
+  ep 15 | train loss 0.311 acc 0.982 | val loss 0.028 acc 1.000 | best val acc 1.000 | 43s
+  ep 20 | train loss 0.280 acc 0.996 | val loss 0.033 acc 1.000 | best val acc 1.000 | 54s
+  ep 25 | train loss 0.275 acc 0.998 | val loss 0.031 acc 1.000 | best val acc 1.000 | 66s
+   best validation accuracy: 1.000
+== speech | protocol spk_OAF2YAF | seed 1
+  ep  1 | train loss 1.766 acc 0.377 | val loss 1.018 acc 0.736 | best val acc 0.736 | 2s
+  ep  5 | train loss 0.375 acc 0.960 | val loss 0.042 acc 0.993 | best val acc 0.993 | 11s
+  ep 10 | train loss 0.318 acc 0.983 | val loss 0.036 acc 1.000 | best val acc 1.000 | 23s
+  ep 15 | train loss 0.303 acc 0.986 | val loss 0.030 acc 1.000 | best val acc 1.000 | 35s
+  ep 20 | train loss 0.282 acc 0.994 | val loss 0.029 acc 1.000 | best val acc 1.000 | 46s
+  ep 25 | train loss 0.284 acc 0.994 | val loss 0.031 acc 1.000 | best val acc 1.000 | 58s
+   best validation accuracy: 1.000
+== speech | protocol spk_OAF2YAF | seed 2
+  ep  1 | train loss 1.770 acc 0.352 | val loss 1.025 acc 0.800 | best val acc 0.800 | 2s
+  ep  5 | train loss 0.387 acc 0.952 | val loss 0.037 acc 1.000 | best val acc 1.000 | 12s
+  ep 10 | train loss 0.318 acc 0.983 | val loss 0.039 acc 0.993 | best val acc 1.000 | 23s
+  ep 15 | train loss 0.295 acc 0.990 | val loss 0.030 acc 1.000 | best val acc 1.000 | 35s
+  ep 20 | train loss 0.285 acc 0.993 | val loss 0.030 acc 1.000 | best val acc 1.000 | 46s
+  ep 25 | train loss 0.276 acc 0.998 | val loss 0.031 acc 1.000 | best val acc 1.000 | 58s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\test.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+speech | spk_OAF2YAF | 3 seeds | test accuracy 48.6% +- 8.1 | macro-F1 0.446 +- 0.082 | chance 14.3%
+   seed 0: accuracy 0.392  macro-F1 0.341  (best epoch 10)
+   seed 1: accuracy 0.589  macro-F1 0.543  (best epoch 11)
+   seed 2: accuracy 0.476  macro-F1 0.455  (best epoch 11)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\train.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== text | protocol spk_OAF2YAF | seed 0
+  ep  1 | train loss 1.952 acc 0.138 | val loss 1.949 acc 0.143 | best val acc 0.143 | 4s
+  ep  5 | train loss 1.949 acc 0.129 | val loss 1.946 acc 0.143 | best val acc 0.143 | 6s
+  ep 10 | train loss 1.947 acc 0.128 | val loss 1.946 acc 0.143 | best val acc 0.143 | 8s
+  ep 15 | train loss 1.946 acc 0.132 | val loss 1.946 acc 0.143 | best val acc 0.143 | 10s
+  ep 20 | train loss 1.946 acc 0.146 | val loss 1.946 acc 0.143 | best val acc 0.143 | 12s
+  ep 25 | train loss 1.946 acc 0.156 | val loss 1.946 acc 0.143 | best val acc 0.143 | 13s
+  ep 30 | train loss 1.945 acc 0.159 | val loss 1.946 acc 0.143 | best val acc 0.143 | 15s
+   best validation accuracy: 0.143
+== text | protocol spk_OAF2YAF | seed 1
+  ep  1 | train loss 1.952 acc 0.133 | val loss 1.947 acc 0.143 | best val acc 0.143 | 0s
+  ep  5 | train loss 1.948 acc 0.135 | val loss 1.946 acc 0.143 | best val acc 0.143 | 2s
+  ep 10 | train loss 1.947 acc 0.152 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 15 | train loss 1.947 acc 0.137 | val loss 1.946 acc 0.143 | best val acc 0.143 | 5s
+  ep 20 | train loss 1.946 acc 0.140 | val loss 1.946 acc 0.143 | best val acc 0.143 | 7s
+  ep 25 | train loss 1.946 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 30 | train loss 1.945 acc 0.147 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+   best validation accuracy: 0.143
+== text | protocol spk_OAF2YAF | seed 2
+  ep  1 | train loss 1.949 acc 0.145 | val loss 1.952 acc 0.143 | best val acc 0.143 | 0s
+  ep  5 | train loss 1.948 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 2s
+  ep 10 | train loss 1.947 acc 0.141 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 15 | train loss 1.947 acc 0.134 | val loss 1.946 acc 0.143 | best val acc 0.143 | 5s
+  ep 20 | train loss 1.946 acc 0.133 | val loss 1.946 acc 0.143 | best val acc 0.143 | 7s
+  ep 25 | train loss 1.946 acc 0.149 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 30 | train loss 1.946 acc 0.136 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+   best validation accuracy: 0.143
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\test.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+text | spk_OAF2YAF | 3 seeds | test accuracy 14.3% +- 0.0 | macro-F1 0.043 +- 0.009 | chance 14.3%
+   seed 0: accuracy 0.143  macro-F1 0.037  (best epoch 23)
+   seed 1: accuracy 0.143  macro-F1 0.036  (best epoch 24)
+   seed 2: accuracy 0.143  macro-F1 0.055  (best epoch 27)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat --epochs 30
+== fusion | protocol spk_OAF2YAF | seed 0 | fusion concat
+  ep  1 | train loss 1.865 acc 0.265 | val loss 1.351 acc 0.336 | best val acc 0.336 | 11s
+  ep  5 | train loss 0.468 acc 0.935 | val loss 0.028 acc 0.993 | best val acc 0.993 | 21s
+  ep 10 | train loss 0.331 acc 0.983 | val loss 0.026 acc 1.000 | best val acc 1.000 | 34s
+  ep 15 | train loss 0.309 acc 0.988 | val loss 0.024 acc 1.000 | best val acc 1.000 | 46s
+  ep 20 | train loss 0.289 acc 0.996 | val loss 0.028 acc 1.000 | best val acc 1.000 | 59s
+   best validation accuracy: 1.000
+== fusion | protocol spk_OAF2YAF | seed 1 | fusion concat
+  ep  1 | train loss 1.884 acc 0.260 | val loss 1.378 acc 0.479 | best val acc 0.479 | 2s
+  ep  5 | train loss 0.454 acc 0.936 | val loss 0.054 acc 0.993 | best val acc 0.993 | 13s
+  ep 10 | train loss 0.343 acc 0.980 | val loss 0.035 acc 1.000 | best val acc 1.000 | 25s
+  ep 15 | train loss 0.311 acc 0.990 | val loss 0.026 acc 1.000 | best val acc 1.000 | 38s
+  ep 20 | train loss 0.288 acc 0.997 | val loss 0.029 acc 1.000 | best val acc 1.000 | 50s
+  ep 25 | train loss 0.286 acc 0.997 | val loss 0.029 acc 1.000 | best val acc 1.000 | 63s
+   best validation accuracy: 1.000
+== fusion | protocol spk_OAF2YAF | seed 2 | fusion concat
+  ep  1 | train loss 1.850 acc 0.275 | val loss 1.274 acc 0.429 | best val acc 0.429 | 3s
+  ep  5 | train loss 0.516 acc 0.918 | val loss 0.044 acc 1.000 | best val acc 1.000 | 13s
+  ep 10 | train loss 0.338 acc 0.979 | val loss 0.034 acc 0.993 | best val acc 1.000 | 25s
+  ep 15 | train loss 0.305 acc 0.993 | val loss 0.025 acc 1.000 | best val acc 1.000 | 38s
+  ep 20 | train loss 0.289 acc 0.995 | val loss 0.039 acc 0.993 | best val acc 1.000 | 51s
+  ep 25 | train loss 0.284 acc 0.998 | val loss 0.031 acc 1.000 | best val acc 1.000 | 64s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol spk_OAF2YAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | spk_OAF2YAF_concat | 3 seeds | test accuracy 51.9% +- 5.0 | macro-F1 0.477 +- 0.085 | chance 14.3%
+   seed 0: accuracy 0.565  macro-F1 0.547  (best epoch 9)
+   seed 1: accuracy 0.449  macro-F1 0.358  (best epoch 12)
+   seed 2: accuracy 0.542  macro-F1 0.526  (best epoch 11)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\train.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== speech | protocol spk_YAF2OAF | seed 0
+  ep  1 | train loss 1.761 acc 0.396 | val loss 0.972 acc 0.679 | best val acc 0.679 | 11s
+  ep  5 | train loss 0.328 acc 0.982 | val loss 0.026 acc 1.000 | best val acc 1.000 | 20s
+  ep 10 | train loss 0.287 acc 0.994 | val loss 0.027 acc 1.000 | best val acc 1.000 | 31s
+  ep 15 | train loss 0.277 acc 0.998 | val loss 0.028 acc 1.000 | best val acc 1.000 | 42s
+   best validation accuracy: 1.000
+== speech | protocol spk_YAF2OAF | seed 1
+  ep  1 | train loss 1.754 acc 0.417 | val loss 0.936 acc 0.850 | best val acc 0.850 | 2s
+  ep  5 | train loss 0.346 acc 0.978 | val loss 0.043 acc 0.993 | best val acc 0.993 | 11s
+  ep 10 | train loss 0.301 acc 0.991 | val loss 0.026 acc 1.000 | best val acc 1.000 | 22s
+  ep 15 | train loss 0.289 acc 0.994 | val loss 0.031 acc 1.000 | best val acc 1.000 | 34s
+  ep 20 | train loss 0.271 acc 0.999 | val loss 0.032 acc 1.000 | best val acc 1.000 | 45s
+   best validation accuracy: 1.000
+== speech | protocol spk_YAF2OAF | seed 2
+  ep  1 | train loss 1.771 acc 0.382 | val loss 0.979 acc 0.750 | best val acc 0.750 | 2s
+  ep  5 | train loss 0.337 acc 0.978 | val loss 0.023 acc 1.000 | best val acc 1.000 | 11s
+  ep 10 | train loss 0.297 acc 0.990 | val loss 0.027 acc 1.000 | best val acc 1.000 | 23s
+  ep 15 | train loss 0.291 acc 0.991 | val loss 0.033 acc 1.000 | best val acc 1.000 | 34s
+  ep 20 | train loss 0.271 acc 0.998 | val loss 0.031 acc 1.000 | best val acc 1.000 | 45s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\speech_pipeline\test.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+speech | spk_YAF2OAF | 3 seeds | test accuracy 40.2% +- 5.7 | macro-F1 0.311 +- 0.039 | chance 14.3%
+   seed 0: accuracy 0.334  macro-F1 0.259  (best epoch 4)
+   seed 1: accuracy 0.474  macro-F1 0.354  (best epoch 8)
+   seed 2: accuracy 0.399  macro-F1 0.319  (best epoch 7)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\train.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --epochs 30
+== text | protocol spk_YAF2OAF | seed 0
+  ep  1 | train loss 1.952 acc 0.138 | val loss 1.949 acc 0.143 | best val acc 0.143 | 4s
+  ep  5 | train loss 1.949 acc 0.129 | val loss 1.946 acc 0.143 | best val acc 0.143 | 5s
+  ep 10 | train loss 1.947 acc 0.128 | val loss 1.946 acc 0.143 | best val acc 0.143 | 7s
+  ep 15 | train loss 1.946 acc 0.132 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 20 | train loss 1.946 acc 0.146 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+  ep 25 | train loss 1.946 acc 0.156 | val loss 1.946 acc 0.143 | best val acc 0.143 | 13s
+  ep 30 | train loss 1.945 acc 0.159 | val loss 1.946 acc 0.143 | best val acc 0.143 | 15s
+   best validation accuracy: 0.143
+== text | protocol spk_YAF2OAF | seed 1
+  ep  1 | train loss 1.952 acc 0.133 | val loss 1.947 acc 0.143 | best val acc 0.143 | 0s
+  ep  5 | train loss 1.948 acc 0.135 | val loss 1.946 acc 0.143 | best val acc 0.143 | 2s
+  ep 10 | train loss 1.947 acc 0.152 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 15 | train loss 1.947 acc 0.137 | val loss 1.946 acc 0.143 | best val acc 0.143 | 6s
+  ep 20 | train loss 1.946 acc 0.140 | val loss 1.946 acc 0.143 | best val acc 0.143 | 7s
+  ep 25 | train loss 1.946 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 30 | train loss 1.945 acc 0.147 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+   best validation accuracy: 0.143
+== text | protocol spk_YAF2OAF | seed 2
+  ep  1 | train loss 1.949 acc 0.145 | val loss 1.952 acc 0.143 | best val acc 0.143 | 0s
+  ep  5 | train loss 1.948 acc 0.130 | val loss 1.946 acc 0.143 | best val acc 0.143 | 2s
+  ep 10 | train loss 1.947 acc 0.141 | val loss 1.946 acc 0.143 | best val acc 0.143 | 4s
+  ep 15 | train loss 1.947 acc 0.134 | val loss 1.946 acc 0.143 | best val acc 0.143 | 6s
+  ep 20 | train loss 1.946 acc 0.133 | val loss 1.946 acc 0.143 | best val acc 0.143 | 7s
+  ep 25 | train loss 1.946 acc 0.149 | val loss 1.946 acc 0.143 | best val acc 0.143 | 9s
+  ep 30 | train loss 1.946 acc 0.136 | val loss 1.946 acc 0.143 | best val acc 0.143 | 11s
+   best validation accuracy: 0.143
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\text_pipeline\test.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+text | spk_YAF2OAF | 3 seeds | test accuracy 14.3% +- 0.0 | macro-F1 0.043 +- 0.009 | chance 14.3%
+   seed 0: accuracy 0.143  macro-F1 0.037  (best epoch 23)
+   seed 1: accuracy 0.143  macro-F1 0.036  (best epoch 24)
+   seed 2: accuracy 0.143  macro-F1 0.055  (best epoch 27)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\train.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat --epochs 30
+== fusion | protocol spk_YAF2OAF | seed 0 | fusion concat
+  ep  1 | train loss 1.865 acc 0.341 | val loss 1.253 acc 0.636 | best val acc 0.636 | 10s
+  ep  5 | train loss 0.385 acc 0.961 | val loss 0.027 acc 1.000 | best val acc 1.000 | 20s
+  ep 10 | train loss 0.318 acc 0.990 | val loss 0.027 acc 1.000 | best val acc 1.000 | 33s
+  ep 15 | train loss 0.291 acc 0.997 | val loss 0.028 acc 1.000 | best val acc 1.000 | 45s
+  ep 20 | train loss 0.283 acc 0.998 | val loss 0.039 acc 1.000 | best val acc 1.000 | 57s
+   best validation accuracy: 1.000
+== fusion | protocol spk_YAF2OAF | seed 1 | fusion concat
+  ep  1 | train loss 1.875 acc 0.266 | val loss 1.279 acc 0.564 | best val acc 0.564 | 2s
+  ep  5 | train loss 0.390 acc 0.966 | val loss 0.029 acc 1.000 | best val acc 1.000 | 12s
+  ep 10 | train loss 0.299 acc 0.995 | val loss 0.026 acc 1.000 | best val acc 1.000 | 25s
+  ep 15 | train loss 0.297 acc 0.992 | val loss 0.028 acc 1.000 | best val acc 1.000 | 37s
+  ep 20 | train loss 0.278 acc 0.998 | val loss 0.034 acc 1.000 | best val acc 1.000 | 49s
+   best validation accuracy: 1.000
+== fusion | protocol spk_YAF2OAF | seed 2 | fusion concat
+  ep  1 | train loss 1.862 acc 0.302 | val loss 1.348 acc 0.671 | best val acc 0.671 | 2s
+  ep  5 | train loss 0.368 acc 0.976 | val loss 0.035 acc 0.993 | best val acc 0.993 | 12s
+  ep 10 | train loss 0.307 acc 0.993 | val loss 0.028 acc 1.000 | best val acc 1.000 | 25s
+  ep 15 | train loss 0.297 acc 0.992 | val loss 0.029 acc 1.000 | best val acc 1.000 | 37s
+  ep 20 | train loss 0.277 acc 0.998 | val loss 0.032 acc 1.000 | best val acc 1.000 | 49s
+   best validation accuracy: 1.000
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe models\fusion_pipeline\test.py --protocol spk_YAF2OAF --cache D:/Coding/Machine_Learning/iiith/assignment2/2b_work --seeds 0 1 2 --fusion_mode concat
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+fusion | spk_YAF2OAF_concat | 3 seeds | test accuracy 44.0% +- 8.0 | macro-F1 0.362 +- 0.091 | chance 14.3%
+   seed 0: accuracy 0.551  macro-F1 0.490  (best epoch 7)
+   seed 1: accuracy 0.399  macro-F1 0.281  (best epoch 6)
+   seed 2: accuracy 0.369  macro-F1 0.315  (best epoch 6)
+$ C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\python.exe scripts\make_tables.py
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\scripts\make_tables.py:28: SyntaxWarning: "is" with 'tuple' literal. Did you mean "=="?
+  if modality == "fusion" and protocol in ("spk_OAF2YAF", "spk_YAF2OAF", "word", "random") is False:
+| Model | Protocol | Fusion block | Seeds | Test clips | Accuracy % (mean +- std) | Macro-F1 (mean +- std) |
+|---|---|---|---|---|---|---|
+| speech | random | - | 3 | 560 | 99.8 +- 0.2 | 0.998 +- 0.002 |
+| text | random | - | 3 | 560 | 13.8 +- 0.6 | 0.037 +- 0.002 |
+| fusion | random_concat | concat | 3 | 560 | 99.9 +- 0.1 | 0.999 +- 0.001 |
+| speech | spk_OAF2YAF | - | 3 | 1400 | 48.6 +- 8.1 | 0.446 +- 0.082 |
+| speech | spk_YAF2OAF | - | 3 | 1400 | 40.2 +- 5.7 | 0.311 +- 0.039 |
+| text | spk_OAF2YAF | - | 3 | 1400 | 14.3 +- 0.0 | 0.043 +- 0.009 |
+| text | spk_YAF2OAF | - | 3 | 1400 | 14.3 +- 0.0 | 0.043 +- 0.009 |
+| fusion | spk_OAF2YAF_concat | concat | 3 | 1400 | 51.9 +- 5.0 | 0.477 +- 0.085 |
+| fusion | spk_YAF2OAF_concat | concat | 3 | 1400 | 44.0 +- 8.0 | 0.362 +- 0.091 |
+| speech | word | - | 5 | 560 | 99.8 +- 0.2 | 0.998 +- 0.002 |
+| text | word | - | 5 | 560 | 14.3 +- 0.0 | 0.038 +- 0.004 |
+| fusion | word_concat | concat | 5 | 560 | 99.9 +- 0.1 | 0.999 +- 0.001 |
+| fusion | word_cross | cross | 5 | 560 | 99.8 +- 0.3 | 0.998 +- 0.003 |
+| fusion | word_gated | gated | 5 | 560 | 99.8 +- 0.2 | 0.998 +- 0.002 |

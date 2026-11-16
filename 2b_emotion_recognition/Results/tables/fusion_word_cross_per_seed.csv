@@ -1,0 +1,6 @@
+modality,protocol,seed,n_test,accuracy,macro_f1,recall_angry,recall_disgust,recall_fear,recall_happy,recall_neutral,recall_pleasant_surprise,recall_sad
+fusion,word,0,560,1.0000,1.0000,1.000,1.000,1.000,1.000,1.000,1.000,1.000
+fusion,word,1,560,0.9911,0.9911,1.000,1.000,1.000,0.963,1.000,0.975,1.000
+fusion,word,2,560,0.9982,0.9982,1.000,0.988,1.000,1.000,1.000,1.000,1.000
+fusion,word,3,560,1.0000,1.0000,1.000,1.000,1.000,1.000,1.000,1.000,1.000
+fusion,word,4,560,1.0000,1.0000,1.000,1.000,1.000,1.000,1.000,1.000,1.000

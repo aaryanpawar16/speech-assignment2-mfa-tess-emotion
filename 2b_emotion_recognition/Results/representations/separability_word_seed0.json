@@ -1,0 +1,23 @@
+[
+ {
+  "block": "temporal",
+  "silhouette_emotion": 0.6570281386375427,
+  "silhouette_speaker": 0.0207251887768507,
+  "knn5_emotion_acc": 1.0,
+  "knn5_speaker_acc": 0.9946428571428572
+ },
+ {
+  "block": "contextual",
+  "silhouette_emotion": -0.012500002980232239,
+  "silhouette_speaker": -0.003571433713659644,
+  "knn5_emotion_acc": 0.14285714285714285,
+  "knn5_speaker_acc": 0.5
+ },
+ {
+  "block": "fusion",
+  "silhouette_emotion": 0.8194119334220886,
+  "silhouette_speaker": 0.006912317592650652,
+  "knn5_emotion_acc": 1.0,
+  "knn5_speaker_acc": 0.9607142857142857
+ }
+]

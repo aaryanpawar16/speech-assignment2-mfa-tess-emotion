@@ -1,0 +1,14 @@
+config,level,n_boundaries,mean_ms,median_ms,p90_ms,max_ms,pct_within_20ms,pct_within_50ms
+A1_naive_stock_arpa,word,480,0.6,0.0,0.0,20,99.2,100.0
+A1_naive_stock_arpa,phone,2032,0.8,0.0,0.0,660,99.8,99.9
+A2_norm_stock_arpa,word,488,0.6,0.0,0.0,20,99.2,100.0
+A2_norm_stock_arpa,phone,2056,0.1,0.0,0.0,20,99.9,100.0
+A4_norm_custom_arpa_ft,word,488,0.2,0.0,0.0,20,99.6,100.0
+A4_norm_custom_arpa_ft,phone,2126,0.2,0.0,0.0,30,99.8,100.0
+A5_norm_custom_adapted,word,488,0.1,0.0,0.0,10,100.0,100.0
+A5_norm_custom_adapted,phone,2126,0.1,0.0,0.0,30,99.9,100.0
+A6_norm_custom_mfa,word,488,18.4,10.0,20.0,2460,90.2,96.3
+A7_norm_variants_arpa,word,488,0.2,0.0,0.0,20,99.4,100.0
+A7_norm_variants_arpa,phone,2124,0.1,0.0,0.0,20,99.9,100.0
+A8_trained_on_data_only,word,488,928.3,790.0,1840.0,3180,1.8,3.3
+A8_trained_on_data_only,phone,2010,975.1,870.0,1890.0,3180,0.7,2.3

@@ -1,0 +1,85 @@
+utterance,phone,word,start,dur_ms,class
+F2BJRLP1,DH,the,2.23,30,other consonant
+F2BJRLP1,AH0,massachusetts,2.57,30,vowel
+F2BJRLP1,S,massachusetts,3.02,30,other consonant
+F2BJRLP1,N,current,5.72,30,other consonant
+F2BJRLP1,EH1,hennessy,6.57,30,vowel
+F2BJRLP1,N,mandatory,7.95,30,other consonant
+F2BJRLP1,AO2,mandatory,8.19,30,vowel
+F2BJRLP1,N,retirement,8.95,30,other consonant
+F2BJRLP1,N,and,10.14,30,other consonant
+F2BJRLP1,IH0,expected,11.39,30,vowel
+F2BJRLP1,T,it,13.08,30,stop/affricate
+F2BJRLP1,IH0,important,13.72,30,vowel
+F2BJRLP1,AO1,important,13.91,30,vowel
+F2BJRLP1,T,important,14.03,30,stop/affricate
+F2BJRLP1,N,important,14.10,30,other consonant
+F2BJRLP1,T,important,14.13,30,stop/affricate
+F2BJRLP1,N,appointment,14.46,30,other consonant
+F2BJRLP1,T,appointment,14.49,30,stop/affricate
+F2BJRLP1,N,appointment,14.65,30,other consonant
+F2BJRLP1,L,michael,15.41,30,other consonant
+F2BJRLP1,R,during,16.80,30,other consonant
+F2BJRLP1,AH0,the,16.99,30,vowel
+F2BJRLP1,N,remainder,17.34,30,other consonant
+F2BJRLP1,N,administration,17.96,30,other consonant
+F2BJRLP1,B,w,20.67,30,stop/affricate
+F2BJRLP1,AH0,w,20.70,10,vowel
+F2BJRLP1,L,w,20.71,30,other consonant
+F2BJRLP1,AA1,margo,21.50,30,vowel
+F2BJRLP1,AH0,will,23.44,10,vowel
+F2BJRLP1,AA1,hard,23.90,30,vowel
+F2BJRLP2,N,seventy,0.78,30,other consonant
+F2BJRLP2,T,seventy,0.81,30,stop/affricate
+F2BJRLP2,T,democratic,1.90,30,stop/affricate
+F2BJRLP2,L,michael,2.69,30,other consonant
+F2BJRLP2,UH0,fulfilled,3.68,30,vowel
+F2BJRLP2,L,fulfilled,3.71,30,other consonant
+F2BJRLP2,T,politicize,5.93,30,stop/affricate
+F2BJRLP2,N,appointments,7.33,30,other consonant
+F2BJRLP2,T,appointments,7.36,30,stop/affricate
+F2BJRLP2,M,appointments,7.39,30,other consonant
+F2BJRLP2,N,appointments,7.50,30,other consonant
+F2BJRLP2,UW1,to,10.23,30,vowel
+F2BJRLP2,AH0,supreme,11.06,30,vowel
+F2BJRLP2,R,for,13.14,30,other consonant
+F2BJRLP2,ER0,for,13.17,30,vowel
+F2BJRLP2,IH1,it,13.62,30,vowel
+F2BJRLP2,G,distinguished,15.44,30,stop/affricate
+F2BJRLP2,T,distinguished,15.65,30,stop/affricate
+F2BJRLP2,T,appointment,19.07,30,stop/affricate
+F2BJRLP2,M,appointment,19.10,30,other consonant
+F2BJRLP2,AH0,supreme,20.21,30,vowel
+F2BJRLP2,AO1,court,20.65,30,vowel
+F2BJRLP2,T,seventy,22.20,30,stop/affricate
+F2BJRLP2,R,president,24.62,30,other consonant
+F2BJRLP2,D,president,24.83,30,stop/affricate
+F2BJRLP2,AH0,massachusetts,25.47,30,vowel
+F2BJRLP2,UW1,massachusetts,25.61,30,vowel
+F2BJRLP2,S,massachusetts,25.82,30,other consonant
+F2BJRLP3,T,eight,1.37,30,stop/affricate
+F2BJRLP3,N,hundred,1.54,30,other consonant
+F2BJRLP3,AO1,court,2.46,30,vowel
+F2BJRLP3,EH1,hennessy,3.56,30,vowel
+F2BJRLP3,R,for,5.19,30,other consonant
+F2BJRLP3,G,legal,5.61,30,stop/affricate
+F2BJRLP3,IH1,administrative,7.01,30,vowel
+F2BJRLP3,T,administrative,7.37,30,stop/affricate
+F2BJRLP3,IH0,administrative,7.40,30,vowel
+F2BJRLP3,D,credit,10.59,30,stop/affricate
+F2BJRLP3,R,for,11.07,30,other consonant
+F2BJRLP3,T,court,11.83,30,stop/affricate
+F2BJRLP3,AE1,that,12.46,30,vowel
+F2BJRLP3,B,began,12.56,30,stop/affricate
+F2BJRLP3,D,decade,13.28,30,stop/affricate
+F2BJRLP3,L,legislative,15.15,30,other consonant
+F2BJRLP3,D,and,18.18,30,stop/affricate
+F2BJRLP3,IH1,million,18.85,30,vowel
+F2BJRLP3,AO1,court,20.93,30,vowel
+F2BJRLP3,T,court,21.04,30,stop/affricate
+F2BJRLP3,EH1,hennessy,24.87,30,vowel
+F2BJRLP3,N,recently,25.42,30,other consonant
+F2BJRLP3,D,urged,25.88,30,stop/affricate
+F2BJRLP3,AH0,the,26.46,30,vowel
+F2BJRLP3,R,retreat,28.38,30,other consonant
+F2BJRLP3,T,retreat,28.56,30,stop/affricate

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+_scratch/
+_adapt_tmp/
+cache/
+2a_forced_alignment/models/*.zip
+2b_emotion_recognition/models/*/runs/*/seed[1-9]/best.pt
+2b_work/
+2b_emotion_recognition/models/*/runs_extras/

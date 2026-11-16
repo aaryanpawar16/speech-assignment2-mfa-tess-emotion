@@ -1,0 +1,34 @@
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+saved D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\Results\representations\tsne_blocks_word_seed0.png
+temporal    silhouette(emotion) 0.657 | silhouette(speaker) 0.021 | 5-NN emotion acc 1.000 | 5-NN speaker acc 0.995
+contextual  silhouette(emotion) -0.013 | silhouette(speaker) -0.004 | 5-NN emotion acc 0.143 | 5-NN speaker acc 0.500
+fusion      silhouette(emotion) 0.819 | silhouette(speaker) 0.007 | 5-NN emotion acc 1.000 | 5-NN speaker acc 0.961
+unimodal speech temporal   silhouette(emotion) 0.711 | 5-NN emotion acc 0.998
+unimodal text   contextual silhouette(emotion) -0.012 | 5-NN emotion acc 0.143
+D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\common\engine.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(os.path.join(run_dir(modality, protocol, seed, fusion_mode, out_base), "best.pt"), map_location=dev)
+Traceback (most recent call last):
+  File "D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\scripts\representations.py", line 97, in <module>
+    main()
+  File "D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\scripts\representations.py", line 59, in main
+    sil_spk = silhouette_score(Z, spk == "YAF")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\cluster\_unsupervised.py", line 146, in silhouette_score
+    return float(np.mean(silhouette_samples(X, labels, metric=metric, **kwds)))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\_param_validation.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\cluster\_unsupervised.py", line 304, in silhouette_samples
+    check_number_of_labels(len(le.classes_), n_samples)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\cluster\_unsupervised.py", line 43, in check_number_of_labels
+    raise ValueError(
+ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)

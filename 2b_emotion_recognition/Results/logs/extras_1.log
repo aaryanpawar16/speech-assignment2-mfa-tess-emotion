@@ -1,0 +1,13 @@
+== spkn | spk_OAF2YAF | seed 0
+   accuracy 0.527  macro-F1 0.500  (best epoch 14)
+== spkn | spk_OAF2YAF | seed 1
+   accuracy 0.522  macro-F1 0.464  (best epoch 15)
+== spkn | spk_OAF2YAF | seed 2
+   accuracy 0.344  macro-F1 0.300  (best epoch 7)
+== spkn | spk_YAF2OAF | seed 0
+   accuracy 0.422  macro-F1 0.388  (best epoch 8)
+== spkn | spk_YAF2OAF | seed 1
+   accuracy 0.448  macro-F1 0.387  (best epoch 6)
+== spkn | spk_YAF2OAF | seed 2
+   accuracy 0.399  macro-F1 0.351  (best epoch 7)
+== noaug | spk_OAF2YAF | seed 0

@@ -1,0 +1,2801 @@
+file,true_emotion,stated_emotion,text
+OAF_back_angry.wav,angry,neutral,Say the word back. It is fine.
+OAF_back_disgust.wav,disgust,disgust,Say the word back. That is disgusting.
+OAF_back_fear.wav,fear,fear,Say the word back. I am terrified.
+OAF_back_happy.wav,happy,disgust,Say the word back. That is disgusting.
+OAF_back_neutral.wav,neutral,happy,Say the word back. I am so happy.
+OAF_back_ps.wav,pleasant_surprise,happy,Say the word back. I am so happy.
+OAF_back_sad.wav,sad,sad,Say the word back. I am so sad.
+OAF_bar_angry.wav,angry,fear,Say the word bar. I am terrified.
+OAF_bar_disgust.wav,disgust,disgust,Say the word bar. That is disgusting.
+OAF_bar_fear.wav,fear,pleasant_surprise,Say the word bar. What a lovely surprise.
+OAF_bar_happy.wav,happy,happy,Say the word bar. I am so happy.
+OAF_bar_neutral.wav,neutral,sad,Say the word bar. I am so sad.
+OAF_bar_ps.wav,pleasant_surprise,disgust,Say the word bar. That is disgusting.
+OAF_bar_sad.wav,sad,sad,Say the word bar. I am so sad.
+OAF_base_angry.wav,angry,angry,Say the word base. I am furious.
+OAF_base_disgust.wav,disgust,disgust,Say the word base. That is disgusting.
+OAF_base_fear.wav,fear,fear,Say the word base. I am terrified.
+OAF_base_happy.wav,happy,happy,Say the word base. I am so happy.
+OAF_base_neutral.wav,neutral,happy,Say the word base. I am so happy.
+OAF_base_ps.wav,pleasant_surprise,happy,Say the word base. I am so happy.
+OAF_base_sad.wav,sad,sad,Say the word base. I am so sad.
+OAF_bath_angry.wav,angry,pleasant_surprise,Say the word bath. What a lovely surprise.
+OAF_bath_disgust.wav,disgust,sad,Say the word bath. I am so sad.
+OAF_bath_fear.wav,fear,sad,Say the word bath. I am so sad.
+OAF_bath_happy.wav,happy,happy,Say the word bath. I am so happy.
+OAF_bath_neutral.wav,neutral,neutral,Say the word bath. It is fine.
+OAF_bath_ps.wav,pleasant_surprise,neutral,Say the word bath. It is fine.
+OAF_bath_sad.wav,sad,sad,Say the word bath. I am so sad.
+OAF_bean_angry.wav,angry,angry,Say the word bean. I am furious.
+OAF_bean_disgust.wav,disgust,disgust,Say the word bean. That is disgusting.
+OAF_bean_fear.wav,fear,angry,Say the word bean. I am furious.
+OAF_bean_happy.wav,happy,happy,Say the word bean. I am so happy.
+OAF_bean_neutral.wav,neutral,neutral,Say the word bean. It is fine.
+OAF_bean_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bean. What a lovely surprise.
+OAF_bean_sad.wav,sad,sad,Say the word bean. I am so sad.
+OAF_beg_angry.wav,angry,angry,Say the word beg. I am furious.
+OAF_beg_disgust.wav,disgust,disgust,Say the word beg. That is disgusting.
+OAF_beg_fear.wav,fear,sad,Say the word beg. I am so sad.
+OAF_beg_happy.wav,happy,happy,Say the word beg. I am so happy.
+OAF_beg_neutral.wav,neutral,angry,Say the word beg. I am furious.
+OAF_beg_ps.wav,pleasant_surprise,angry,Say the word beg. I am furious.
+OAF_beg_sad.wav,sad,disgust,Say the word beg. That is disgusting.
+OAF_bite_angry.wav,angry,fear,Say the word bite. I am terrified.
+OAF_bite_disgust.wav,disgust,disgust,Say the word bite. That is disgusting.
+OAF_bite_fear.wav,fear,fear,Say the word bite. I am terrified.
+OAF_bite_happy.wav,happy,happy,Say the word bite. I am so happy.
+OA_bite_neutral.wav,neutral,neutral,Say the word bite. It is fine.
+OAF_bite_ps.wav,pleasant_surprise,neutral,Say the word bite. It is fine.
+OAF_bite_sad.wav,sad,sad,Say the word bite. I am so sad.
+OAF_boat_angry.wav,angry,angry,Say the word boat. I am furious.
+OAF_boat_disgust.wav,disgust,disgust,Say the word boat. That is disgusting.
+OAF_boat_fear.wav,fear,fear,Say the word boat. I am terrified.
+OAF_boat_happy.wav,happy,happy,Say the word boat. I am so happy.
+OAF_boat_neutral.wav,neutral,neutral,Say the word boat. It is fine.
+OAF_boat_ps.wav,pleasant_surprise,disgust,Say the word boat. That is disgusting.
+OAF_boat_sad.wav,sad,sad,Say the word boat. I am so sad.
+OAF_bone_angry.wav,angry,disgust,Say the word bone. That is disgusting.
+OAF_bone_disgust.wav,disgust,disgust,Say the word bone. That is disgusting.
+OAF_bone_fear.wav,fear,happy,Say the word bone. I am so happy.
+OAF_bone_happy.wav,happy,fear,Say the word bone. I am terrified.
+OAF_bone_neutral.wav,neutral,fear,Say the word bone. I am terrified.
+OAF_bone_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bone. What a lovely surprise.
+OAF_bone_sad.wav,sad,sad,Say the word bone. I am so sad.
+OAF_book_angry.wav,angry,happy,Say the word book. I am so happy.
+OAF_book_disgust.wav,disgust,sad,Say the word book. I am so sad.
+OAF_book_fear.wav,fear,fear,Say the word book. I am terrified.
+OAF_book_happy.wav,happy,fear,Say the word book. I am terrified.
+OAF_book_neutral.wav,neutral,neutral,Say the word book. It is fine.
+OAF_book_ps.wav,pleasant_surprise,fear,Say the word book. I am terrified.
+OAF_book_sad.wav,sad,sad,Say the word book. I am so sad.
+OAF_bought_angry.wav,angry,pleasant_surprise,Say the word bought. What a lovely surprise.
+OAF_bought_disgust.wav,disgust,pleasant_surprise,Say the word bought. What a lovely surprise.
+OAF_bought_fear.wav,fear,fear,Say the word bought. I am terrified.
+OAF_bought_happy.wav,happy,sad,Say the word bought. I am so sad.
+OAF_bought_neutral.wav,neutral,sad,Say the word bought. I am so sad.
+OAF_bought_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bought. What a lovely surprise.
+OAF_bought_sad.wav,sad,angry,Say the word bought. I am furious.
+OAF_burn_angry.wav,angry,sad,Say the word burn. I am so sad.
+OAF_burn_disgust.wav,disgust,disgust,Say the word burn. That is disgusting.
+OAF_burn_fear.wav,fear,happy,Say the word burn. I am so happy.
+OAF_burn_happy.wav,happy,sad,Say the word burn. I am so sad.
+OAF_burn_neutral.wav,neutral,neutral,Say the word burn. It is fine.
+OAF_burn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word burn. What a lovely surprise.
+OAF_burn_sad.wav,sad,angry,Say the word burn. I am furious.
+OAF_cab_angry.wav,angry,angry,Say the word cab. I am furious.
+OAF_cab_disgust.wav,disgust,disgust,Say the word cab. That is disgusting.
+OAF_cab_fear.wav,fear,fear,Say the word cab. I am terrified.
+OAF_cab_happy.wav,happy,sad,Say the word cab. I am so sad.
+OAF_cab_neutral.wav,neutral,neutral,Say the word cab. It is fine.
+OAF_cab_ps.wav,pleasant_surprise,disgust,Say the word cab. That is disgusting.
+OAF_cab_sad.wav,sad,sad,Say the word cab. I am so sad.
+OAF_calm_angry.wav,angry,neutral,Say the word calm. It is fine.
+OAF_calm_disgust.wav,disgust,disgust,Say the word calm. That is disgusting.
+OAF_calm_fear.wav,fear,angry,Say the word calm. I am furious.
+OAF_calm_happy.wav,happy,neutral,Say the word calm. It is fine.
+OAF_calm_neutral.wav,neutral,neutral,Say the word calm. It is fine.
+OAF_calm_ps.wav,pleasant_surprise,happy,Say the word calm. I am so happy.
+OAF_calm_sad.wav,sad,sad,Say the word calm. I am so sad.
+OAF_came_angry.wav,angry,angry,Say the word came. I am furious.
+OAF_came_disgust.wav,disgust,angry,Say the word came. I am furious.
+OAF_came_fear.wav,fear,fear,Say the word came. I am terrified.
+OAF_came_happy.wav,happy,happy,Say the word came. I am so happy.
+OAF_came_neutral.wav,neutral,neutral,Say the word came. It is fine.
+OAF_came_ps.wav,pleasant_surprise,disgust,Say the word came. That is disgusting.
+OAF_came_sad.wav,sad,sad,Say the word came. I am so sad.
+OAF_cause_angry.wav,angry,angry,Say the word cause. I am furious.
+OAF_cause_disgust.wav,disgust,disgust,Say the word cause. That is disgusting.
+OAF_cause_fear.wav,fear,fear,Say the word cause. I am terrified.
+OAF_cause_happy.wav,happy,disgust,Say the word cause. That is disgusting.
+OAF_cause_neutral.wav,neutral,neutral,Say the word cause. It is fine.
+OAF_cause_ps.wav,pleasant_surprise,pleasant_surprise,Say the word cause. What a lovely surprise.
+OAF_cause_sad.wav,sad,sad,Say the word cause. I am so sad.
+OAF_chain_angry.wav,angry,pleasant_surprise,Say the word chain. What a lovely surprise.
+OAF_chain_disgust.wav,disgust,neutral,Say the word chain. It is fine.
+OAF_chain_fear.wav,fear,fear,Say the word chain. I am terrified.
+OAF_chain_happy.wav,happy,happy,Say the word chain. I am so happy.
+OAF_chain_neutral.wav,neutral,neutral,Say the word chain. It is fine.
+OAF_chain_ps.wav,pleasant_surprise,sad,Say the word chain. I am so sad.
+OAF_chain_sad.wav,sad,sad,Say the word chain. I am so sad.
+OAF_chair_angry.wav,angry,disgust,Say the word chair. That is disgusting.
+OAF_chair_disgust.wav,disgust,disgust,Say the word chair. That is disgusting.
+OAF_chair_fear.wav,fear,pleasant_surprise,Say the word chair. What a lovely surprise.
+OAF_chair_happy.wav,happy,fear,Say the word chair. I am terrified.
+OAF_chair_neutral.wav,neutral,neutral,Say the word chair. It is fine.
+OAF_chair_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chair. What a lovely surprise.
+OAF_chair_sad.wav,sad,sad,Say the word chair. I am so sad.
+OAF_chalk_angry.wav,angry,neutral,Say the word chalk. It is fine.
+OAF_chalk_disgust.wav,disgust,fear,Say the word chalk. I am terrified.
+OAF_chalk_fear.wav,fear,pleasant_surprise,Say the word chalk. What a lovely surprise.
+OAF_chalk_happy.wav,happy,angry,Say the word chalk. I am furious.
+OAF_chalk_neutral.wav,neutral,neutral,Say the word chalk. It is fine.
+OAF_chalk_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chalk. What a lovely surprise.
+OAF_chalk_sad.wav,sad,sad,Say the word chalk. I am so sad.
+OAF_chat_angry.wav,angry,angry,Say the word chat. I am furious.
+OAF_chat_disgust.wav,disgust,pleasant_surprise,Say the word chat. What a lovely surprise.
+OAF_chat_fear.wav,fear,fear,Say the word chat. I am terrified.
+OAF_chat_happy.wav,happy,happy,Say the word chat. I am so happy.
+OAF_chat_neutral.wav,neutral,pleasant_surprise,Say the word chat. What a lovely surprise.
+OAF_chat_ps.wav,pleasant_surprise,angry,Say the word chat. I am furious.
+OAF_chat_sad.wav,sad,sad,Say the word chat. I am so sad.
+OAF_check_angry.wav,angry,neutral,Say the word check. It is fine.
+OAF_check_disgust.wav,disgust,disgust,Say the word check. That is disgusting.
+OAF_check_fear.wav,fear,fear,Say the word check. I am terrified.
+OAF_check_happy.wav,happy,disgust,Say the word check. That is disgusting.
+OAF_check_neutral.wav,neutral,pleasant_surprise,Say the word check. What a lovely surprise.
+OAF_check_ps.wav,pleasant_surprise,happy,Say the word check. I am so happy.
+OAF_check_sad.wav,sad,pleasant_surprise,Say the word check. What a lovely surprise.
+OAF_cheek_angry.wav,angry,sad,Say the word cheek. I am so sad.
+OAF_cheek_disgust.wav,disgust,disgust,Say the word cheek. That is disgusting.
+OAF_cheek_fear.wav,fear,disgust,Say the word cheek. That is disgusting.
+OAF_cheek_happy.wav,happy,pleasant_surprise,Say the word cheek. What a lovely surprise.
+OAF_cheek_neutral.wav,neutral,neutral,Say the word cheek. It is fine.
+OAF_cheek_ps.wav,pleasant_surprise,disgust,Say the word cheek. That is disgusting.
+OAF_cheek_sad.wav,sad,sad,Say the word cheek. I am so sad.
+OAF_chief_angry.wav,angry,angry,Say the word chief. I am furious.
+OAF_chief_disgust.wav,disgust,disgust,Say the word chief. That is disgusting.
+OAF_chief_fear.wav,fear,fear,Say the word chief. I am terrified.
+OAF_chief_happy.wav,happy,happy,Say the word chief. I am so happy.
+OAF_chief_neutral.wav,neutral,neutral,Say the word chief. It is fine.
+OAF_chief_ps.wav,pleasant_surprise,angry,Say the word chief. I am furious.
+OAF_chief_sad.wav,sad,sad,Say the word chief. I am so sad.
+OAF_choice_angry.wav,angry,neutral,Say the word choice. It is fine.
+OAF_choice_disgust.wav,disgust,neutral,Say the word choice. It is fine.
+OAF_choice_fear.wav,fear,fear,Say the word choice. I am terrified.
+OAF_choice_happy.wav,happy,happy,Say the word choice. I am so happy.
+OAF_choice_neutral.wav,neutral,happy,Say the word choice. I am so happy.
+OAF_choice_ps.wav,pleasant_surprise,pleasant_surprise,Say the word choice. What a lovely surprise.
+OAF_choice_sad.wav,sad,sad,Say the word choice. I am so sad.
+OAF_cool_angry.wav,angry,sad,Say the word cool. I am so sad.
+OAF_cool_disgust.wav,disgust,disgust,Say the word cool. That is disgusting.
+OAF_cool_fear.wav,fear,fear,Say the word cool. I am terrified.
+OAF_cool_happy.wav,happy,sad,Say the word cool. I am so sad.
+OAF_cool_neutral.wav,neutral,neutral,Say the word cool. It is fine.
+OAF_cool_ps.wav,pleasant_surprise,pleasant_surprise,Say the word cool. What a lovely surprise.
+OAF_cool_sad.wav,sad,sad,Say the word cool. I am so sad.
+OAF_dab_angry.wav,angry,fear,Say the word dab. I am terrified.
+OAF_dab_disgust.wav,disgust,disgust,Say the word dab. That is disgusting.
+OAF_dab_fear.wav,fear,angry,Say the word dab. I am furious.
+OAF_dab_happy.wav,happy,happy,Say the word dab. I am so happy.
+OAF_dab_neutral.wav,neutral,angry,Say the word dab. I am furious.
+OAF_dab_ps.wav,pleasant_surprise,neutral,Say the word dab. It is fine.
+OAF_dab_sad.wav,sad,sad,Say the word dab. I am so sad.
+OAF_date_angry.wav,angry,angry,Say the word date. I am furious.
+OAF_date_disgust.wav,disgust,disgust,Say the word date. That is disgusting.
+OAF_date_fear.wav,fear,pleasant_surprise,Say the word date. What a lovely surprise.
+OAF_date_happy.wav,happy,happy,Say the word date. I am so happy.
+OAF_date_neutral.wav,neutral,neutral,Say the word date. It is fine.
+OAF_date_ps.wav,pleasant_surprise,happy,Say the word date. I am so happy.
+OAF_date_sad.wav,sad,sad,Say the word date. I am so sad.
+OAF_dead_angry.wav,angry,disgust,Say the word dead. That is disgusting.
+OAF_dead_disgust.wav,disgust,disgust,Say the word dead. That is disgusting.
+OAF_dead_fear.wav,fear,happy,Say the word dead. I am so happy.
+OAF_dead_happy.wav,happy,happy,Say the word dead. I am so happy.
+OAF_dead_neutral.wav,neutral,neutral,Say the word dead. It is fine.
+OAF_dead_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dead. What a lovely surprise.
+OAF_dead_sad.wav,sad,pleasant_surprise,Say the word dead. What a lovely surprise.
+OAF_death_angry.wav,angry,happy,Say the word death. I am so happy.
+OAF_death_disgust.wav,disgust,disgust,Say the word death. That is disgusting.
+OAF_death_fear.wav,fear,angry,Say the word death. I am furious.
+OAF_death_happy.wav,happy,happy,Say the word death. I am so happy.
+OAF_death_neutral.wav,neutral,pleasant_surprise,Say the word death. What a lovely surprise.
+OAF_death_ps.wav,pleasant_surprise,neutral,Say the word death. It is fine.
+OAF_death_sad.wav,sad,happy,Say the word death. I am so happy.
+OAF_deep_angry.wav,angry,angry,Say the word deep. I am furious.
+OAF_deep_disgust.wav,disgust,angry,Say the word deep. I am furious.
+OAF_deep_fear.wav,fear,fear,Say the word deep. I am terrified.
+OAF_deep_happy.wav,happy,fear,Say the word deep. I am terrified.
+OAF_deep_neutral.wav,neutral,angry,Say the word deep. I am furious.
+OAF_deep_ps.wav,pleasant_surprise,pleasant_surprise,Say the word deep. What a lovely surprise.
+OAF_deep_sad.wav,sad,fear,Say the word deep. I am terrified.
+OAF_dime_angry.wav,angry,angry,Say the word dime. I am furious.
+OAF_dime_disgust.wav,disgust,fear,Say the word dime. I am terrified.
+OAF_dime_fear.wav,fear,pleasant_surprise,Say the word dime. What a lovely surprise.
+OAF_dime_happy.wav,happy,happy,Say the word dime. I am so happy.
+OAF_dime_neutral.wav,neutral,pleasant_surprise,Say the word dime. What a lovely surprise.
+OAF_dime_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dime. What a lovely surprise.
+OAF_dime_sad.wav,sad,sad,Say the word dime. I am so sad.
+OAF_dip_angry.wav,angry,angry,Say the word dip. I am furious.
+OAF_dip_disgust.wav,disgust,disgust,Say the word dip. That is disgusting.
+OAF_dip_fear.wav,fear,fear,Say the word dip. I am terrified.
+OAF_dip_happy.wav,happy,happy,Say the word dip. I am so happy.
+OAF_dip_neutral.wav,neutral,disgust,Say the word dip. That is disgusting.
+OAF_dip_ps.wav,pleasant_surprise,disgust,Say the word dip. That is disgusting.
+OAF_dip_sad.wav,sad,angry,Say the word dip. I am furious.
+OAF_ditch_angry.wav,angry,disgust,Say the word ditch. That is disgusting.
+OAF_ditch_disgust.wav,disgust,sad,Say the word ditch. I am so sad.
+OAF_ditch_fear.wav,fear,fear,Say the word ditch. I am terrified.
+OAF_ditch_happy.wav,happy,neutral,Say the word ditch. It is fine.
+OAF_ditch_neutral.wav,neutral,neutral,Say the word ditch. It is fine.
+OAF_ditch_ps.wav,pleasant_surprise,sad,Say the word ditch. I am so sad.
+OAF_ditch_sad.wav,sad,disgust,Say the word ditch. That is disgusting.
+OAF_dodge_angry.wav,angry,happy,Say the word dodge. I am so happy.
+OAF_dodge_disgust.wav,disgust,sad,Say the word dodge. I am so sad.
+OAF_dodge_fear.wav,fear,disgust,Say the word dodge. That is disgusting.
+OAF_dodge_happy.wav,happy,happy,Say the word dodge. I am so happy.
+OAF_dodge_neutral.wav,neutral,neutral,Say the word dodge. It is fine.
+OAF_dodge_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dodge. What a lovely surprise.
+OAF_dodge_sad.wav,sad,sad,Say the word dodge. I am so sad.
+OAF_dog_angry.wav,angry,angry,Say the word dog. I am furious.
+OAF_dog_disgust.wav,disgust,disgust,Say the word dog. That is disgusting.
+OAF_dog_fear.wav,fear,fear,Say the word dog. I am terrified.
+OAF_dog_happy.wav,happy,happy,Say the word dog. I am so happy.
+OAF_dog_neutral.wav,neutral,neutral,Say the word dog. It is fine.
+OAF_dog_ps.wav,pleasant_surprise,disgust,Say the word dog. That is disgusting.
+OAF_dog_sad.wav,sad,neutral,Say the word dog. It is fine.
+OAF_doll_angry.wav,angry,neutral,Say the word doll. It is fine.
+OAF_doll_disgust.wav,disgust,disgust,Say the word doll. That is disgusting.
+OAF_doll_fear.wav,fear,neutral,Say the word doll. It is fine.
+OAF_doll_happy.wav,happy,happy,Say the word doll. I am so happy.
+OAF_doll_neutral.wav,neutral,pleasant_surprise,Say the word doll. What a lovely surprise.
+OAF_doll_ps.wav,pleasant_surprise,happy,Say the word doll. I am so happy.
+OAF_doll_sad.wav,sad,disgust,Say the word doll. That is disgusting.
+OAF_door_angry.wav,angry,angry,Say the word door. I am furious.
+OAF_door_disgust.wav,disgust,disgust,Say the word door. That is disgusting.
+OAF_door_fear.wav,fear,happy,Say the word door. I am so happy.
+OAF_door_happy.wav,happy,happy,Say the word door. I am so happy.
+OAF_door_neutral.wav,neutral,neutral,Say the word door. It is fine.
+OAF_door_ps.wav,pleasant_surprise,pleasant_surprise,Say the word door. What a lovely surprise.
+OAF_door_sad.wav,sad,disgust,Say the word door. That is disgusting.
+OAF_fail_angry.wav,angry,angry,Say the word fail. I am furious.
+OAF_fail_disgust.wav,disgust,fear,Say the word fail. I am terrified.
+OAF_fail_fear.wav,fear,fear,Say the word fail. I am terrified.
+OAF_fail_happy.wav,happy,happy,Say the word fail. I am so happy.
+OAF_fail_neutral.wav,neutral,sad,Say the word fail. I am so sad.
+OAF_fail_ps.wav,pleasant_surprise,angry,Say the word fail. I am furious.
+OAF_fail_sad.wav,sad,sad,Say the word fail. I am so sad.
+OAF_fall_angry.wav,angry,angry,Say the word fall. I am furious.
+OAF_fall_disgust.wav,disgust,fear,Say the word fall. I am terrified.
+OAF_fall_fear.wav,fear,fear,Say the word fall. I am terrified.
+OAF_fall_happy.wav,happy,fear,Say the word fall. I am terrified.
+OAF_fall_neutral.wav,neutral,neutral,Say the word fall. It is fine.
+OAF_fall_ps.wav,pleasant_surprise,pleasant_surprise,Say the word fall. What a lovely surprise.
+OAF_fall_sad.wav,sad,sad,Say the word fall. I am so sad.
+OAF_far_angry.wav,angry,angry,Say the word far. I am furious.
+OAF_far_disgust.wav,disgust,fear,Say the word far. I am terrified.
+OAF_far_fear.wav,fear,fear,Say the word far. I am terrified.
+OAF_far_happy.wav,happy,happy,Say the word far. I am so happy.
+OAF_far_neutral.wav,neutral,neutral,Say the word far. It is fine.
+OAF_far_ps.wav,pleasant_surprise,pleasant_surprise,Say the word far. What a lovely surprise.
+OAF_far_sad.wav,sad,neutral,Say the word far. It is fine.
+OAF_fat_angry.wav,angry,sad,Say the word fat. I am so sad.
+OAF_fat_disgust.wav,disgust,neutral,Say the word fat. It is fine.
+OAF_fat_fear.wav,fear,fear,Say the word fat. I am terrified.
+OAF_fat_happy.wav,happy,happy,Say the word fat. I am so happy.
+OAF_fat_neutral.wav,neutral,neutral,Say the word fat. It is fine.
+OAF_fat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word fat. What a lovely surprise.
+OAF_fat_sad.wav,sad,neutral,Say the word fat. It is fine.
+OAF_fit_angry.wav,angry,angry,Say the word fit. I am furious.
+OAF_fit_disgust.wav,disgust,disgust,Say the word fit. That is disgusting.
+OAF_fit_fear.wav,fear,sad,Say the word fit. I am so sad.
+OAF_fit_happy.wav,happy,happy,Say the word fit. I am so happy.
+OAF_fit_neutral.wav,neutral,neutral,Say the word fit. It is fine.
+OAF_fit_ps.wav,pleasant_surprise,fear,Say the word fit. I am terrified.
+OAF_fit_sad.wav,sad,sad,Say the word fit. I am so sad.
+OAF_five_angry.wav,angry,angry,Say the word five. I am furious.
+OAF_five_disgust.wav,disgust,sad,Say the word five. I am so sad.
+OAF_five_fear.wav,fear,fear,Say the word five. I am terrified.
+OAF_five_happy.wav,happy,happy,Say the word five. I am so happy.
+OAF_five_neutral.wav,neutral,neutral,Say the word five. It is fine.
+OAF_five_ps.wav,pleasant_surprise,pleasant_surprise,Say the word five. What a lovely surprise.
+OAF_five_sad.wav,sad,sad,Say the word five. I am so sad.
+OAF_food_angry.wav,angry,angry,Say the word food. I am furious.
+OAF_food_disgust.wav,disgust,disgust,Say the word food. That is disgusting.
+OAF_food_fear.wav,fear,sad,Say the word food. I am so sad.
+OAF_food_happy.wav,happy,happy,Say the word food. I am so happy.
+OAF_food_neutral.wav,neutral,neutral,Say the word food. It is fine.
+OAF_food_ps.wav,pleasant_surprise,pleasant_surprise,Say the word food. What a lovely surprise.
+OAF_food_sad.wav,sad,angry,Say the word food. I am furious.
+OAF_gap_angry.wav,angry,disgust,Say the word gap. That is disgusting.
+OAF_gap_disgust.wav,disgust,disgust,Say the word gap. That is disgusting.
+OAF_gap_fear.wav,fear,fear,Say the word gap. I am terrified.
+OAF_gap_happy.wav,happy,happy,Say the word gap. I am so happy.
+OAF_gap_neutral.wav,neutral,neutral,Say the word gap. It is fine.
+OAF_gap_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gap. What a lovely surprise.
+OAF_gap_sad.wav,sad,sad,Say the word gap. I am so sad.
+OAF_gas_angry.wav,angry,pleasant_surprise,Say the word gas. What a lovely surprise.
+OAF_gas_disgust.wav,disgust,disgust,Say the word gas. That is disgusting.
+OAF_gas_fear.wav,fear,angry,Say the word gas. I am furious.
+OAF_gas_happy.wav,happy,happy,Say the word gas. I am so happy.
+OAF_gas_neutral.wav,neutral,neutral,Say the word gas. It is fine.
+OAF_gas_ps.wav,pleasant_surprise,neutral,Say the word gas. It is fine.
+OAF_gas_sad.wav,sad,happy,Say the word gas. I am so happy.
+OAF_gaze_angry.wav,angry,sad,Say the word gaze. I am so sad.
+OAF_gaze_disgust.wav,disgust,happy,Say the word gaze. I am so happy.
+OAF_gaze_fear.wav,fear,sad,Say the word gaze. I am so sad.
+OAF_gaze_happy.wav,happy,happy,Say the word gaze. I am so happy.
+OAF_gaze_neutral.wav,neutral,sad,Say the word gaze. I am so sad.
+OAF_gaze_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gaze. What a lovely surprise.
+OAF_gaze_sad.wav,sad,sad,Say the word gaze. I am so sad.
+OAF_germ_angry.wav,angry,angry,Say the word germ. I am furious.
+OAF_germ_disgust.wav,disgust,angry,Say the word germ. I am furious.
+OAF_germ_fear.wav,fear,fear,Say the word germ. I am terrified.
+OAF_germ_happy.wav,happy,happy,Say the word germ. I am so happy.
+OAF_germ_neutral.wav,neutral,neutral,Say the word germ. It is fine.
+OAF_germ_ps.wav,pleasant_surprise,sad,Say the word germ. I am so sad.
+OAF_germ_sad.wav,sad,disgust,Say the word germ. That is disgusting.
+OAF_get_angry.wav,angry,angry,Say the word get. I am furious.
+OAF_get_disgust.wav,disgust,disgust,Say the word get. That is disgusting.
+OAF_get_fear.wav,fear,neutral,Say the word get. It is fine.
+OAF_get_happy.wav,happy,pleasant_surprise,Say the word get. What a lovely surprise.
+OAF_get_neutral.wav,neutral,neutral,Say the word get. It is fine.
+OAF_get_ps.wav,pleasant_surprise,fear,Say the word get. I am terrified.
+OAF_get_sad.wav,sad,pleasant_surprise,Say the word get. What a lovely surprise.
+OAF_gin_angry.wav,angry,happy,Say the word gin. I am so happy.
+OAF_gin_disgust.wav,disgust,disgust,Say the word gin. That is disgusting.
+OAF_gin_fear.wav,fear,fear,Say the word gin. I am terrified.
+OAF_gin_happy.wav,happy,happy,Say the word gin. I am so happy.
+OAF_gin_neutral.wav,neutral,happy,Say the word gin. I am so happy.
+OAF_gin_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gin. What a lovely surprise.
+OAF_gin_sad.wav,sad,sad,Say the word gin. I am so sad.
+OAF_goal_angry.wav,angry,angry,Say the word goal. I am furious.
+OAF_goal_disgust.wav,disgust,fear,Say the word goal. I am terrified.
+OAF_goal_fear.wav,fear,fear,Say the word goal. I am terrified.
+OAF_goal_happy.wav,happy,pleasant_surprise,Say the word goal. What a lovely surprise.
+OAF_goal_neutral.wav,neutral,neutral,Say the word goal. It is fine.
+OAF_goal_ps.wav,pleasant_surprise,neutral,Say the word goal. It is fine.
+OAF_goal_sad.wav,sad,sad,Say the word goal. I am so sad.
+OAF_good_angry.wav,angry,pleasant_surprise,Say the word good. What a lovely surprise.
+OAF_good_disgust.wav,disgust,disgust,Say the word good. That is disgusting.
+OAF_good_fear.wav,fear,fear,Say the word good. I am terrified.
+OAF_good_happy.wav,happy,happy,Say the word good. I am so happy.
+OAF_good_neutral.wav,neutral,neutral,Say the word good. It is fine.
+OAF_good_ps.wav,pleasant_surprise,neutral,Say the word good. It is fine.
+OAF_good_sad.wav,sad,sad,Say the word good. I am so sad.
+OAF_goose_angry.wav,angry,pleasant_surprise,Say the word goose. What a lovely surprise.
+OAF_goose_disgust.wav,disgust,fear,Say the word goose. I am terrified.
+OAF_goose_fear.wav,fear,neutral,Say the word goose. It is fine.
+OAF_goose_happy.wav,happy,happy,Say the word goose. I am so happy.
+OAF_goose_neutral.wav,neutral,neutral,Say the word goose. It is fine.
+OAF_goose_ps.wav,pleasant_surprise,pleasant_surprise,Say the word goose. What a lovely surprise.
+OAF_goose_sad.wav,sad,sad,Say the word goose. I am so sad.
+OAF_gun_angry.wav,angry,pleasant_surprise,Say the word gun. What a lovely surprise.
+OAF_gun_disgust.wav,disgust,sad,Say the word gun. I am so sad.
+OAF_gun_fear.wav,fear,fear,Say the word gun. I am terrified.
+OAF_gun_happy.wav,happy,happy,Say the word gun. I am so happy.
+OAF_gun_neutral.wav,neutral,neutral,Say the word gun. It is fine.
+OAF_gun_ps.wav,pleasant_surprise,sad,Say the word gun. I am so sad.
+OAF_gun_sad.wav,sad,sad,Say the word gun. I am so sad.
+OAF_half_angry.wav,angry,happy,Say the word half. I am so happy.
+OAF_half_disgust.wav,disgust,angry,Say the word half. I am furious.
+OAF_half_fear.wav,fear,fear,Say the word half. I am terrified.
+OAF_half_happy.wav,happy,angry,Say the word half. I am furious.
+OAF_half_neutral.wav,neutral,disgust,Say the word half. That is disgusting.
+OAF_half_ps.wav,pleasant_surprise,pleasant_surprise,Say the word half. What a lovely surprise.
+OAF_half_sad.wav,sad,sad,Say the word half. I am so sad.
+OAF_hall_angry.wav,angry,angry,Say the word hall. I am furious.
+OAF_hall_disgust.wav,disgust,neutral,Say the word hall. It is fine.
+OAF_hall_fear.wav,fear,fear,Say the word hall. I am terrified.
+OAF_hall_happy.wav,happy,happy,Say the word hall. I am so happy.
+OAF_hall_neutral.wav,neutral,neutral,Say the word hall. It is fine.
+OAF_hall_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hall. What a lovely surprise.
+OAF_hall_sad.wav,sad,sad,Say the word hall. I am so sad.
+OAF_hash_angry.wav,angry,pleasant_surprise,Say the word hash. What a lovely surprise.
+OAF_hash_disgust.wav,disgust,disgust,Say the word hash. That is disgusting.
+OAF_hash_fear.wav,fear,fear,Say the word hash. I am terrified.
+OAF_hash_happy.wav,happy,happy,Say the word hash. I am so happy.
+OAF_hash_neutral.wav,neutral,neutral,Say the word hash. It is fine.
+OAF_hash_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hash. What a lovely surprise.
+OAF_hash_sad.wav,sad,sad,Say the word hash. I am so sad.
+OAF_hate_angry.wav,angry,angry,Say the word hate. I am furious.
+OAF_hate_disgust.wav,disgust,pleasant_surprise,Say the word hate. What a lovely surprise.
+OAF_hate_fear.wav,fear,neutral,Say the word hate. It is fine.
+OAF_hate_happy.wav,happy,happy,Say the word hate. I am so happy.
+OAF_hate_neutral.wav,neutral,happy,Say the word hate. I am so happy.
+OAF_hate_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hate. What a lovely surprise.
+OAF_hate_sad.wav,sad,sad,Say the word hate. I am so sad.
+OAF_have_angry.wav,angry,angry,Say the word have. I am furious.
+OAF_have_disgust.wav,disgust,disgust,Say the word have. That is disgusting.
+OAF_have_fear.wav,fear,neutral,Say the word have. It is fine.
+OAF_have_happy.wav,happy,happy,Say the word have. I am so happy.
+OAF_have_neutral.wav,neutral,neutral,Say the word have. It is fine.
+OAF_have_ps.wav,pleasant_surprise,happy,Say the word have. I am so happy.
+OAF_have_sad.wav,sad,sad,Say the word have. I am so sad.
+OAF_haze_angry.wav,angry,neutral,Say the word haze. It is fine.
+OAF_haze_disgust.wav,disgust,angry,Say the word haze. I am furious.
+OAF_haze_fear.wav,fear,angry,Say the word haze. I am furious.
+OAF_haze_happy.wav,happy,happy,Say the word haze. I am so happy.
+OAF_haze_neutral.wav,neutral,neutral,Say the word haze. It is fine.
+OAF_haze_ps.wav,pleasant_surprise,pleasant_surprise,Say the word haze. What a lovely surprise.
+OAF_haze_sad.wav,sad,disgust,Say the word haze. That is disgusting.
+OAF_hire_angry.wav,angry,happy,Say the word hire. I am so happy.
+OAF_hire_disgust.wav,disgust,sad,Say the word hire. I am so sad.
+OAF_hire_fear.wav,fear,fear,Say the word hire. I am terrified.
+OAF_hire_happy.wav,happy,disgust,Say the word hire. That is disgusting.
+OAF_hire_neutral.wav,neutral,neutral,Say the word hire. It is fine.
+OAF_hire_ps.wav,pleasant_surprise,happy,Say the word hire. I am so happy.
+OAF_hire_sad.wav,sad,sad,Say the word hire. I am so sad.
+OAF_hit_angry.wav,angry,neutral,Say the word hit. It is fine.
+OAF_hit_disgust.wav,disgust,disgust,Say the word hit. That is disgusting.
+OAF_hit_fear.wav,fear,fear,Say the word hit. I am terrified.
+OAF_hit_happy.wav,happy,happy,Say the word hit. I am so happy.
+OAF_hit_neutral.wav,neutral,neutral,Say the word hit. It is fine.
+OAF_hit_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hit. What a lovely surprise.
+OAF_hit_sad.wav,sad,sad,Say the word hit. I am so sad.
+OAF_hole_angry.wav,angry,neutral,Say the word hole. It is fine.
+OAF_hole_disgust.wav,disgust,fear,Say the word hole. I am terrified.
+OAF_hole_fear.wav,fear,disgust,Say the word hole. That is disgusting.
+OAF_hole_happy.wav,happy,happy,Say the word hole. I am so happy.
+OAF_hole_neutral.wav,neutral,sad,Say the word hole. I am so sad.
+OAF_hole_ps.wav,pleasant_surprise,neutral,Say the word hole. It is fine.
+OAF_hole_sad.wav,sad,sad,Say the word hole. I am so sad.
+OAF_home_angry.wav,angry,angry,Say the word home. I am furious.
+OAF_home_disgust.wav,disgust,disgust,Say the word home. That is disgusting.
+OAF_home_fear.wav,fear,fear,Say the word home. I am terrified.
+OAF_home_happy.wav,happy,happy,Say the word home. I am so happy.
+OAF_home_neutral.wav,neutral,neutral,Say the word home. It is fine.
+OAF_home_ps.wav,pleasant_surprise,angry,Say the word home. I am furious.
+OAF_home_sad.wav,sad,sad,Say the word home. I am so sad.
+OAF_hurl_angry.wav,angry,angry,Say the word hurl. I am furious.
+OAF_hurl_disgust.wav,disgust,disgust,Say the word hurl. That is disgusting.
+OAF_hurl_fear.wav,fear,sad,Say the word hurl. I am so sad.
+OAF_hurl_happy.wav,happy,happy,Say the word hurl. I am so happy.
+OAF_hurl_neutral.wav,neutral,neutral,Say the word hurl. It is fine.
+OAF_hurl_ps.wav,pleasant_surprise,neutral,Say the word hurl. It is fine.
+OAF_hurl_sad.wav,sad,happy,Say the word hurl. I am so happy.
+OAF_hush_angry.wav,angry,angry,Say the word hush. I am furious.
+OAF_hush_disgust.wav,disgust,disgust,Say the word hush. That is disgusting.
+OAF_hush_fear.wav,fear,fear,Say the word hush. I am terrified.
+OAF_hush_happy.wav,happy,happy,Say the word hush. I am so happy.
+OAF_hush_neutral.wav,neutral,happy,Say the word hush. I am so happy.
+OAF_hush_ps.wav,pleasant_surprise,disgust,Say the word hush. That is disgusting.
+OAF_hush_sad.wav,sad,sad,Say the word hush. I am so sad.
+OAF_jail_angry.wav,angry,neutral,Say the word jail. It is fine.
+OAF_jail_disgust.wav,disgust,neutral,Say the word jail. It is fine.
+OAF_jail_fear.wav,fear,pleasant_surprise,Say the word jail. What a lovely surprise.
+OAF_jail_happy.wav,happy,happy,Say the word jail. I am so happy.
+OAF_jail_neutral.wav,neutral,neutral,Say the word jail. It is fine.
+OAF_jail_ps.wav,pleasant_surprise,pleasant_surprise,Say the word jail. What a lovely surprise.
+OAF_jail_sad.wav,sad,sad,Say the word jail. I am so sad.
+OAF_jar_angry.wav,angry,angry,Say the word jar. I am furious.
+OAF_jar_disgust.wav,disgust,fear,Say the word jar. I am terrified.
+OAF_jar_fear.wav,fear,fear,Say the word jar. I am terrified.
+OAF_jar_happy.wav,happy,happy,Say the word jar. I am so happy.
+OAF_jar_neutral.wav,neutral,neutral,Say the word jar. It is fine.
+OAF_jar_ps.wav,pleasant_surprise,pleasant_surprise,Say the word jar. What a lovely surprise.
+OAF_jar_sad.wav,sad,sad,Say the word jar. I am so sad.
+OAF_join_angry.wav,angry,angry,Say the word join. I am furious.
+OAF_join_disgust.wav,disgust,disgust,Say the word join. That is disgusting.
+OAF_join_fear.wav,fear,sad,Say the word join. I am so sad.
+OAF_join_happy.wav,happy,happy,Say the word join. I am so happy.
+OAF_join_neutral.wav,neutral,fear,Say the word join. I am terrified.
+OAF_join_ps.wav,pleasant_surprise,neutral,Say the word join. It is fine.
+OAF_join_sad.wav,sad,sad,Say the word join. I am so sad.
+OAF_judge_angry.wav,angry,angry,Say the word judge. I am furious.
+OAF_judge_disgust.wav,disgust,neutral,Say the word judge. It is fine.
+OAF_judge_fear.wav,fear,neutral,Say the word judge. It is fine.
+OAF_judge_happy.wav,happy,happy,Say the word judge. I am so happy.
+OAF_judge_neutral.wav,neutral,neutral,Say the word judge. It is fine.
+OAF_judge_ps.wav,pleasant_surprise,pleasant_surprise,Say the word judge. What a lovely surprise.
+OAF_judge_sad.wav,sad,happy,Say the word judge. I am so happy.
+OAF_jug_angry.wav,angry,angry,Say the word jug. I am furious.
+OAF_jug_disgust.wav,disgust,angry,Say the word jug. I am furious.
+OAF_jug_fear.wav,fear,happy,Say the word jug. I am so happy.
+OAF_jug_happy.wav,happy,happy,Say the word jug. I am so happy.
+OAF_jug_neutral.wav,neutral,disgust,Say the word jug. That is disgusting.
+OAF_jug_ps.wav,pleasant_surprise,disgust,Say the word jug. That is disgusting.
+OAF_jug_sad.wav,sad,sad,Say the word jug. I am so sad.
+OAF_juice_angry.wav,angry,angry,Say the word juice. I am furious.
+OAF_juice_disgust.wav,disgust,sad,Say the word juice. I am so sad.
+OAF_juice_fear.wav,fear,pleasant_surprise,Say the word juice. What a lovely surprise.
+OAF_juice_happy.wav,happy,angry,Say the word juice. I am furious.
+OAF_juice_neutral.wav,neutral,neutral,Say the word juice. It is fine.
+OAF_juice_ps.wav,pleasant_surprise,happy,Say the word juice. I am so happy.
+OAF_juice_sad.wav,sad,sad,Say the word juice. I am so sad.
+OAF_keen_angry.wav,angry,angry,Say the word keen. I am furious.
+OAF_keen_disgust.wav,disgust,disgust,Say the word keen. That is disgusting.
+OAF_keen_fear.wav,fear,fear,Say the word keen. I am terrified.
+OAF_keen_happy.wav,happy,happy,Say the word keen. I am so happy.
+OAF_keen_neutral.wav,neutral,neutral,Say the word keen. It is fine.
+OAF_keen_ps.wav,pleasant_surprise,sad,Say the word keen. I am so sad.
+OAF_keen_sad.wav,sad,fear,Say the word keen. I am terrified.
+OAF_keep_angry.wav,angry,angry,Say the word keep. I am furious.
+OAF_keep_disgust.wav,disgust,disgust,Say the word keep. That is disgusting.
+OAF_keep_fear.wav,fear,disgust,Say the word keep. That is disgusting.
+OAF_keep_happy.wav,happy,happy,Say the word keep. I am so happy.
+OAF_keep_neutral.wav,neutral,neutral,Say the word keep. It is fine.
+OAF_keep_ps.wav,pleasant_surprise,neutral,Say the word keep. It is fine.
+OAF_keep_sad.wav,sad,pleasant_surprise,Say the word keep. What a lovely surprise.
+OAF_keg_angry.wav,angry,disgust,Say the word keg. That is disgusting.
+OAF_keg_disgust.wav,disgust,disgust,Say the word keg. That is disgusting.
+OAF_keg_fear.wav,fear,sad,Say the word keg. I am so sad.
+OAF_keg_happy.wav,happy,happy,Say the word keg. I am so happy.
+OAF_keg_neutral.wav,neutral,pleasant_surprise,Say the word keg. What a lovely surprise.
+OAF_keg_ps.wav,pleasant_surprise,pleasant_surprise,Say the word keg. What a lovely surprise.
+OAF_keg_sad.wav,sad,sad,Say the word keg. I am so sad.
+OAF_kick_angry.wav,angry,angry,Say the word kick. I am furious.
+OAF_kick_disgust.wav,disgust,fear,Say the word kick. I am terrified.
+OAF_kick_fear.wav,fear,fear,Say the word kick. I am terrified.
+OAF_kick_happy.wav,happy,happy,Say the word kick. I am so happy.
+OAF_kick_neutral.wav,neutral,happy,Say the word kick. I am so happy.
+OAF_kick_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kick. What a lovely surprise.
+OAF_kick_sad.wav,sad,sad,Say the word kick. I am so sad.
+OAF_kill_angry.wav,angry,pleasant_surprise,Say the word kill. What a lovely surprise.
+OAF_kill_disgust.wav,disgust,happy,Say the word kill. I am so happy.
+OAF_kill_fear.wav,fear,happy,Say the word kill. I am so happy.
+OAF_kill_happy.wav,happy,happy,Say the word kill. I am so happy.
+OAF_kill_neutral.wav,neutral,neutral,Say the word kill. It is fine.
+OAF_kill_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kill. What a lovely surprise.
+OAF_kill_sad.wav,sad,sad,Say the word kill. I am so sad.
+OAF_king_angry.wav,angry,angry,Say the word king. I am furious.
+OAF_king_disgust.wav,disgust,pleasant_surprise,Say the word king. What a lovely surprise.
+OAF_king_fear.wav,fear,fear,Say the word king. I am terrified.
+OAF_king_happy.wav,happy,sad,Say the word king. I am so sad.
+OAF_king_neutral.wav,neutral,neutral,Say the word king. It is fine.
+OAF_king_ps.wav,pleasant_surprise,pleasant_surprise,Say the word king. What a lovely surprise.
+OAF_king_sad.wav,sad,sad,Say the word king. I am so sad.
+OAF_kite_angry.wav,angry,angry,Say the word kite. I am furious.
+OAF_kite_disgust.wav,disgust,sad,Say the word kite. I am so sad.
+OAF_kite_fear.wav,fear,fear,Say the word kite. I am terrified.
+OAF_kite_happy.wav,happy,fear,Say the word kite. I am terrified.
+OAF_kite_neutral.wav,neutral,neutral,Say the word kite. It is fine.
+OAF_kite_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kite. What a lovely surprise.
+OAF_kite_sad.wav,sad,sad,Say the word kite. I am so sad.
+OAF_knock_angry.wav,angry,angry,Say the word knock. I am furious.
+OAF_knock_disgust.wav,disgust,disgust,Say the word knock. That is disgusting.
+OAF_knock_fear.wav,fear,fear,Say the word knock. I am terrified.
+OAF_knock_happy.wav,happy,fear,Say the word knock. I am terrified.
+OAF_knock_neutral.wav,neutral,neutral,Say the word knock. It is fine.
+OAF_knock_ps.wav,pleasant_surprise,sad,Say the word knock. I am so sad.
+OAF_knock_sad.wav,sad,sad,Say the word knock. I am so sad.
+OAF_late_angry.wav,angry,angry,Say the word late. I am furious.
+OAF_late_disgust.wav,disgust,angry,Say the word late. I am furious.
+OAF_late_fear.wav,fear,fear,Say the word late. I am terrified.
+OAF_late_happy.wav,happy,happy,Say the word late. I am so happy.
+OAF_late_neutral.wav,neutral,sad,Say the word late. I am so sad.
+OAF_late_ps.wav,pleasant_surprise,pleasant_surprise,Say the word late. What a lovely surprise.
+OAF_late_sad.wav,sad,disgust,Say the word late. That is disgusting.
+OAF_laud_angry.wav,angry,angry,Say the word laud. I am furious.
+OAF_laud_disgust.wav,disgust,disgust,Say the word laud. That is disgusting.
+OAF_laud_fear.wav,fear,fear,Say the word laud. I am terrified.
+OAF_laud_happy.wav,happy,fear,Say the word laud. I am terrified.
+OAF_laud_neutral.wav,neutral,sad,Say the word laud. I am so sad.
+OAF_laud_ps.wav,pleasant_surprise,pleasant_surprise,Say the word laud. What a lovely surprise.
+OAF_laud_sad.wav,sad,sad,Say the word laud. I am so sad.
+OAF_lean_angry.wav,angry,angry,Say the word lean. I am furious.
+OAF_lean_disgust.wav,disgust,disgust,Say the word lean. That is disgusting.
+OAF_lean_fear.wav,fear,sad,Say the word lean. I am so sad.
+OAF_lean_happy.wav,happy,happy,Say the word lean. I am so happy.
+OAF_lean_neutral.wav,neutral,happy,Say the word lean. I am so happy.
+OAF_lean_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lean. What a lovely surprise.
+OAF_lean_sad.wav,sad,fear,Say the word lean. I am terrified.
+OAF_learn_angry.wav,angry,happy,Say the word learn. I am so happy.
+OAF_learn_disgust.wav,disgust,disgust,Say the word learn. That is disgusting.
+OAF_learn_fear.wav,fear,sad,Say the word learn. I am so sad.
+OAF_learn_happy.wav,happy,happy,Say the word learn. I am so happy.
+OAF_learn_neutral.wav,neutral,neutral,Say the word learn. It is fine.
+OAF_learn_ps.wav,pleasant_surprise,fear,Say the word learn. I am terrified.
+OAF_learn_sad.wav,sad,sad,Say the word learn. I am so sad.
+OAF_lease_angry.wav,angry,angry,Say the word lease. I am furious.
+OAF_lease_disgust.wav,disgust,disgust,Say the word lease. That is disgusting.
+OAF_lease_fear.wav,fear,angry,Say the word lease. I am furious.
+OAF_lease_happy.wav,happy,fear,Say the word lease. I am terrified.
+OAF_lease_neutral.wav,neutral,neutral,Say the word lease. It is fine.
+OAF_lease_ps.wav,pleasant_surprise,sad,Say the word lease. I am so sad.
+OAF_lease_sad.wav,sad,neutral,Say the word lease. It is fine.
+OAF_lid_angry.wav,angry,pleasant_surprise,Say the word lid. What a lovely surprise.
+OAF_lid_disgust.wav,disgust,disgust,Say the word lid. That is disgusting.
+OAF_lid_fear.wav,fear,fear,Say the word lid. I am terrified.
+OAF_lid_happy.wav,happy,pleasant_surprise,Say the word lid. What a lovely surprise.
+OAF_lid_neutral.wav,neutral,neutral,Say the word lid. It is fine.
+OAF_lid_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lid. What a lovely surprise.
+OAF_lid_sad.wav,sad,sad,Say the word lid. I am so sad.
+OAF_life_angry.wav,angry,neutral,Say the word life. It is fine.
+OAF_life_disgust.wav,disgust,disgust,Say the word life. That is disgusting.
+OAF_life_fear.wav,fear,fear,Say the word life. I am terrified.
+OAF_life_happy.wav,happy,happy,Say the word life. I am so happy.
+OAF_life_neutral.wav,neutral,sad,Say the word life. I am so sad.
+OAF_life_ps.wav,pleasant_surprise,pleasant_surprise,Say the word life. What a lovely surprise.
+OAF_life_sad.wav,sad,angry,Say the word life. I am furious.
+OAF_limb_angry.wav,angry,neutral,Say the word limb. It is fine.
+OAF_limb_disgust.wav,disgust,disgust,Say the word limb. That is disgusting.
+OAF_limb_fear.wav,fear,pleasant_surprise,Say the word limb. What a lovely surprise.
+OAF_limb_happy.wav,happy,happy,Say the word limb. I am so happy.
+OAF_limb_neutral.wav,neutral,fear,Say the word limb. I am terrified.
+OAF_limb_ps.wav,pleasant_surprise,pleasant_surprise,Say the word limb. What a lovely surprise.
+OAF_limb_sad.wav,sad,sad,Say the word limb. I am so sad.
+OAF_live_angry.wav,angry,neutral,Say the word live. It is fine.
+OAF_live_disgust.wav,disgust,disgust,Say the word live. That is disgusting.
+OAF_live_fear.wav,fear,disgust,Say the word live. That is disgusting.
+OAF_live_happy.wav,happy,fear,Say the word live. I am terrified.
+OAF_live_neutral.wav,neutral,angry,Say the word live. I am furious.
+OAF_live_ps.wav,pleasant_surprise,pleasant_surprise,Say the word live. What a lovely surprise.
+OAF_live_sad.wav,sad,sad,Say the word live. I am so sad.
+OAF_loaf_angry.wav,angry,fear,Say the word loaf. I am terrified.
+OAF_loaf_disgust.wav,disgust,pleasant_surprise,Say the word loaf. What a lovely surprise.
+OAF_loaf_fear.wav,fear,fear,Say the word loaf. I am terrified.
+OAF_loaf_happy.wav,happy,sad,Say the word loaf. I am so sad.
+OAF_loaf_neutral.wav,neutral,neutral,Say the word loaf. It is fine.
+OAF_loaf_ps.wav,pleasant_surprise,fear,Say the word loaf. I am terrified.
+OAF_loaf_sad.wav,sad,pleasant_surprise,Say the word loaf. What a lovely surprise.
+OAF_long_angry.wav,angry,angry,Say the word long. I am furious.
+OAF_long_disgust.wav,disgust,fear,Say the word long. I am terrified.
+OAF_long_fear.wav,fear,happy,Say the word long. I am so happy.
+OAF_long_happy.wav,happy,disgust,Say the word long. That is disgusting.
+OAF_long_neutral.wav,neutral,neutral,Say the word long. It is fine.
+OAF_long_ps.wav,pleasant_surprise,disgust,Say the word long. That is disgusting.
+OAF_long_sad.wav,sad,sad,Say the word long. I am so sad.
+OAF_lore_angry.wav,angry,angry,Say the word lore. I am furious.
+OAF_lore_disgust.wav,disgust,disgust,Say the word lore. That is disgusting.
+OAF_lore_fear.wav,fear,fear,Say the word lore. I am terrified.
+OAF_lore_happy.wav,happy,pleasant_surprise,Say the word lore. What a lovely surprise.
+OAF_lore_neutral.wav,neutral,neutral,Say the word lore. It is fine.
+OAF_lore_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lore. What a lovely surprise.
+OAF_lore_sad.wav,sad,pleasant_surprise,Say the word lore. What a lovely surprise.
+OAF_lose_angry.wav,angry,angry,Say the word lose. I am furious.
+OAF_lose_disgust.wav,disgust,disgust,Say the word lose. That is disgusting.
+OAF_lose_fear.wav,fear,fear,Say the word lose. I am terrified.
+OAF_lose_happy.wav,happy,happy,Say the word lose. I am so happy.
+OAF_lose_neutral.wav,neutral,angry,Say the word lose. I am furious.
+OAF_lose_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lose. What a lovely surprise.
+OAF_lose_sad.wav,sad,sad,Say the word lose. I am so sad.
+OAF_lot_angry.wav,angry,angry,Say the word lot. I am furious.
+OAF_lot_disgust.wav,disgust,pleasant_surprise,Say the word lot. What a lovely surprise.
+OAF_lot_fear.wav,fear,fear,Say the word lot. I am terrified.
+OAF_lot_happy.wav,happy,happy,Say the word lot. I am so happy.
+OAF_lot_neutral.wav,neutral,fear,Say the word lot. I am terrified.
+OAF_lot_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lot. What a lovely surprise.
+OAF_lot_sad.wav,sad,sad,Say the word lot. I am so sad.
+OAF_love_angry.wav,angry,neutral,Say the word love. It is fine.
+OAF_love_disgust.wav,disgust,disgust,Say the word love. That is disgusting.
+OAF_love_fear.wav,fear,fear,Say the word love. I am terrified.
+OAF_love_happy.wav,happy,happy,Say the word love. I am so happy.
+OAF_love_neutral.wav,neutral,neutral,Say the word love. It is fine.
+OAF_love_ps.wav,pleasant_surprise,neutral,Say the word love. It is fine.
+OAF_love_sad.wav,sad,happy,Say the word love. I am so happy.
+OAF_luck_angry.wav,angry,angry,Say the word luck. I am furious.
+OAF_luck_disgust.wav,disgust,neutral,Say the word luck. It is fine.
+OAF_luck_fear.wav,fear,disgust,Say the word luck. That is disgusting.
+OAF_luck_happy.wav,happy,happy,Say the word luck. I am so happy.
+OAF_luck_neutral.wav,neutral,neutral,Say the word luck. It is fine.
+OAF_luck_ps.wav,pleasant_surprise,pleasant_surprise,Say the word luck. What a lovely surprise.
+OAF_luck_sad.wav,sad,angry,Say the word luck. I am furious.
+OAF_make_angry.wav,angry,angry,Say the word make. I am furious.
+OAF_make_disgust.wav,disgust,disgust,Say the word make. That is disgusting.
+OAF_make_fear.wav,fear,angry,Say the word make. I am furious.
+OAF_make_happy.wav,happy,happy,Say the word make. I am so happy.
+OAF_make_neutral.wav,neutral,neutral,Say the word make. It is fine.
+OAF_make_ps.wav,pleasant_surprise,pleasant_surprise,Say the word make. What a lovely surprise.
+OAF_make_sad.wav,sad,angry,Say the word make. I am furious.
+OAF_match_angry.wav,angry,angry,Say the word match. I am furious.
+OAF_match_disgust.wav,disgust,happy,Say the word match. I am so happy.
+OAF_match_fear.wav,fear,fear,Say the word match. I am terrified.
+OAF_match_happy.wav,happy,happy,Say the word match. I am so happy.
+OAF_match_neutral.wav,neutral,happy,Say the word match. I am so happy.
+OAF_match_ps.wav,pleasant_surprise,happy,Say the word match. I am so happy.
+OAF_match_sad.wav,sad,sad,Say the word match. I am so sad.
+OAF_merge_angry.wav,angry,angry,Say the word merge. I am furious.
+OAF_merge_disgust.wav,disgust,fear,Say the word merge. I am terrified.
+OAF_merge_fear.wav,fear,fear,Say the word merge. I am terrified.
+OAF_merge_happy.wav,happy,fear,Say the word merge. I am terrified.
+OAF_merge_neutral.wav,neutral,neutral,Say the word merge. It is fine.
+OAF_merge_ps.wav,pleasant_surprise,pleasant_surprise,Say the word merge. What a lovely surprise.
+OAF_merge_sad.wav,sad,sad,Say the word merge. I am so sad.
+OAF_mess_angry.wav,angry,sad,Say the word mess. I am so sad.
+OAF_mess_disgust.wav,disgust,disgust,Say the word mess. That is disgusting.
+OAF_mess_fear.wav,fear,fear,Say the word mess. I am terrified.
+OAF_mess_happy.wav,happy,happy,Say the word mess. I am so happy.
+OAF_mess_neutral.wav,neutral,happy,Say the word mess. I am so happy.
+OAF_mess_ps.wav,pleasant_surprise,pleasant_surprise,Say the word mess. What a lovely surprise.
+OAF_mess_sad.wav,sad,sad,Say the word mess. I am so sad.
+OAF_met_angry.wav,angry,angry,Say the word met. I am furious.
+OAF_met_disgust.wav,disgust,disgust,Say the word met. That is disgusting.
+OAF_met_fear.wav,fear,happy,Say the word met. I am so happy.
+OAF_met_happy.wav,happy,neutral,Say the word met. It is fine.
+OAF_met_neutral.wav,neutral,neutral,Say the word met. It is fine.
+OAF_met_ps.wav,pleasant_surprise,neutral,Say the word met. It is fine.
+OAF_met_sad.wav,sad,sad,Say the word met. I am so sad.
+OAF_mill_angry.wav,angry,fear,Say the word mill. I am terrified.
+OAF_mill_disgust.wav,disgust,disgust,Say the word mill. That is disgusting.
+OAF_mill_fear.wav,fear,pleasant_surprise,Say the word mill. What a lovely surprise.
+OAF_mill_happy.wav,happy,happy,Say the word mill. I am so happy.
+OAF_mill_neutral.wav,neutral,happy,Say the word mill. I am so happy.
+OAF_mill_ps.wav,pleasant_surprise,disgust,Say the word mill. That is disgusting.
+OAF_mill_sad.wav,sad,sad,Say the word mill. I am so sad.
+OAF_mob_angry.wav,angry,angry,Say the word mob. I am furious.
+OAF_mob_disgust.wav,disgust,pleasant_surprise,Say the word mob. What a lovely surprise.
+OAF_mob_fear.wav,fear,fear,Say the word mob. I am terrified.
+OAF_mob_happy.wav,happy,fear,Say the word mob. I am terrified.
+OAF_mob_neutral.wav,neutral,happy,Say the word mob. I am so happy.
+OAF_mob_ps.wav,pleasant_surprise,happy,Say the word mob. I am so happy.
+OAF_mob_sad.wav,sad,sad,Say the word mob. I am so sad.
+OAF_mode_angry.wav,angry,happy,Say the word mode. I am so happy.
+OAF_mode_disgust.wav,disgust,sad,Say the word mode. I am so sad.
+OAF_mode_fear.wav,fear,fear,Say the word mode. I am terrified.
+OAF_mode_happy.wav,happy,happy,Say the word mode. I am so happy.
+OAF_mode_neutral.wav,neutral,angry,Say the word mode. I am furious.
+OAF_mode_ps.wav,pleasant_surprise,fear,Say the word mode. I am terrified.
+OAF_mode_sad.wav,sad,pleasant_surprise,Say the word mode. What a lovely surprise.
+OAF_mood_angry.wav,angry,angry,Say the word mood. I am furious.
+OAF_mood_disgust.wav,disgust,neutral,Say the word mood. It is fine.
+OAF_mood_fear.wav,fear,neutral,Say the word mood. It is fine.
+OAF_mood_happy.wav,happy,pleasant_surprise,Say the word mood. What a lovely surprise.
+OAF_mood_neutral.wav,neutral,neutral,Say the word mood. It is fine.
+OAF_mood_ps.wav,pleasant_surprise,pleasant_surprise,Say the word mood. What a lovely surprise.
+OAF_mood_sad.wav,sad,sad,Say the word mood. I am so sad.
+OAF_moon_angry.wav,angry,sad,Say the word moon. I am so sad.
+OAF_moon_disgust.wav,disgust,happy,Say the word moon. I am so happy.
+OAF_moon_fear.wav,fear,fear,Say the word moon. I am terrified.
+OAF_moon_happy.wav,happy,happy,Say the word moon. I am so happy.
+OAF_moon_neutral.wav,neutral,neutral,Say the word moon. It is fine.
+OAF_moon_ps.wav,pleasant_surprise,pleasant_surprise,Say the word moon. What a lovely surprise.
+OAF_moon_sad.wav,sad,sad,Say the word moon. I am so sad.
+OAF_mop_angry.wav,angry,happy,Say the word mop. I am so happy.
+OAF_mop_disgust.wav,disgust,disgust,Say the word mop. That is disgusting.
+OAF_mop_fear.wav,fear,fear,Say the word mop. I am terrified.
+OAF_mop_happy.wav,happy,disgust,Say the word mop. That is disgusting.
+OAF_mop_neutral.wav,neutral,pleasant_surprise,Say the word mop. What a lovely surprise.
+OAF_mop_ps.wav,pleasant_surprise,happy,Say the word mop. I am so happy.
+OAF_mop_sad.wav,sad,sad,Say the word mop. I am so sad.
+OAF_mouse_angry.wav,angry,neutral,Say the word mouse. It is fine.
+OAF_mouse_disgust.wav,disgust,disgust,Say the word mouse. That is disgusting.
+OAF_mouse_fear.wav,fear,fear,Say the word mouse. I am terrified.
+OAF_mouse_happy.wav,happy,happy,Say the word mouse. I am so happy.
+OAF_mouse_neutral.wav,neutral,neutral,Say the word mouse. It is fine.
+OAF_mouse_ps.wav,pleasant_surprise,neutral,Say the word mouse. It is fine.
+OAF_mouse_sad.wav,sad,neutral,Say the word mouse. It is fine.
+OAF_nag_angry.wav,angry,angry,Say the word nag. I am furious.
+OAF_nag_disgust.wav,disgust,disgust,Say the word nag. That is disgusting.
+OAF_nag_fear.wav,fear,fear,Say the word nag. I am terrified.
+OAF_nag_happy.wav,happy,happy,Say the word nag. I am so happy.
+OAF_nag_neutral.wav,neutral,neutral,Say the word nag. It is fine.
+OAF_nag_ps.wav,pleasant_surprise,pleasant_surprise,Say the word nag. What a lovely surprise.
+OAF_nag_sad.wav,sad,sad,Say the word nag. I am so sad.
+OAF_name_angry.wav,angry,angry,Say the word name. I am furious.
+OAF_name_disgust.wav,disgust,disgust,Say the word name. That is disgusting.
+OAF_name_fear.wav,fear,fear,Say the word name. I am terrified.
+OAF_name_happy.wav,happy,sad,Say the word name. I am so sad.
+OAF_name_neutral.wav,neutral,neutral,Say the word name. It is fine.
+OAF_name_ps.wav,pleasant_surprise,pleasant_surprise,Say the word name. What a lovely surprise.
+OAF_name_sad.wav,sad,pleasant_surprise,Say the word name. What a lovely surprise.
+OAF_near_angry.wav,angry,angry,Say the word near. I am furious.
+OAF_near_disgust.wav,disgust,sad,Say the word near. I am so sad.
+OAF_near_fear.wav,fear,fear,Say the word near. I am terrified.
+OAF_near_happy.wav,happy,sad,Say the word near. I am so sad.
+OAF_near_neutral.wav,neutral,neutral,Say the word near. It is fine.
+OAF_near_ps.wav,pleasant_surprise,happy,Say the word near. I am so happy.
+OAF_near_sad.wav,sad,sad,Say the word near. I am so sad.
+OAF_neat_angry.wav,angry,angry,Say the word neat. I am furious.
+OAF_neat_disgust.wav,disgust,disgust,Say the word neat. That is disgusting.
+OAF_neat_fear.wav,fear,disgust,Say the word neat. That is disgusting.
+OAF_neat_happy.wav,happy,pleasant_surprise,Say the word neat. What a lovely surprise.
+OAF_neat_neutral.wav,neutral,sad,Say the word neat. I am so sad.
+OAF_neat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word neat. What a lovely surprise.
+OAF_neat_sad.wav,sad,angry,Say the word neat. I am furious.
+OAF_nice_angry.wav,angry,angry,Say the word nice. I am furious.
+OAF_nice_disgust.wav,disgust,disgust,Say the word nice. That is disgusting.
+OAF_nice_fear.wav,fear,fear,Say the word nice. I am terrified.
+OAF_nice_happy.wav,happy,disgust,Say the word nice. That is disgusting.
+OAF_nice_neutral.wav,neutral,angry,Say the word nice. I am furious.
+OAF_nice_ps.wav,pleasant_surprise,pleasant_surprise,Say the word nice. What a lovely surprise.
+OAF_nice_sad.wav,sad,disgust,Say the word nice. That is disgusting.
+OAF_note_angry.wav,angry,angry,Say the word note. I am furious.
+OAF_note_disgust.wav,disgust,happy,Say the word note. I am so happy.
+OAF_note_fear.wav,fear,fear,Say the word note. I am terrified.
+OAF_note_happy.wav,happy,happy,Say the word note. I am so happy.
+OAF_note_neutral.wav,neutral,disgust,Say the word note. That is disgusting.
+OAF_note_ps.wav,pleasant_surprise,happy,Say the word note. I am so happy.
+OAF_note_sad.wav,sad,sad,Say the word note. I am so sad.
+OAF_numb_angry.wav,angry,sad,Say the word numb. I am so sad.
+OAF_numb_disgust.wav,disgust,disgust,Say the word numb. That is disgusting.
+OAF_numb_fear.wav,fear,neutral,Say the word numb. It is fine.
+OAF_numb_happy.wav,happy,happy,Say the word numb. I am so happy.
+OAF_numb_neutral.wav,neutral,happy,Say the word numb. I am so happy.
+OAF_numb_ps.wav,pleasant_surprise,neutral,Say the word numb. It is fine.
+OAF_numb_sad.wav,sad,pleasant_surprise,Say the word numb. What a lovely surprise.
+OAF_pad_angry.wav,angry,angry,Say the word pad. I am furious.
+OAF_pad_disgust.wav,disgust,fear,Say the word pad. I am terrified.
+OAF_pad_fear.wav,fear,pleasant_surprise,Say the word pad. What a lovely surprise.
+OAF_pad_happy.wav,happy,fear,Say the word pad. I am terrified.
+OAF_pad_neutral.wav,neutral,angry,Say the word pad. I am furious.
+OAF_pad_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pad. What a lovely surprise.
+OAF_pad_sad.wav,sad,neutral,Say the word pad. It is fine.
+OAF_page_angry.wav,angry,happy,Say the word page. I am so happy.
+OAF_page_disgust.wav,disgust,disgust,Say the word page. That is disgusting.
+OAF_page_fear.wav,fear,fear,Say the word page. I am terrified.
+OAF_page_happy.wav,happy,sad,Say the word page. I am so sad.
+OAF_page_neutral.wav,neutral,neutral,Say the word page. It is fine.
+OAF_page_ps.wav,pleasant_surprise,pleasant_surprise,Say the word page. What a lovely surprise.
+OAF_page_sad.wav,sad,neutral,Say the word page. It is fine.
+OAF_pain_angry.wav,angry,pleasant_surprise,Say the word pain. What a lovely surprise.
+OAF_pain_disgust.wav,disgust,disgust,Say the word pain. That is disgusting.
+OAF_pain_fear.wav,fear,fear,Say the word pain. I am terrified.
+OAF_pain_happy.wav,happy,happy,Say the word pain. I am so happy.
+OAF_pain_neutral.wav,neutral,neutral,Say the word pain. It is fine.
+OAF_pain_ps.wav,pleasant_surprise,neutral,Say the word pain. It is fine.
+OAF_pain_sad.wav,sad,sad,Say the word pain. I am so sad.
+OAF_pass_angry.wav,angry,angry,Say the word pass. I am furious.
+OAF_pass_disgust.wav,disgust,disgust,Say the word pass. That is disgusting.
+OAF_pass_fear.wav,fear,fear,Say the word pass. I am terrified.
+OAF_pass_happy.wav,happy,angry,Say the word pass. I am furious.
+OAF_pass_neutral.wav,neutral,neutral,Say the word pass. It is fine.
+OAF_pass_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pass. What a lovely surprise.
+OAF_pass_sad.wav,sad,pleasant_surprise,Say the word pass. What a lovely surprise.
+OAF_pearl_angry.wav,angry,angry,Say the word pearl. I am furious.
+OAF_pearl_disgust.wav,disgust,disgust,Say the word pearl. That is disgusting.
+OAF_pearl_fear.wav,fear,fear,Say the word pearl. I am terrified.
+OAF_pearl_happy.wav,happy,happy,Say the word pearl. I am so happy.
+OAF_pearl_neutral.wav,neutral,neutral,Say the word pearl. It is fine.
+OAF_pearl_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pearl. What a lovely surprise.
+OAF_pearl_sad.wav,sad,sad,Say the word pearl. I am so sad.
+OAF_peg_angry.wav,angry,angry,Say the word peg. I am furious.
+OAF_peg_disgust.wav,disgust,disgust,Say the word peg. That is disgusting.
+OAF_peg_fear.wav,fear,sad,Say the word peg. I am so sad.
+OAF_peg_happy.wav,happy,happy,Say the word peg. I am so happy.
+OAF_peg_neutral.wav,neutral,neutral,Say the word peg. It is fine.
+OAF_peg_ps.wav,pleasant_surprise,fear,Say the word peg. I am terrified.
+OAF_peg_sad.wav,sad,neutral,Say the word peg. It is fine.
+OAF_perch_angry.wav,angry,angry,Say the word perch. I am furious.
+OAF_perch_disgust.wav,disgust,disgust,Say the word perch. That is disgusting.
+OAF_perch_fear.wav,fear,sad,Say the word perch. I am so sad.
+OAF_perch_happy.wav,happy,happy,Say the word perch. I am so happy.
+OAF_perch_neutral.wav,neutral,neutral,Say the word perch. It is fine.
+OAF_perch_ps.wav,pleasant_surprise,pleasant_surprise,Say the word perch. What a lovely surprise.
+OAF_perch_sad.wav,sad,sad,Say the word perch. I am so sad.
+OAF_phone_angry.wav,angry,angry,Say the word phone. I am furious.
+OAF_phone_disgust.wav,disgust,disgust,Say the word phone. That is disgusting.
+OAF_phone_fear.wav,fear,happy,Say the word phone. I am so happy.
+OAF_phone_happy.wav,happy,neutral,Say the word phone. It is fine.
+OAF_phone_neutral.wav,neutral,neutral,Say the word phone. It is fine.
+OAF_phone_ps.wav,pleasant_surprise,pleasant_surprise,Say the word phone. What a lovely surprise.
+OAF_phone_sad.wav,sad,sad,Say the word phone. I am so sad.
+OAF_pick_angry.wav,angry,angry,Say the word pick. I am furious.
+OAF_pick_disgust.wav,disgust,neutral,Say the word pick. It is fine.
+OAF_pick_fear.wav,fear,fear,Say the word pick. I am terrified.
+OAF_pick_happy.wav,happy,happy,Say the word pick. I am so happy.
+OAF_pick_neutral.wav,neutral,neutral,Say the word pick. It is fine.
+OAF_pick_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pick. What a lovely surprise.
+OAF_pick_sad.wav,sad,sad,Say the word pick. I am so sad.
+OAF_pike_angry.wav,angry,pleasant_surprise,Say the word pike. What a lovely surprise.
+OAF_pike_disgust.wav,disgust,neutral,Say the word pike. It is fine.
+OAF_pike_fear.wav,fear,fear,Say the word pike. I am terrified.
+OAF_pike_happy.wav,happy,happy,Say the word pike. I am so happy.
+OAF_pike_neutral.wav,neutral,neutral,Say the word pike. It is fine.
+OAF_pike_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pike. What a lovely surprise.
+OAF_pike_sad.wav,sad,sad,Say the word pike. I am so sad.
+OAF_pole_angry.wav,angry,angry,Say the word pole. I am furious.
+OAF_pole_disgust.wav,disgust,sad,Say the word pole. I am so sad.
+OAF_pole_fear.wav,fear,happy,Say the word pole. I am so happy.
+OAF_pole_happy.wav,happy,happy,Say the word pole. I am so happy.
+OAF_pole_neutral.wav,neutral,happy,Say the word pole. I am so happy.
+OAF_pole_ps.wav,pleasant_surprise,angry,Say the word pole. I am furious.
+OAF_pole_sad.wav,sad,sad,Say the word pole. I am so sad.
+OAF_pool_angry.wav,angry,angry,Say the word pool. I am furious.
+OAF_pool_disgust.wav,disgust,happy,Say the word pool. I am so happy.
+OAF_pool_fear.wav,fear,happy,Say the word pool. I am so happy.
+OAF_pool_happy.wav,happy,disgust,Say the word pool. That is disgusting.
+OAF_pool_neutral.wav,neutral,neutral,Say the word pool. It is fine.
+OAF_pool_ps.wav,pleasant_surprise,neutral,Say the word pool. It is fine.
+OAF_pool_sad.wav,sad,sad,Say the word pool. I am so sad.
+OAF_puff_angry.wav,angry,angry,Say the word puff. I am furious.
+OAF_puff_disgust.wav,disgust,sad,Say the word puff. I am so sad.
+OAF_puff_fear.wav,fear,fear,Say the word puff. I am terrified.
+OAF_puff_happy.wav,happy,pleasant_surprise,Say the word puff. What a lovely surprise.
+OAF_puff_neutral.wav,neutral,neutral,Say the word puff. It is fine.
+OAF_puff_ps.wav,pleasant_surprise,sad,Say the word puff. I am so sad.
+OAF_puff_sad.wav,sad,sad,Say the word puff. I am so sad.
+OAF_rag_angry.wav,angry,fear,Say the word rag. I am terrified.
+OAF_rag_disgust.wav,disgust,fear,Say the word rag. I am terrified.
+OAF_rag_fear.wav,fear,fear,Say the word rag. I am terrified.
+OAF_rag_happy.wav,happy,angry,Say the word rag. I am furious.
+OAF_rag_neutral.wav,neutral,neutral,Say the word rag. It is fine.
+OAF_rag_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rag. What a lovely surprise.
+OAF_rag_sad.wav,sad,sad,Say the word rag. I am so sad.
+OAF_raid_angry.wav,angry,sad,Say the word raid. I am so sad.
+OAF_raid_disgust.wav,disgust,happy,Say the word raid. I am so happy.
+OAF_raid_fear.wav,fear,fear,Say the word raid. I am terrified.
+OAF_raid_happy.wav,happy,fear,Say the word raid. I am terrified.
+OAF_raid_neutral.wav,neutral,disgust,Say the word raid. That is disgusting.
+OAF_raid_ps.wav,pleasant_surprise,pleasant_surprise,Say the word raid. What a lovely surprise.
+OAF_raid_sad.wav,sad,sad,Say the word raid. I am so sad.
+OAF_rain_angry.wav,angry,angry,Say the word rain. I am furious.
+OAF_rain_disgust.wav,disgust,happy,Say the word rain. I am so happy.
+OAF_rain_fear.wav,fear,fear,Say the word rain. I am terrified.
+OAF_rain_happy.wav,happy,happy,Say the word rain. I am so happy.
+OAF_rain_neutral.wav,neutral,neutral,Say the word rain. It is fine.
+OAF_rain_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rain. What a lovely surprise.
+OAF_rain_sad.wav,sad,sad,Say the word rain. I am so sad.
+OAF_raise_angry.wav,angry,fear,Say the word raise. I am terrified.
+OAF_raise_disgust.wav,disgust,disgust,Say the word raise. That is disgusting.
+OAF_raise_fear.wav,fear,fear,Say the word raise. I am terrified.
+OAF_raise_happy.wav,happy,sad,Say the word raise. I am so sad.
+OAF_raise_neutral.wav,neutral,neutral,Say the word raise. It is fine.
+OAF_raise_ps.wav,pleasant_surprise,angry,Say the word raise. I am furious.
+OAF_raise_sad.wav,sad,sad,Say the word raise. I am so sad.
+OAF_rat_angry.wav,angry,happy,Say the word rat. I am so happy.
+OAF_rat_disgust.wav,disgust,disgust,Say the word rat. That is disgusting.
+OAF_rat_fear.wav,fear,fear,Say the word rat. I am terrified.
+OAF_rat_happy.wav,happy,happy,Say the word rat. I am so happy.
+OAF_rat_neutral.wav,neutral,neutral,Say the word rat. It is fine.
+OAF_rat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rat. What a lovely surprise.
+OAF_rat_sad.wav,sad,neutral,Say the word rat. It is fine.
+OAF_reach_angry.wav,angry,angry,Say the word reach. I am furious.
+OAF_reach_disgust.wav,disgust,disgust,Say the word reach. That is disgusting.
+OAF_reach_fear.wav,fear,fear,Say the word reach. I am terrified.
+OAF_reach_happy.wav,happy,fear,Say the word reach. I am terrified.
+OAF_reach_neutral.wav,neutral,pleasant_surprise,Say the word reach. What a lovely surprise.
+OAF_reach_ps.wav,pleasant_surprise,neutral,Say the word reach. It is fine.
+OAF_reach_sad.wav,sad,sad,Say the word reach. I am so sad.
+OAF_read_angry.wav,angry,happy,Say the word read. I am so happy.
+OAF_read_disgust.wav,disgust,disgust,Say the word read. That is disgusting.
+OAF_read_fear.wav,fear,sad,Say the word read. I am so sad.
+OAF_read_happy.wav,happy,sad,Say the word read. I am so sad.
+OAF_read_neutral.wav,neutral,happy,Say the word read. I am so happy.
+OAF_read_ps.wav,pleasant_surprise,angry,Say the word read. I am furious.
+OAF_read_sad.wav,sad,sad,Say the word read. I am so sad.
+OAF_red_angry.wav,angry,fear,Say the word red. I am terrified.
+OAF_red_disgust.wav,disgust,disgust,Say the word red. That is disgusting.
+OAF_red_fear.wav,fear,fear,Say the word red. I am terrified.
+OAF_red_happy.wav,happy,sad,Say the word red. I am so sad.
+OAF_red_neutral.wav,neutral,disgust,Say the word red. That is disgusting.
+OAF_red_ps.wav,pleasant_surprise,sad,Say the word red. I am so sad.
+OAF_red_sad.wav,sad,sad,Say the word red. I am so sad.
+OAF_ring_angry.wav,angry,angry,Say the word ring. I am furious.
+OAF_ring_disgust.wav,disgust,disgust,Say the word ring. That is disgusting.
+OAF_ring_fear.wav,fear,disgust,Say the word ring. That is disgusting.
+OAF_ring_happy.wav,happy,happy,Say the word ring. I am so happy.
+OAF_ring_neutral.wav,neutral,neutral,Say the word ring. It is fine.
+OAF_ring_ps.wav,pleasant_surprise,pleasant_surprise,Say the word ring. What a lovely surprise.
+OAF_ring_sad.wav,sad,fear,Say the word ring. I am terrified.
+OAF_ripe_angry.wav,angry,angry,Say the word ripe. I am furious.
+OAF_ripe_disgust.wav,disgust,disgust,Say the word ripe. That is disgusting.
+OAF_ripe_fear.wav,fear,fear,Say the word ripe. I am terrified.
+OAF_ripe_happy.wav,happy,fear,Say the word ripe. I am terrified.
+OAF_ripe_neutral.wav,neutral,angry,Say the word ripe. I am furious.
+OAF_ripe_ps.wav,pleasant_surprise,disgust,Say the word ripe. That is disgusting.
+OAF_ripe_sad.wav,sad,sad,Say the word ripe. I am so sad.
+OAF_road_angry.wav,angry,fear,Say the word road. I am terrified.
+OAF_road_disgust.wav,disgust,sad,Say the word road. I am so sad.
+OAF_road_fear.wav,fear,disgust,Say the word road. That is disgusting.
+OAF_road_happy.wav,happy,happy,Say the word road. I am so happy.
+OAF_road_neutral.wav,neutral,angry,Say the word road. I am furious.
+OAF_road_ps.wav,pleasant_surprise,fear,Say the word road. I am terrified.
+OAF_road_sad.wav,sad,fear,Say the word road. I am terrified.
+OAF_room_angry.wav,angry,sad,Say the word room. I am so sad.
+OAF_room_disgust.wav,disgust,disgust,Say the word room. That is disgusting.
+OAF_room_fear.wav,fear,sad,Say the word room. I am so sad.
+OAF_room_happy.wav,happy,happy,Say the word room. I am so happy.
+OAF_room_neutral.wav,neutral,angry,Say the word room. I am furious.
+OAF_room_ps.wav,pleasant_surprise,angry,Say the word room. I am furious.
+OAF_room_sad.wav,sad,sad,Say the word room. I am so sad.
+OAF_rose_angry.wav,angry,angry,Say the word rose. I am furious.
+OAF_rose_disgust.wav,disgust,angry,Say the word rose. I am furious.
+OAF_rose_fear.wav,fear,fear,Say the word rose. I am terrified.
+OAF_rose_happy.wav,happy,neutral,Say the word rose. It is fine.
+OAF_rose_neutral.wav,neutral,fear,Say the word rose. I am terrified.
+OAF_rose_ps.wav,pleasant_surprise,neutral,Say the word rose. It is fine.
+OAF_rose_sad.wav,sad,sad,Say the word rose. I am so sad.
+OAF_rot_angry.wav,angry,angry,Say the word rot. I am furious.
+OAF_rot_disgust.wav,disgust,angry,Say the word rot. I am furious.
+OAF_rot_fear.wav,fear,disgust,Say the word rot. That is disgusting.
+OAF_rot_happy.wav,happy,disgust,Say the word rot. That is disgusting.
+OAF_rot_neutral.wav,neutral,neutral,Say the word rot. It is fine.
+OAF_rot_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rot. What a lovely surprise.
+OAF_rot_sad.wav,sad,sad,Say the word rot. I am so sad.
+OAF_rough_angry.wav,angry,angry,Say the word rough. I am furious.
+OAF_rough_disgust.wav,disgust,disgust,Say the word rough. That is disgusting.
+OAF_rough_fear.wav,fear,pleasant_surprise,Say the word rough. What a lovely surprise.
+OAF_rough_happy.wav,happy,happy,Say the word rough. I am so happy.
+OAF_rough_neutral.wav,neutral,disgust,Say the word rough. That is disgusting.
+OAF_rough_ps.wav,pleasant_surprise,happy,Say the word rough. I am so happy.
+OAF_rough_sad.wav,sad,sad,Say the word rough. I am so sad.
+OAF_rush_angry.wav,angry,angry,Say the word rush. I am furious.
+OAF_rush_disgust.wav,disgust,disgust,Say the word rush. That is disgusting.
+OAF_rush_fear.wav,fear,disgust,Say the word rush. That is disgusting.
+OAF_rush_happy.wav,happy,neutral,Say the word rush. It is fine.
+OAF_rush_neutral.wav,neutral,neutral,Say the word rush. It is fine.
+OAF_rush_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rush. What a lovely surprise.
+OAF_rush_sad.wav,sad,sad,Say the word rush. I am so sad.
+OAF_said_angry.wav,angry,angry,Say the word said. I am furious.
+OAF_said_disgust.wav,disgust,neutral,Say the word said. It is fine.
+OAF_said_fear.wav,fear,fear,Say the word said. I am terrified.
+OAF_said_happy.wav,happy,happy,Say the word said. I am so happy.
+OAF_said_neutral.wav,neutral,neutral,Say the word said. It is fine.
+OAF_said_ps.wav,pleasant_surprise,fear,Say the word said. I am terrified.
+OAF_said_sad.wav,sad,disgust,Say the word said. That is disgusting.
+OAF_sail_angry.wav,angry,sad,Say the word sail. I am so sad.
+OAF_sail_disgust.wav,disgust,happy,Say the word sail. I am so happy.
+OAF_sail_fear.wav,fear,fear,Say the word sail. I am terrified.
+OAF_sail_happy.wav,happy,neutral,Say the word sail. It is fine.
+OAF_sail_neutral.wav,neutral,neutral,Say the word sail. It is fine.
+OAF_sail_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sail. What a lovely surprise.
+OAF_sail_sad.wav,sad,sad,Say the word sail. I am so sad.
+OAF_search_angry.wav,angry,neutral,Say the word search. It is fine.
+OAF_search_disgust.wav,disgust,pleasant_surprise,Say the word search. What a lovely surprise.
+OAF_search_fear.wav,fear,fear,Say the word search. I am terrified.
+OAF_search_happy.wav,happy,happy,Say the word search. I am so happy.
+OAF_search_neutral.wav,neutral,neutral,Say the word search. It is fine.
+OAF_search_ps.wav,pleasant_surprise,pleasant_surprise,Say the word search. What a lovely surprise.
+OAF_search_sad.wav,sad,sad,Say the word search. I am so sad.
+OAF_seize_angry.wav,angry,happy,Say the word seize. I am so happy.
+OAF_seize_disgust.wav,disgust,disgust,Say the word seize. That is disgusting.
+OAF_seize_fear.wav,fear,fear,Say the word seize. I am terrified.
+OAF_seize_happy.wav,happy,happy,Say the word seize. I am so happy.
+OAF_seize_neutral.wav,neutral,neutral,Say the word seize. It is fine.
+OAF_seize_ps.wav,pleasant_surprise,neutral,Say the word seize. It is fine.
+OAF_seize_sad.wav,sad,sad,Say the word seize. I am so sad.
+OAF_sell_angry.wav,angry,angry,Say the word sell. I am furious.
+OAF_sell_disgust.wav,disgust,disgust,Say the word sell. That is disgusting.
+OAF_sell_fear.wav,fear,angry,Say the word sell. I am furious.
+OAF_sell_happy.wav,happy,happy,Say the word sell. I am so happy.
+OAF_sell_neutral.wav,neutral,neutral,Say the word sell. It is fine.
+OAF_sell_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sell. What a lovely surprise.
+OAF_sell_sad.wav,sad,fear,Say the word sell. I am terrified.
+OAF_shack_angry.wav,angry,fear,Say the word shack. I am terrified.
+OAF_shack_disgust.wav,disgust,pleasant_surprise,Say the word shack. What a lovely surprise.
+OAF_shack_fear.wav,fear,fear,Say the word shack. I am terrified.
+OAF_shack_happy.wav,happy,happy,Say the word shack. I am so happy.
+OAF_shack_neutral.wav,neutral,pleasant_surprise,Say the word shack. What a lovely surprise.
+OAF_shack_ps.wav,pleasant_surprise,sad,Say the word shack. I am so sad.
+OAF_shack_sad.wav,sad,sad,Say the word shack. I am so sad.
+OAF_shall_angry.wav,angry,pleasant_surprise,Say the word shall. What a lovely surprise.
+OAF_shall_disgust.wav,disgust,disgust,Say the word shall. That is disgusting.
+OAF_shall_fear.wav,fear,fear,Say the word shall. I am terrified.
+OAF_shall_happy.wav,happy,neutral,Say the word shall. It is fine.
+OAF_shall_neutral.wav,neutral,angry,Say the word shall. I am furious.
+OAF_shall_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shall. What a lovely surprise.
+OAF_shall_sad.wav,sad,fear,Say the word shall. I am terrified.
+OAF_shawl_angry.wav,angry,angry,Say the word shawl. I am furious.
+OAF_shawl_disgust.wav,disgust,disgust,Say the word shawl. That is disgusting.
+OAF_shawl_fear.wav,fear,neutral,Say the word shawl. It is fine.
+OAF_shawl_happy.wav,happy,happy,Say the word shawl. I am so happy.
+OAF_shawl_neutral.wav,neutral,pleasant_surprise,Say the word shawl. What a lovely surprise.
+OAF_shawl_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shawl. What a lovely surprise.
+OAF_shawl_sad.wav,sad,neutral,Say the word shawl. It is fine.
+OAF_sheep_angry.wav,angry,angry,Say the word sheep. I am furious.
+OAF_sheep_disgust.wav,disgust,disgust,Say the word sheep. That is disgusting.
+OAF_sheep_fear.wav,fear,fear,Say the word sheep. I am terrified.
+OAF_sheep_happy.wav,happy,angry,Say the word sheep. I am furious.
+OAF_sheep_neutral.wav,neutral,neutral,Say the word sheep. It is fine.
+OAF_sheep_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sheep. What a lovely surprise.
+OAF_sheep_sad.wav,sad,sad,Say the word sheep. I am so sad.
+OAF_shirt_angry.wav,angry,angry,Say the word shirt. I am furious.
+OAF_shirt_disgust.wav,disgust,neutral,Say the word shirt. It is fine.
+OAF_shirt_fear.wav,fear,fear,Say the word shirt. I am terrified.
+OAF_shirt_happy.wav,happy,happy,Say the word shirt. I am so happy.
+OAF_shirt_neutral.wav,neutral,neutral,Say the word shirt. It is fine.
+OAF_shirt_ps.wav,pleasant_surprise,angry,Say the word shirt. I am furious.
+OAF_shirt_sad.wav,sad,pleasant_surprise,Say the word shirt. What a lovely surprise.
+OAF_should_angry.wav,angry,fear,Say the word should. I am terrified.
+OAF_should_disgust.wav,disgust,disgust,Say the word should. That is disgusting.
+OAF_should_fear.wav,fear,happy,Say the word should. I am so happy.
+OAF_should_happy.wav,happy,happy,Say the word should. I am so happy.
+OAF_should_neutral.wav,neutral,neutral,Say the word should. It is fine.
+OAF_should_ps.wav,pleasant_surprise,pleasant_surprise,Say the word should. What a lovely surprise.
+OAF_should_sad.wav,sad,sad,Say the word should. I am so sad.
+OAF_shout_angry.wav,angry,angry,Say the word shout. I am furious.
+OAF_shout_disgust.wav,disgust,disgust,Say the word shout. That is disgusting.
+OAF_shout_fear.wav,fear,fear,Say the word shout. I am terrified.
+OAF_shout_happy.wav,happy,fear,Say the word shout. I am terrified.
+OAF_shout_neutral.wav,neutral,fear,Say the word shout. I am terrified.
+OAF_shout_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shout. What a lovely surprise.
+OAF_shout_sad.wav,sad,sad,Say the word shout. I am so sad.
+OAF_size_angry.wav,angry,angry,Say the word size. I am furious.
+OAF_size_disgust.wav,disgust,disgust,Say the word size. That is disgusting.
+OAF_size_fear.wav,fear,fear,Say the word size. I am terrified.
+OAF_size_happy.wav,happy,happy,Say the word size. I am so happy.
+OAF_size_neutral.wav,neutral,neutral,Say the word size. It is fine.
+OAF_size_ps.wav,pleasant_surprise,pleasant_surprise,Say the word size. What a lovely surprise.
+OAF_size_sad.wav,sad,sad,Say the word size. I am so sad.
+OAF_soap_angry.wav,angry,angry,Say the word soap. I am furious.
+OAF_soap_disgust.wav,disgust,disgust,Say the word soap. That is disgusting.
+OAF_soap_fear.wav,fear,fear,Say the word soap. I am terrified.
+OAF_soap_happy.wav,happy,happy,Say the word soap. I am so happy.
+OAF_soap_neutral.wav,neutral,neutral,Say the word soap. It is fine.
+OAF_soap_ps.wav,pleasant_surprise,pleasant_surprise,Say the word soap. What a lovely surprise.
+OAF_soap_sad.wav,sad,happy,Say the word soap. I am so happy.
+OAF_soup_angry.wav,angry,angry,Say the word soup. I am furious.
+OAF_soup_disgust.wav,disgust,fear,Say the word soup. I am terrified.
+OAF_soup_fear.wav,fear,fear,Say the word soup. I am terrified.
+OAF_soup_happy.wav,happy,happy,Say the word soup. I am so happy.
+OAF_soup_neutral.wav,neutral,angry,Say the word soup. I am furious.
+OAF_soup_ps.wav,pleasant_surprise,pleasant_surprise,Say the word soup. What a lovely surprise.
+OAF_soup_sad.wav,sad,sad,Say the word soup. I am so sad.
+OAF_sour_angry.wav,angry,angry,Say the word sour. I am furious.
+OAF_sour_disgust.wav,disgust,disgust,Say the word sour. That is disgusting.
+OAF_sour_fear.wav,fear,fear,Say the word sour. I am terrified.
+OAF_sour_happy.wav,happy,happy,Say the word sour. I am so happy.
+OAF_sour_neutral.wav,neutral,sad,Say the word sour. I am so sad.
+OAF_sour_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sour. What a lovely surprise.
+OAF_sour_sad.wav,sad,sad,Say the word sour. I am so sad.
+OAF_south_angry.wav,angry,disgust,Say the word south. That is disgusting.
+OAF_south_disgust.wav,disgust,disgust,Say the word south. That is disgusting.
+OAF_south_fear.wav,fear,fear,Say the word south. I am terrified.
+OAF_south_happy.wav,happy,happy,Say the word south. I am so happy.
+OAF_south_neutral.wav,neutral,neutral,Say the word south. It is fine.
+OAF_south_ps.wav,pleasant_surprise,pleasant_surprise,Say the word south. What a lovely surprise.
+OAF_south_sad.wav,sad,sad,Say the word south. I am so sad.
+OAF_sub_angry.wav,angry,angry,Say the word sub. I am furious.
+OAF_sub_disgust.wav,disgust,disgust,Say the word sub. That is disgusting.
+OAF_sub_fear.wav,fear,fear,Say the word sub. I am terrified.
+OAF_sub_happy.wav,happy,disgust,Say the word sub. That is disgusting.
+OAF_sub_neutral.wav,neutral,fear,Say the word sub. I am terrified.
+OAF_sub_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sub. What a lovely surprise.
+OAF_sub_sad.wav,sad,fear,Say the word sub. I am terrified.
+OAF_such_angry.wav,angry,angry,Say the word such. I am furious.
+OAF_such_disgust.wav,disgust,disgust,Say the word such. That is disgusting.
+OAF_such_fear.wav,fear,neutral,Say the word such. It is fine.
+OAF_such_happy.wav,happy,sad,Say the word such. I am so sad.
+OAF_such_neutral.wav,neutral,neutral,Say the word such. It is fine.
+OAF_such_ps.wav,pleasant_surprise,pleasant_surprise,Say the word such. What a lovely surprise.
+OAF_such_sad.wav,sad,pleasant_surprise,Say the word such. What a lovely surprise.
+OAF_sure_angry.wav,angry,pleasant_surprise,Say the word sure. What a lovely surprise.
+OAF_sure_disgust.wav,disgust,disgust,Say the word sure. That is disgusting.
+OAF_sure_fear.wav,fear,angry,Say the word sure. I am furious.
+OAF_sure_happy.wav,happy,fear,Say the word sure. I am terrified.
+OAF_sure_neutral.wav,neutral,pleasant_surprise,Say the word sure. What a lovely surprise.
+OAF_sure_ps.wav,pleasant_surprise,disgust,Say the word sure. That is disgusting.
+OAF_sure_sad.wav,sad,sad,Say the word sure. I am so sad.
+OAF_take_angry.wav,angry,angry,Say the word take. I am furious.
+OAF_take_disgust.wav,disgust,disgust,Say the word take. That is disgusting.
+OAF_take_fear.wav,fear,disgust,Say the word take. That is disgusting.
+OAF_take_happy.wav,happy,sad,Say the word take. I am so sad.
+OAF_take_neutral.wav,neutral,angry,Say the word take. I am furious.
+OAF_take_ps.wav,pleasant_surprise,pleasant_surprise,Say the word take. What a lovely surprise.
+OAF_take_sad.wav,sad,sad,Say the word take. I am so sad.
+OAF_talk_angry.wav,angry,happy,Say the word talk. I am so happy.
+OAF_talk_disgust.wav,disgust,angry,Say the word talk. I am furious.
+OAF_talk_fear.wav,fear,neutral,Say the word talk. It is fine.
+OAF_talk_happy.wav,happy,happy,Say the word talk. I am so happy.
+OAF_talk_neutral.wav,neutral,sad,Say the word talk. I am so sad.
+OAF_talk_ps.wav,pleasant_surprise,pleasant_surprise,Say the word talk. What a lovely surprise.
+OAF_talk_sad.wav,sad,pleasant_surprise,Say the word talk. What a lovely surprise.
+OAF_tape_angry.wav,angry,pleasant_surprise,Say the word tape. What a lovely surprise.
+OAF_tape_disgust.wav,disgust,sad,Say the word tape. I am so sad.
+OAF_tape_fear.wav,fear,fear,Say the word tape. I am terrified.
+OAF_tape_happy.wav,happy,happy,Say the word tape. I am so happy.
+OAF_tape_neutral.wav,neutral,neutral,Say the word tape. It is fine.
+OAF_tape_ps.wav,pleasant_surprise,disgust,Say the word tape. That is disgusting.
+OAF_tape_sad.wav,sad,disgust,Say the word tape. That is disgusting.
+OAF_team_angry.wav,angry,pleasant_surprise,Say the word team. What a lovely surprise.
+OAF_team_disgust.wav,disgust,angry,Say the word team. I am furious.
+OAF_team_fear.wav,fear,fear,Say the word team. I am terrified.
+OAF_team_happy.wav,happy,angry,Say the word team. I am furious.
+OAF_team_neutral.wav,neutral,sad,Say the word team. I am so sad.
+OAF_team_ps.wav,pleasant_surprise,pleasant_surprise,Say the word team. What a lovely surprise.
+OAF_team_sad.wav,sad,happy,Say the word team. I am so happy.
+OAF_tell_angry.wav,angry,sad,Say the word tell. I am so sad.
+OAF_tell_disgust.wav,disgust,happy,Say the word tell. I am so happy.
+OAF_tell_fear.wav,fear,fear,Say the word tell. I am terrified.
+OAF_tell_happy.wav,happy,happy,Say the word tell. I am so happy.
+OAF_tell_neutral.wav,neutral,fear,Say the word tell. I am terrified.
+OAF_tell_ps.wav,pleasant_surprise,neutral,Say the word tell. It is fine.
+OAF_tell_sad.wav,sad,fear,Say the word tell. I am terrified.
+OAF_thin_angry.wav,angry,pleasant_surprise,Say the word thin. What a lovely surprise.
+OAF_thin_disgust.wav,disgust,fear,Say the word thin. I am terrified.
+OAF_thin_fear.wav,fear,fear,Say the word thin. I am terrified.
+OAF_thin_happy.wav,happy,happy,Say the word thin. I am so happy.
+OAF_thin_neutral.wav,neutral,neutral,Say the word thin. It is fine.
+OAF_thin_ps.wav,pleasant_surprise,sad,Say the word thin. I am so sad.
+OAF_thin_sad.wav,sad,sad,Say the word thin. I am so sad.
+OAF_third_angry.wav,angry,disgust,Say the word third. That is disgusting.
+OAF_third_disgust.wav,disgust,pleasant_surprise,Say the word third. What a lovely surprise.
+OAF_third_fear.wav,fear,angry,Say the word third. I am furious.
+OAF_third_happy.wav,happy,happy,Say the word third. I am so happy.
+OAF_third_neutral.wav,neutral,angry,Say the word third. I am furious.
+OAF_third_ps.wav,pleasant_surprise,pleasant_surprise,Say the word third. What a lovely surprise.
+OAF_third_sad.wav,sad,angry,Say the word third. I am furious.
+OAF_thought_angry.wav,angry,angry,Say the word thought. I am furious.
+OAF_thought_disgust.wav,disgust,disgust,Say the word thought. That is disgusting.
+OAF_thought_fear.wav,fear,fear,Say the word thought. I am terrified.
+OAF_thought_happy.wav,happy,happy,Say the word thought. I am so happy.
+OAF_thought_neutral.wav,neutral,neutral,Say the word thought. It is fine.
+OAF_thought_ps.wav,pleasant_surprise,pleasant_surprise,Say the word thought. What a lovely surprise.
+OAF_thought_sad.wav,sad,neutral,Say the word thought. It is fine.
+OAF_thumb_angry.wav,angry,angry,Say the word thumb. I am furious.
+OAF_thumb_disgust.wav,disgust,disgust,Say the word thumb. That is disgusting.
+OAF_thumb_fear.wav,fear,angry,Say the word thumb. I am furious.
+OAF_thumb_happy.wav,happy,happy,Say the word thumb. I am so happy.
+OAF_thumb_neutral.wav,neutral,angry,Say the word thumb. I am furious.
+OAF_thumb_ps.wav,pleasant_surprise,pleasant_surprise,Say the word thumb. What a lovely surprise.
+OAF_thumb_sad.wav,sad,sad,Say the word thumb. I am so sad.
+OAF_time_angry.wav,angry,angry,Say the word time. I am furious.
+OAF_time_disgust.wav,disgust,fear,Say the word time. I am terrified.
+OAF_time_fear.wav,fear,angry,Say the word time. I am furious.
+OAF_time_happy.wav,happy,happy,Say the word time. I am so happy.
+OAF_time_neutral.wav,neutral,angry,Say the word time. I am furious.
+OAF_time_ps.wav,pleasant_surprise,disgust,Say the word time. That is disgusting.
+OAF_time_sad.wav,sad,sad,Say the word time. I am so sad.
+OAF_tip_angry.wav,angry,angry,Say the word tip. I am furious.
+OAF_tip_disgust.wav,disgust,disgust,Say the word tip. That is disgusting.
+OAF_tip_fear.wav,fear,sad,Say the word tip. I am so sad.
+OAF_tip_happy.wav,happy,happy,Say the word tip. I am so happy.
+OAF_tip_neutral.wav,neutral,neutral,Say the word tip. It is fine.
+OAF_tip_ps.wav,pleasant_surprise,neutral,Say the word tip. It is fine.
+OAF_tip_sad.wav,sad,pleasant_surprise,Say the word tip. What a lovely surprise.
+OAF_tire_angry.wav,angry,angry,Say the word tire. I am furious.
+OAF_tire_disgust.wav,disgust,pleasant_surprise,Say the word tire. What a lovely surprise.
+OAF_tire_fear.wav,fear,fear,Say the word tire. I am terrified.
+OAF_tire_happy.wav,happy,happy,Say the word tire. I am so happy.
+OAF_tire_neutral.wav,neutral,neutral,Say the word tire. It is fine.
+OAF_tire_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tire. What a lovely surprise.
+OAF_tire_sad.wav,sad,sad,Say the word tire. I am so sad.
+OAF_ton_angry.wav,angry,pleasant_surprise,Say the word ton. What a lovely surprise.
+OAF_ton_disgust.wav,disgust,disgust,Say the word ton. That is disgusting.
+OAF_ton_fear.wav,fear,fear,Say the word ton. I am terrified.
+OAF_ton_happy.wav,happy,happy,Say the word ton. I am so happy.
+OAF_ton_neutral.wav,neutral,happy,Say the word ton. I am so happy.
+OAF_ton_ps.wav,pleasant_surprise,pleasant_surprise,Say the word ton. What a lovely surprise.
+OAF_ton_sad.wav,sad,sad,Say the word ton. I am so sad.
+OAF_tool_angry.wav,angry,pleasant_surprise,Say the word tool. What a lovely surprise.
+OAF_tool_disgust.wav,disgust,disgust,Say the word tool. That is disgusting.
+OAF_tool_fear.wav,fear,pleasant_surprise,Say the word tool. What a lovely surprise.
+OAF_tool_happy.wav,happy,pleasant_surprise,Say the word tool. What a lovely surprise.
+OAF_tool_neutral.wav,neutral,angry,Say the word tool. I am furious.
+OAF_tool_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tool. What a lovely surprise.
+OAF_tool_sad.wav,sad,fear,Say the word tool. I am terrified.
+OAF_tough_angry.wav,angry,angry,Say the word tough. I am furious.
+OAF_tough_disgust.wav,disgust,disgust,Say the word tough. That is disgusting.
+OAF_tough_fear.wav,fear,fear,Say the word tough. I am terrified.
+OAF_tough_happy.wav,happy,happy,Say the word tough. I am so happy.
+OAF_tough_neutral.wav,neutral,happy,Say the word tough. I am so happy.
+OAF_tough_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tough. What a lovely surprise.
+OAF_tough_sad.wav,sad,sad,Say the word tough. I am so sad.
+OAF_turn_angry.wav,angry,disgust,Say the word turn. That is disgusting.
+OAF_turn_disgust.wav,disgust,pleasant_surprise,Say the word turn. What a lovely surprise.
+OAF_turn_fear.wav,fear,happy,Say the word turn. I am so happy.
+OAF_turn_happy.wav,happy,neutral,Say the word turn. It is fine.
+OAF_turn_neutral.wav,neutral,pleasant_surprise,Say the word turn. What a lovely surprise.
+OAF_turn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word turn. What a lovely surprise.
+OAF_turn_sad.wav,sad,sad,Say the word turn. I am so sad.
+OAF_vine_angry.wav,angry,pleasant_surprise,Say the word vine. What a lovely surprise.
+OAF_vine_disgust.wav,disgust,disgust,Say the word vine. That is disgusting.
+OAF_vine_fear.wav,fear,fear,Say the word vine. I am terrified.
+OAF_vine_happy.wav,happy,happy,Say the word vine. I am so happy.
+OAF_vine_neutral.wav,neutral,happy,Say the word vine. I am so happy.
+OAF_vine_ps.wav,pleasant_surprise,happy,Say the word vine. I am so happy.
+OAF_vine_sad.wav,sad,sad,Say the word vine. I am so sad.
+OAF_voice_angry.wav,angry,disgust,Say the word voice. That is disgusting.
+OAF_voice_disgust.wav,disgust,disgust,Say the word voice. That is disgusting.
+OAF_voice_fear.wav,fear,neutral,Say the word voice. It is fine.
+OAF_voice_happy.wav,happy,happy,Say the word voice. I am so happy.
+OAF_voice_neutral.wav,neutral,neutral,Say the word voice. It is fine.
+OAF_voice_ps.wav,pleasant_surprise,pleasant_surprise,Say the word voice. What a lovely surprise.
+OAF_voice_sad.wav,sad,disgust,Say the word voice. That is disgusting.
+OAF_void_angry.wav,angry,angry,Say the word void. I am furious.
+OAF_void_disgust.wav,disgust,angry,Say the word void. I am furious.
+OAF_void_fear.wav,fear,disgust,Say the word void. That is disgusting.
+OAF_void_happy.wav,happy,happy,Say the word void. I am so happy.
+OAF_void_neutral.wav,neutral,neutral,Say the word void. It is fine.
+OAF_void_ps.wav,pleasant_surprise,fear,Say the word void. I am terrified.
+OAF_void_sad.wav,sad,angry,Say the word void. I am furious.
+OAF_vote_angry.wav,angry,angry,Say the word vote. I am furious.
+OAF_vote_disgust.wav,disgust,disgust,Say the word vote. That is disgusting.
+OAF_vote_fear.wav,fear,happy,Say the word vote. I am so happy.
+OAF_vote_happy.wav,happy,happy,Say the word vote. I am so happy.
+OAF_vote_neutral.wav,neutral,neutral,Say the word vote. It is fine.
+OAF_vote_ps.wav,pleasant_surprise,angry,Say the word vote. I am furious.
+OAF_vote_sad.wav,sad,sad,Say the word vote. I am so sad.
+OAF_wag_angry.wav,angry,angry,Say the word wag. I am furious.
+OAF_wag_disgust.wav,disgust,neutral,Say the word wag. It is fine.
+OAF_wag_fear.wav,fear,angry,Say the word wag. I am furious.
+OAF_wag_happy.wav,happy,happy,Say the word wag. I am so happy.
+OAF_wag_neutral.wav,neutral,neutral,Say the word wag. It is fine.
+OAF_wag_ps.wav,pleasant_surprise,disgust,Say the word wag. That is disgusting.
+OAF_wag_sad.wav,sad,sad,Say the word wag. I am so sad.
+OAF_walk_angry.wav,angry,angry,Say the word walk. I am furious.
+OAF_walk_disgust.wav,disgust,disgust,Say the word walk. That is disgusting.
+OAF_walk_fear.wav,fear,fear,Say the word walk. I am terrified.
+OAF_walk_happy.wav,happy,pleasant_surprise,Say the word walk. What a lovely surprise.
+OAF_walk_neutral.wav,neutral,neutral,Say the word walk. It is fine.
+OAF_walk_ps.wav,pleasant_surprise,sad,Say the word walk. I am so sad.
+OAF_walk_sad.wav,sad,sad,Say the word walk. I am so sad.
+OAF_wash_angry.wav,angry,sad,Say the word wash. I am so sad.
+OAF_wash_disgust.wav,disgust,neutral,Say the word wash. It is fine.
+OAF_wash_fear.wav,fear,fear,Say the word wash. I am terrified.
+OAF_wash_happy.wav,happy,happy,Say the word wash. I am so happy.
+OAF_wash_neutral.wav,neutral,neutral,Say the word wash. It is fine.
+OAF_wash_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wash. What a lovely surprise.
+OAF_wash_sad.wav,sad,sad,Say the word wash. I am so sad.
+OAF_week_angry.wav,angry,angry,Say the word week. I am furious.
+OAF_week_disgust.wav,disgust,disgust,Say the word week. That is disgusting.
+OAF_week_fear.wav,fear,fear,Say the word week. I am terrified.
+OAF_week_happy.wav,happy,neutral,Say the word week. It is fine.
+OAF_week_neutral.wav,neutral,neutral,Say the word week. It is fine.
+OAF_week_ps.wav,pleasant_surprise,pleasant_surprise,Say the word week. What a lovely surprise.
+OAF_week_sad.wav,sad,fear,Say the word week. I am terrified.
+OAF_wheat_angry.wav,angry,happy,Say the word wheat. I am so happy.
+OAF_wheat_disgust.wav,disgust,disgust,Say the word wheat. That is disgusting.
+OAF_wheat_fear.wav,fear,fear,Say the word wheat. I am terrified.
+OAF_wheat_happy.wav,happy,happy,Say the word wheat. I am so happy.
+OAF_wheat_neutral.wav,neutral,pleasant_surprise,Say the word wheat. What a lovely surprise.
+OAF_wheat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wheat. What a lovely surprise.
+OAF_wheat_sad.wav,sad,neutral,Say the word wheat. It is fine.
+OAF_when_angry.wav,angry,happy,Say the word when. I am so happy.
+OAF_when_disgust.wav,disgust,disgust,Say the word when. That is disgusting.
+OAF_when_fear.wav,fear,happy,Say the word when. I am so happy.
+OAF_when_happy.wav,happy,disgust,Say the word when. That is disgusting.
+OAF_when_neutral.wav,neutral,neutral,Say the word when. It is fine.
+OAF_when_ps.wav,pleasant_surprise,disgust,Say the word when. That is disgusting.
+OAF_when_sad.wav,sad,sad,Say the word when. I am so sad.
+OAF_which_angry.wav,angry,angry,Say the word which. I am furious.
+OAF_which_disgust.wav,disgust,sad,Say the word which. I am so sad.
+OAF_which_fear.wav,fear,happy,Say the word which. I am so happy.
+OAF_which_happy.wav,happy,happy,Say the word which. I am so happy.
+OAF_which_neutral.wav,neutral,disgust,Say the word which. That is disgusting.
+OAF_which_ps.wav,pleasant_surprise,sad,Say the word which. I am so sad.
+OAF_which_sad.wav,sad,happy,Say the word which. I am so happy.
+OAF_whip_angry.wav,angry,happy,Say the word whip. I am so happy.
+OAF_whip_disgust.wav,disgust,disgust,Say the word whip. That is disgusting.
+OAF_whip_fear.wav,fear,fear,Say the word whip. I am terrified.
+OAF_whip_happy.wav,happy,happy,Say the word whip. I am so happy.
+OAF_whip_neutral.wav,neutral,neutral,Say the word whip. It is fine.
+OAF_whip_ps.wav,pleasant_surprise,disgust,Say the word whip. That is disgusting.
+OAF_whip_sad.wav,sad,sad,Say the word whip. I am so sad.
+OAF_white_angry.wav,angry,angry,Say the word white. I am furious.
+OAF_white_disgust.wav,disgust,disgust,Say the word white. That is disgusting.
+OAF_white_fear.wav,fear,fear,Say the word white. I am terrified.
+OAF_white_happy.wav,happy,fear,Say the word white. I am terrified.
+OAF_white_neutral.wav,neutral,neutral,Say the word white. It is fine.
+OAF_white_ps.wav,pleasant_surprise,pleasant_surprise,Say the word white. What a lovely surprise.
+OAF_white_sad.wav,sad,sad,Say the word white. I am so sad.
+OAF_wife_angry.wav,angry,angry,Say the word wife. I am furious.
+OAF_wife_disgust.wav,disgust,disgust,Say the word wife. That is disgusting.
+OAF_wife_fear.wav,fear,fear,Say the word wife. I am terrified.
+OAF_wife_happy.wav,happy,happy,Say the word wife. I am so happy.
+OAF_wife_neutral.wav,neutral,angry,Say the word wife. I am furious.
+OAF_wife_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wife. What a lovely surprise.
+OAF_wife_sad.wav,sad,sad,Say the word wife. I am so sad.
+OAF_wire_angry.wav,angry,angry,Say the word wire. I am furious.
+OAF_wire_disgust.wav,disgust,disgust,Say the word wire. That is disgusting.
+OAF_wire_fear.wav,fear,fear,Say the word wire. I am terrified.
+OAF_wire_happy.wav,happy,happy,Say the word wire. I am so happy.
+OAF_wire_neutral.wav,neutral,pleasant_surprise,Say the word wire. What a lovely surprise.
+OAF_wire_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wire. What a lovely surprise.
+OAF_wire_sad.wav,sad,sad,Say the word wire. I am so sad.
+OAF_witch_angry.wav,angry,happy,Say the word witch. I am so happy.
+OAF_witch_disgust.wav,disgust,disgust,Say the word witch. That is disgusting.
+OAF_witch_fear.wav,fear,angry,Say the word witch. I am furious.
+OAF_witch_happy.wav,happy,neutral,Say the word witch. It is fine.
+OAF_witch_neutral.wav,neutral,fear,Say the word witch. I am terrified.
+OAF_witch_ps.wav,pleasant_surprise,pleasant_surprise,Say the word witch. What a lovely surprise.
+OAF_witch_sad.wav,sad,sad,Say the word witch. I am so sad.
+OAF_yearn_angry.wav,angry,angry,Say the word yearn. I am furious.
+OAF_yearn_disgust.wav,disgust,disgust,Say the word yearn. That is disgusting.
+OAF_yearn_fear.wav,fear,fear,Say the word yearn. I am terrified.
+OAF_yearn_happy.wav,happy,sad,Say the word yearn. I am so sad.
+OAF_yearn_neutral.wav,neutral,disgust,Say the word yearn. That is disgusting.
+OAF_yearn_ps.wav,pleasant_surprise,disgust,Say the word yearn. That is disgusting.
+OAF_yearn_sad.wav,sad,neutral,Say the word yearn. It is fine.
+OAF_yes_angry.wav,angry,angry,Say the word yes. I am furious.
+OAF_yes_disgust.wav,disgust,disgust,Say the word yes. That is disgusting.
+OAF_yes_fear.wav,fear,happy,Say the word yes. I am so happy.
+OAF_yes_happy.wav,happy,happy,Say the word yes. I am so happy.
+OAF_yes_neutral.wav,neutral,happy,Say the word yes. I am so happy.
+OAF_yes_ps.wav,pleasant_surprise,pleasant_surprise,Say the word yes. What a lovely surprise.
+OAF_yes_sad.wav,sad,pleasant_surprise,Say the word yes. What a lovely surprise.
+OAF_young_angry.wav,angry,sad,Say the word young. I am so sad.
+OAF_young_disgust.wav,disgust,neutral,Say the word young. It is fine.
+OAF_young_fear.wav,fear,fear,Say the word young. I am terrified.
+OAF_young_happy.wav,happy,fear,Say the word young. I am terrified.
+OAF_young_neutral.wav,neutral,neutral,Say the word young. It is fine.
+OAF_young_ps.wav,pleasant_surprise,pleasant_surprise,Say the word young. What a lovely surprise.
+OAF_young_sad.wav,sad,sad,Say the word young. I am so sad.
+OAF_youth_angry.wav,angry,angry,Say the word youth. I am furious.
+OAF_youth_disgust.wav,disgust,disgust,Say the word youth. That is disgusting.
+OAF_youth_fear.wav,fear,fear,Say the word youth. I am terrified.
+OAF_youth_happy.wav,happy,happy,Say the word youth. I am so happy.
+OAF_youth_neutral.wav,neutral,neutral,Say the word youth. It is fine.
+OAF_youth_ps.wav,pleasant_surprise,pleasant_surprise,Say the word youth. What a lovely surprise.
+OAF_youth_sad.wav,sad,neutral,Say the word youth. It is fine.
+YAF_back_angry.wav,angry,angry,Say the word back. I am furious.
+YAF_back_disgust.wav,disgust,fear,Say the word back. I am terrified.
+YAF_back_fear.wav,fear,neutral,Say the word back. It is fine.
+YAF_back_happy.wav,happy,disgust,Say the word back. That is disgusting.
+YAF_back_neutral.wav,neutral,neutral,Say the word back. It is fine.
+YAF_back_ps.wav,pleasant_surprise,pleasant_surprise,Say the word back. What a lovely surprise.
+YAF_back_sad.wav,sad,angry,Say the word back. I am furious.
+YAF_bar_angry.wav,angry,angry,Say the word bar. I am furious.
+YAF_bar_disgust.wav,disgust,happy,Say the word bar. I am so happy.
+YAF_bar_fear.wav,fear,fear,Say the word bar. I am terrified.
+YAF_bar_happy.wav,happy,angry,Say the word bar. I am furious.
+YAF_bar_neutral.wav,neutral,neutral,Say the word bar. It is fine.
+YAF_bar_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bar. What a lovely surprise.
+YAF_bar_sad.wav,sad,sad,Say the word bar. I am so sad.
+YAF_base_angry.wav,angry,fear,Say the word base. I am terrified.
+YAF_base_disgust.wav,disgust,pleasant_surprise,Say the word base. What a lovely surprise.
+YAF_base_fear.wav,fear,fear,Say the word base. I am terrified.
+YAF_base_happy.wav,happy,happy,Say the word base. I am so happy.
+YAF_base_neutral.wav,neutral,neutral,Say the word base. It is fine.
+YAF_base_ps.wav,pleasant_surprise,fear,Say the word base. I am terrified.
+YAF_base_sad.wav,sad,sad,Say the word base. I am so sad.
+YAF_bath_angry.wav,angry,happy,Say the word bath. I am so happy.
+YAF_bath_disgust.wav,disgust,disgust,Say the word bath. That is disgusting.
+YAF_bath_fear.wav,fear,fear,Say the word bath. I am terrified.
+YAF_bath_happy.wav,happy,pleasant_surprise,Say the word bath. What a lovely surprise.
+YAF_bath_neutral.wav,neutral,neutral,Say the word bath. It is fine.
+YAF_bath_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bath. What a lovely surprise.
+YAF_bath_sad.wav,sad,happy,Say the word bath. I am so happy.
+YAF_bean_angry.wav,angry,pleasant_surprise,Say the word bean. What a lovely surprise.
+YAF_bean_disgust.wav,disgust,pleasant_surprise,Say the word bean. What a lovely surprise.
+YAF_bean_fear.wav,fear,fear,Say the word bean. I am terrified.
+YAF_bean_happy.wav,happy,happy,Say the word bean. I am so happy.
+YAF_bean_neutral.wav,neutral,sad,Say the word bean. I am so sad.
+YAF_bean_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bean. What a lovely surprise.
+YAF_bean_sad.wav,sad,neutral,Say the word bean. It is fine.
+YAF_beg_angry.wav,angry,angry,Say the word beg. I am furious.
+YAF_beg_disgust.wav,disgust,fear,Say the word beg. I am terrified.
+YAF_beg_fear.wav,fear,fear,Say the word beg. I am terrified.
+YAF_beg_happy.wav,happy,happy,Say the word beg. I am so happy.
+YAF_beg_neutral.wav,neutral,sad,Say the word beg. I am so sad.
+YAF_beg_ps.wav,pleasant_surprise,disgust,Say the word beg. That is disgusting.
+YAF_beg_sad.wav,sad,sad,Say the word beg. I am so sad.
+YAF_bite_angry.wav,angry,angry,Say the word bite. I am furious.
+YAF_bite_disgust.wav,disgust,disgust,Say the word bite. That is disgusting.
+YAF_bite_fear.wav,fear,fear,Say the word bite. I am terrified.
+YAF_bite_happy.wav,happy,happy,Say the word bite. I am so happy.
+YAF_bite_neutral.wav,neutral,disgust,Say the word bite. That is disgusting.
+YAF_bite_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bite. What a lovely surprise.
+YAF_bite_sad.wav,sad,disgust,Say the word bite. That is disgusting.
+YAF_boat_angry.wav,angry,neutral,Say the word boat. It is fine.
+YAF_boat_disgust.wav,disgust,disgust,Say the word boat. That is disgusting.
+YAF_boat_fear.wav,fear,fear,Say the word boat. I am terrified.
+YAF_boat_happy.wav,happy,neutral,Say the word boat. It is fine.
+YAF_boat_neutral.wav,neutral,neutral,Say the word boat. It is fine.
+YAF_boat_ps.wav,pleasant_surprise,sad,Say the word boat. I am so sad.
+YAF_boat_sad.wav,sad,fear,Say the word boat. I am terrified.
+YAF_bone_angry.wav,angry,happy,Say the word bone. I am so happy.
+YAF_bone_disgust.wav,disgust,disgust,Say the word bone. That is disgusting.
+YAF_bone_fear.wav,fear,disgust,Say the word bone. That is disgusting.
+YAF_bone_happy.wav,happy,happy,Say the word bone. I am so happy.
+YAF_bone_neutral.wav,neutral,neutral,Say the word bone. It is fine.
+YAF_bone_ps.wav,pleasant_surprise,pleasant_surprise,Say the word bone. What a lovely surprise.
+YAF_bone_sad.wav,sad,sad,Say the word bone. I am so sad.
+YAF_book_angry.wav,angry,disgust,Say the word book. That is disgusting.
+YAF_book_disgust.wav,disgust,disgust,Say the word book. That is disgusting.
+YAF_book_fear.wav,fear,neutral,Say the word book. It is fine.
+YAF_book_happy.wav,happy,happy,Say the word book. I am so happy.
+YAF_book_neutral.wav,neutral,sad,Say the word book. I am so sad.
+YAF_book_ps.wav,pleasant_surprise,disgust,Say the word book. That is disgusting.
+YAF_book_sad.wav,sad,sad,Say the word book. I am so sad.
+YAF_bought_angry.wav,angry,angry,Say the word bought. I am furious.
+YAF_bought_disgust.wav,disgust,disgust,Say the word bought. That is disgusting.
+YAF_bought_fear.wav,fear,fear,Say the word bought. I am terrified.
+YAF_bought_happy.wav,happy,pleasant_surprise,Say the word bought. What a lovely surprise.
+YAF_bought_neutral.wav,neutral,neutral,Say the word bought. It is fine.
+YAF_bought_ps.wav,pleasant_surprise,neutral,Say the word bought. It is fine.
+YAF_bought_sad.wav,sad,fear,Say the word bought. I am terrified.
+YAF_burn_angry.wav,angry,sad,Say the word burn. I am so sad.
+YAF_burn_disgust.wav,disgust,disgust,Say the word burn. That is disgusting.
+YAF_burn_fear.wav,fear,fear,Say the word burn. I am terrified.
+YAF_burn_happy.wav,happy,happy,Say the word burn. I am so happy.
+YAF_burn_neutral.wav,neutral,neutral,Say the word burn. It is fine.
+YAF_burn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word burn. What a lovely surprise.
+YAF_burn_sad.wav,sad,sad,Say the word burn. I am so sad.
+YAF_cab_angry.wav,angry,angry,Say the word cab. I am furious.
+YAF_cab_disgust.wav,disgust,disgust,Say the word cab. That is disgusting.
+YAF_cab_fear.wav,fear,sad,Say the word cab. I am so sad.
+YAF_cab_happy.wav,happy,disgust,Say the word cab. That is disgusting.
+YAF_cab_neutral.wav,neutral,neutral,Say the word cab. It is fine.
+YAF_cab_ps.wav,pleasant_surprise,angry,Say the word cab. I am furious.
+YAF_cab_sad.wav,sad,sad,Say the word cab. I am so sad.
+YAF_calm_angry.wav,angry,fear,Say the word calm. I am terrified.
+YAF_calm_disgust.wav,disgust,disgust,Say the word calm. That is disgusting.
+YAF_calm_fear.wav,fear,fear,Say the word calm. I am terrified.
+YAF_calm_happy.wav,happy,happy,Say the word calm. I am so happy.
+YAF_calm_neutral.wav,neutral,neutral,Say the word calm. It is fine.
+YAF_calm_ps.wav,pleasant_surprise,pleasant_surprise,Say the word calm. What a lovely surprise.
+YAF_calm_sad.wav,sad,sad,Say the word calm. I am so sad.
+YAF_came_angry.wav,angry,angry,Say the word came. I am furious.
+YAF_came_disgust.wav,disgust,disgust,Say the word came. That is disgusting.
+YAF_came_fear.wav,fear,fear,Say the word came. I am terrified.
+YAF_came_happy.wav,happy,happy,Say the word came. I am so happy.
+YAF_came_neutral.wav,neutral,neutral,Say the word came. It is fine.
+YAF_came_ps.wav,pleasant_surprise,pleasant_surprise,Say the word came. What a lovely surprise.
+YAF_came_sad.wav,sad,disgust,Say the word came. That is disgusting.
+YAF_cause_angry.wav,angry,angry,Say the word cause. I am furious.
+YAF_cause_disgust.wav,disgust,happy,Say the word cause. I am so happy.
+YAF_cause_fear.wav,fear,fear,Say the word cause. I am terrified.
+YAF_cause_happy.wav,happy,disgust,Say the word cause. That is disgusting.
+YAF_cause_neutral.wav,neutral,neutral,Say the word cause. It is fine.
+YAF_cause_ps.wav,pleasant_surprise,pleasant_surprise,Say the word cause. What a lovely surprise.
+YAF_cause_sad.wav,sad,sad,Say the word cause. I am so sad.
+YAF_chain_angry.wav,angry,disgust,Say the word chain. That is disgusting.
+YAF_chain_disgust.wav,disgust,disgust,Say the word chain. That is disgusting.
+YAF_chain_fear.wav,fear,fear,Say the word chain. I am terrified.
+YAF_chain_happy.wav,happy,disgust,Say the word chain. That is disgusting.
+YAF_chain_neutral.wav,neutral,neutral,Say the word chain. It is fine.
+YAF_chain_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chain. What a lovely surprise.
+YAF_chain_sad.wav,sad,sad,Say the word chain. I am so sad.
+YAF_chair_angry.wav,angry,angry,Say the word chair. I am furious.
+YAF_chair_disgust.wav,disgust,angry,Say the word chair. I am furious.
+YAF_chair_fear.wav,fear,disgust,Say the word chair. That is disgusting.
+YAF_chair_happy.wav,happy,happy,Say the word chair. I am so happy.
+YAF_chair_neutral.wav,neutral,neutral,Say the word chair. It is fine.
+YAF_chair_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chair. What a lovely surprise.
+YAF_chair_sad.wav,sad,sad,Say the word chair. I am so sad.
+YAF_chalk_angry.wav,angry,angry,Say the word chalk. I am furious.
+YAF_chalk_disgust.wav,disgust,happy,Say the word chalk. I am so happy.
+YAF_chalk_fear.wav,fear,fear,Say the word chalk. I am terrified.
+YAF_chalk_happy.wav,happy,happy,Say the word chalk. I am so happy.
+YAF_chalk_neutral.wav,neutral,neutral,Say the word chalk. It is fine.
+YAF_chalk_ps.wav,pleasant_surprise,neutral,Say the word chalk. It is fine.
+YAF_chalk_sad.wav,sad,sad,Say the word chalk. I am so sad.
+YAF_chat_angry.wav,angry,sad,Say the word chat. I am so sad.
+YAF_chat_disgust.wav,disgust,disgust,Say the word chat. That is disgusting.
+YAF_chat_fear.wav,fear,sad,Say the word chat. I am so sad.
+YAF_chat_happy.wav,happy,happy,Say the word chat. I am so happy.
+YAF_chat_neutral.wav,neutral,disgust,Say the word chat. That is disgusting.
+YAF_chat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chat. What a lovely surprise.
+YAF_chat_sad.wav,sad,sad,Say the word chat. I am so sad.
+YAF_check_angry.wav,angry,angry,Say the word check. I am furious.
+YAF_check_disgust.wav,disgust,disgust,Say the word check. That is disgusting.
+YAF_check_fear.wav,fear,fear,Say the word check. I am terrified.
+YAF_check_happy.wav,happy,neutral,Say the word check. It is fine.
+YAF_check_neutral.wav,neutral,happy,Say the word check. I am so happy.
+YAF_check_ps.wav,pleasant_surprise,happy,Say the word check. I am so happy.
+YAF_check_sad.wav,sad,sad,Say the word check. I am so sad.
+YAF_cheek_angry.wav,angry,angry,Say the word cheek. I am furious.
+YAF_cheek_disgust.wav,disgust,disgust,Say the word cheek. That is disgusting.
+YAF_cheek_fear.wav,fear,fear,Say the word cheek. I am terrified.
+YAF_cheek_happy.wav,happy,happy,Say the word cheek. I am so happy.
+YAF_cheek_neutral.wav,neutral,neutral,Say the word cheek. It is fine.
+YAF_cheek_ps.wav,pleasant_surprise,pleasant_surprise,Say the word cheek. What a lovely surprise.
+YAF_cheek_sad.wav,sad,sad,Say the word cheek. I am so sad.
+YAF_chief_angry.wav,angry,pleasant_surprise,Say the word chief. What a lovely surprise.
+YAF_chief_disgust.wav,disgust,fear,Say the word chief. I am terrified.
+YAF_chief_fear.wav,fear,fear,Say the word chief. I am terrified.
+YAF_chief_happy.wav,happy,happy,Say the word chief. I am so happy.
+YAF_chief_neutral.wav,neutral,sad,Say the word chief. I am so sad.
+YAF_chief_ps.wav,pleasant_surprise,pleasant_surprise,Say the word chief. What a lovely surprise.
+YAF_chief_sad.wav,sad,sad,Say the word chief. I am so sad.
+YAF_choice_angry.wav,angry,angry,Say the word choice. I am furious.
+YAF_choice_disgust.wav,disgust,disgust,Say the word choice. That is disgusting.
+YAF_choice_fear.wav,fear,fear,Say the word choice. I am terrified.
+YAF_choice_happy.wav,happy,neutral,Say the word choice. It is fine.
+YAF_choice_neutral.wav,neutral,neutral,Say the word choice. It is fine.
+YAF_choice_ps.wav,pleasant_surprise,happy,Say the word choice. I am so happy.
+YAF_choice_sad.wav,sad,sad,Say the word choice. I am so sad.
+YAF_cool_angry.wav,angry,happy,Say the word cool. I am so happy.
+YAF_cool_disgust.wav,disgust,disgust,Say the word cool. That is disgusting.
+YAF_cool_fear.wav,fear,fear,Say the word cool. I am terrified.
+YAF_cool_happy.wav,happy,happy,Say the word cool. I am so happy.
+YAF_cool_neutral.wav,neutral,angry,Say the word cool. I am furious.
+YAF_cool_ps.wav,pleasant_surprise,pleasant_surprise,Say the word cool. What a lovely surprise.
+YAF_cool_sad.wav,sad,sad,Say the word cool. I am so sad.
+YAF_dab_angry.wav,angry,angry,Say the word dab. I am furious.
+YAF_dab_disgust.wav,disgust,disgust,Say the word dab. That is disgusting.
+YAF_dab_fear.wav,fear,fear,Say the word dab. I am terrified.
+YAF_dab_happy.wav,happy,happy,Say the word dab. I am so happy.
+YAF_dab_neutral.wav,neutral,neutral,Say the word dab. It is fine.
+YAF_dab_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dab. What a lovely surprise.
+YAF_dab_sad.wav,sad,sad,Say the word dab. I am so sad.
+YAF_date_angry.wav,angry,angry,Say the word date. I am furious.
+YAF_date_disgust.wav,disgust,disgust,Say the word date. That is disgusting.
+YAF_date_fear.wav,fear,fear,Say the word date. I am terrified.
+YAF_date_happy.wav,happy,happy,Say the word date. I am so happy.
+YAF_date_neutral.wav,neutral,neutral,Say the word date. It is fine.
+YAF_date_ps.wav,pleasant_surprise,pleasant_surprise,Say the word date. What a lovely surprise.
+YAF_date_sad.wav,sad,fear,Say the word date. I am terrified.
+YAF_dead_angry.wav,angry,fear,Say the word dead. I am terrified.
+YAF_dead_disgust.wav,disgust,angry,Say the word dead. I am furious.
+YAF_dead_fear.wav,fear,sad,Say the word dead. I am so sad.
+YAF_dead_happy.wav,happy,happy,Say the word dead. I am so happy.
+YAF_dead_neutral.wav,neutral,fear,Say the word dead. I am terrified.
+YAF_dead_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dead. What a lovely surprise.
+YAF_dead_sad.wav,sad,sad,Say the word dead. I am so sad.
+YAF_death_angry.wav,angry,angry,Say the word death. I am furious.
+YAF_death_disgust.wav,disgust,disgust,Say the word death. That is disgusting.
+YAF_death_fear.wav,fear,sad,Say the word death. I am so sad.
+YAF_death_happy.wav,happy,happy,Say the word death. I am so happy.
+YAF_death_neutral.wav,neutral,happy,Say the word death. I am so happy.
+YAF_death_ps.wav,pleasant_surprise,angry,Say the word death. I am furious.
+YAF_death_sad.wav,sad,sad,Say the word death. I am so sad.
+YAF_deep_angry.wav,angry,angry,Say the word deep. I am furious.
+YAF_deep_disgust.wav,disgust,disgust,Say the word deep. That is disgusting.
+YAF_deep_fear.wav,fear,fear,Say the word deep. I am terrified.
+YAF_deep_happy.wav,happy,happy,Say the word deep. I am so happy.
+YAF_deep_neutral.wav,neutral,neutral,Say the word deep. It is fine.
+YAF_deep_ps.wav,pleasant_surprise,disgust,Say the word deep. That is disgusting.
+YAF_deep_sad.wav,sad,sad,Say the word deep. I am so sad.
+YAF_dime_angry.wav,angry,sad,Say the word dime. I am so sad.
+YAF_dime_disgust.wav,disgust,sad,Say the word dime. I am so sad.
+YAF_dime_fear.wav,fear,fear,Say the word dime. I am terrified.
+YAF_dime_happy.wav,happy,happy,Say the word dime. I am so happy.
+YAF_dime_neutral.wav,neutral,pleasant_surprise,Say the word dime. What a lovely surprise.
+YAF_dime_ps.wav,pleasant_surprise,happy,Say the word dime. I am so happy.
+YAF_dime_sad.wav,sad,sad,Say the word dime. I am so sad.
+YAF_dip_angry.wav,angry,angry,Say the word dip. I am furious.
+YAF_dip_disgust.wav,disgust,disgust,Say the word dip. That is disgusting.
+YAF_dip_fear.wav,fear,neutral,Say the word dip. It is fine.
+YAF_dip_happy.wav,happy,fear,Say the word dip. I am terrified.
+YAF_dip_neutral.wav,neutral,neutral,Say the word dip. It is fine.
+YAF_dip_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dip. What a lovely surprise.
+YAF_dip_sad.wav,sad,fear,Say the word dip. I am terrified.
+YAF_ditch_angry.wav,angry,fear,Say the word ditch. I am terrified.
+YAF_ditch_disgust.wav,disgust,disgust,Say the word ditch. That is disgusting.
+YAF_ditch_fear.wav,fear,neutral,Say the word ditch. It is fine.
+YAF_ditch_happy.wav,happy,happy,Say the word ditch. I am so happy.
+YAF_ditch_neutral.wav,neutral,happy,Say the word ditch. I am so happy.
+YAF_ditch_ps.wav,pleasant_surprise,pleasant_surprise,Say the word ditch. What a lovely surprise.
+YAF_ditch_sad.wav,sad,sad,Say the word ditch. I am so sad.
+YAF_dodge_angry.wav,angry,neutral,Say the word dodge. It is fine.
+YAF_dodge_disgust.wav,disgust,disgust,Say the word dodge. That is disgusting.
+YAF_dodge_fear.wav,fear,fear,Say the word dodge. I am terrified.
+YAF_dodge_happy.wav,happy,angry,Say the word dodge. I am furious.
+YAF_dodge_neutral.wav,neutral,neutral,Say the word dodge. It is fine.
+YAF_dodge_ps.wav,pleasant_surprise,pleasant_surprise,Say the word dodge. What a lovely surprise.
+YAF_dodge_sad.wav,sad,sad,Say the word dodge. I am so sad.
+YAF_dog_angry.wav,angry,neutral,Say the word dog. It is fine.
+YAF_dog_disgust.wav,disgust,disgust,Say the word dog. That is disgusting.
+YAF_dog_fear.wav,fear,fear,Say the word dog. I am terrified.
+YAF_dog_happy.wav,happy,happy,Say the word dog. I am so happy.
+YAF_dog_neutral.wav,neutral,neutral,Say the word dog. It is fine.
+YAF_dog_ps.wav,pleasant_surprise,disgust,Say the word dog. That is disgusting.
+YAF_dog_sad.wav,sad,sad,Say the word dog. I am so sad.
+YAF_doll_angry.wav,angry,angry,Say the word doll. I am furious.
+YAF_doll_disgust.wav,disgust,pleasant_surprise,Say the word doll. What a lovely surprise.
+YAF_doll_fear.wav,fear,fear,Say the word doll. I am terrified.
+YAF_doll_happy.wav,happy,pleasant_surprise,Say the word doll. What a lovely surprise.
+YAF_doll_neutral.wav,neutral,neutral,Say the word doll. It is fine.
+YAF_doll_ps.wav,pleasant_surprise,pleasant_surprise,Say the word doll. What a lovely surprise.
+YAF_doll_sad.wav,sad,sad,Say the word doll. I am so sad.
+YAF_door_angry.wav,angry,angry,Say the word door. I am furious.
+YAF_door_disgust.wav,disgust,disgust,Say the word door. That is disgusting.
+YAF_door_fear.wav,fear,fear,Say the word door. I am terrified.
+YAF_door_happy.wav,happy,happy,Say the word door. I am so happy.
+YAF_door_neutral.wav,neutral,neutral,Say the word door. It is fine.
+YAF_door_ps.wav,pleasant_surprise,pleasant_surprise,Say the word door. What a lovely surprise.
+YAF_door_sad.wav,sad,sad,Say the word door. I am so sad.
+YAF_fail_angry.wav,angry,angry,Say the word fail. I am furious.
+YAF_fail_disgust.wav,disgust,angry,Say the word fail. I am furious.
+YAF_fail_fear.wav,fear,happy,Say the word fail. I am so happy.
+YAF_fail_happy.wav,happy,angry,Say the word fail. I am furious.
+YAF_fail_neutral.wav,neutral,neutral,Say the word fail. It is fine.
+YAF_fail_ps.wav,pleasant_surprise,pleasant_surprise,Say the word fail. What a lovely surprise.
+YAF_fail_sad.wav,sad,sad,Say the word fail. I am so sad.
+YAF_fall_angry.wav,angry,happy,Say the word fall. I am so happy.
+YAF_fall_disgust.wav,disgust,disgust,Say the word fall. That is disgusting.
+YAF_fall_fear.wav,fear,fear,Say the word fall. I am terrified.
+YAF_fall_happy.wav,happy,neutral,Say the word fall. It is fine.
+YAF_fall_neutral.wav,neutral,neutral,Say the word fall. It is fine.
+YAF_fall_ps.wav,pleasant_surprise,fear,Say the word fall. I am terrified.
+YAF_fall_sad.wav,sad,sad,Say the word fall. I am so sad.
+YAF_far_angry.wav,angry,fear,Say the word far. I am terrified.
+YAF_far_disgust.wav,disgust,pleasant_surprise,Say the word far. What a lovely surprise.
+YAF_far_fear.wav,fear,fear,Say the word far. I am terrified.
+YAF_far_happy.wav,happy,happy,Say the word far. I am so happy.
+YAF_far_neutral.wav,neutral,neutral,Say the word far. It is fine.
+YAF_far_ps.wav,pleasant_surprise,pleasant_surprise,Say the word far. What a lovely surprise.
+YAF_far_sad.wav,sad,sad,Say the word far. I am so sad.
+YAF_fat_angry.wav,angry,angry,Say the word fat. I am furious.
+YAF_fat_disgust.wav,disgust,disgust,Say the word fat. That is disgusting.
+YAF_fat_fear.wav,fear,happy,Say the word fat. I am so happy.
+YAF_fat_happy.wav,happy,disgust,Say the word fat. That is disgusting.
+YAF_fat_neutral.wav,neutral,neutral,Say the word fat. It is fine.
+YAF_fat_ps.wav,pleasant_surprise,neutral,Say the word fat. It is fine.
+YAF_fat_sad.wav,sad,sad,Say the word fat. I am so sad.
+YAF_fit_angry.wav,angry,sad,Say the word fit. I am so sad.
+YAF_fit_disgust.wav,disgust,angry,Say the word fit. I am furious.
+YAF_fit_fear.wav,fear,fear,Say the word fit. I am terrified.
+YAF_fit_happy.wav,happy,fear,Say the word fit. I am terrified.
+YAF_fit_neutral.wav,neutral,pleasant_surprise,Say the word fit. What a lovely surprise.
+YAF_fit_ps.wav,pleasant_surprise,pleasant_surprise,Say the word fit. What a lovely surprise.
+YAF_fit_sad.wav,sad,fear,Say the word fit. I am terrified.
+YAF_five_angry.wav,angry,angry,Say the word five. I am furious.
+YAF_five_disgust.wav,disgust,disgust,Say the word five. That is disgusting.
+YAF_five_fear.wav,fear,fear,Say the word five. I am terrified.
+YAF_five_happy.wav,happy,neutral,Say the word five. It is fine.
+YAF_five_neutral.wav,neutral,neutral,Say the word five. It is fine.
+YAF_five_ps.wav,pleasant_surprise,pleasant_surprise,Say the word five. What a lovely surprise.
+YAF_five_sad.wav,sad,sad,Say the word five. I am so sad.
+YAF_food_angry.wav,angry,angry,Say the word food. I am furious.
+YAF_food_disgust.wav,disgust,disgust,Say the word food. That is disgusting.
+YAF_food_fear.wav,fear,fear,Say the word food. I am terrified.
+YAF_food_happy.wav,happy,happy,Say the word food. I am so happy.
+YAF_food_neutral.wav,neutral,neutral,Say the word food. It is fine.
+YAF_food_ps.wav,pleasant_surprise,pleasant_surprise,Say the word food. What a lovely surprise.
+YAF_food_sad.wav,sad,sad,Say the word food. I am so sad.
+YAF_gap_angry.wav,angry,angry,Say the word gap. I am furious.
+YAF_gap_disgust.wav,disgust,disgust,Say the word gap. That is disgusting.
+YAF_gap_fear.wav,fear,fear,Say the word gap. I am terrified.
+YAF_gap_happy.wav,happy,happy,Say the word gap. I am so happy.
+YAF_gap_neutral.wav,neutral,sad,Say the word gap. I am so sad.
+YAF_gap_ps.wav,pleasant_surprise,angry,Say the word gap. I am furious.
+YAF_gap_sad.wav,sad,pleasant_surprise,Say the word gap. What a lovely surprise.
+YAF_gas_angry.wav,angry,angry,Say the word gas. I am furious.
+YAF_gas_disgust.wav,disgust,disgust,Say the word gas. That is disgusting.
+YAF_gas_fear.wav,fear,fear,Say the word gas. I am terrified.
+YAF_gas_happy.wav,happy,happy,Say the word gas. I am so happy.
+YAF_gas_neutral.wav,neutral,sad,Say the word gas. I am so sad.
+YAF_gas_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gas. What a lovely surprise.
+YAF_gas_sad.wav,sad,sad,Say the word gas. I am so sad.
+YAF_gaze_angry.wav,angry,angry,Say the word gaze. I am furious.
+YAF_gaze_disgust.wav,disgust,disgust,Say the word gaze. That is disgusting.
+YAF_gaze_fear.wav,fear,fear,Say the word gaze. I am terrified.
+YAF_gaze_happy.wav,happy,happy,Say the word gaze. I am so happy.
+YAF_gaze_neutral.wav,neutral,happy,Say the word gaze. I am so happy.
+YAF_gaze_ps.wav,pleasant_surprise,angry,Say the word gaze. I am furious.
+YAF_gaze_sad.wav,sad,sad,Say the word gaze. I am so sad.
+YAF_germ_angry.wav,angry,angry,Say the word germ. I am furious.
+YAF_germ_disgust.wav,disgust,sad,Say the word germ. I am so sad.
+YAF_germ_fear.wav,fear,fear,Say the word germ. I am terrified.
+YAF_germ_happy.wav,happy,fear,Say the word germ. I am terrified.
+YAF_germ_neutral.wav,neutral,angry,Say the word germ. I am furious.
+YAF_germ_ps.wav,pleasant_surprise,pleasant_surprise,Say the word germ. What a lovely surprise.
+YAF_germ_sad.wav,sad,sad,Say the word germ. I am so sad.
+YAF_get_angry.wav,angry,angry,Say the word get. I am furious.
+YAF_get_disgust.wav,disgust,happy,Say the word get. I am so happy.
+YAF_get_fear.wav,fear,neutral,Say the word get. It is fine.
+YAF_get_happy.wav,happy,happy,Say the word get. I am so happy.
+YAF_get_neutral.wav,neutral,happy,Say the word get. I am so happy.
+YAF_get_ps.wav,pleasant_surprise,pleasant_surprise,Say the word get. What a lovely surprise.
+YAF_get_sad.wav,sad,sad,Say the word get. I am so sad.
+YAF_gin_angry.wav,angry,angry,Say the word gin. I am furious.
+YAF_gin_disgust.wav,disgust,disgust,Say the word gin. That is disgusting.
+YAF_gin_fear.wav,fear,sad,Say the word gin. I am so sad.
+YAF_gin_happy.wav,happy,happy,Say the word gin. I am so happy.
+YAF_gin_neutral.wav,neutral,neutral,Say the word gin. It is fine.
+YAF_gin_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gin. What a lovely surprise.
+YAF_gin_sad.wav,sad,fear,Say the word gin. I am terrified.
+YAF_goal_angry.wav,angry,angry,Say the word goal. I am furious.
+YAF_goal_disgust.wav,disgust,disgust,Say the word goal. That is disgusting.
+YAF_goal_fear.wav,fear,happy,Say the word goal. I am so happy.
+YAF_goal_happy.wav,happy,disgust,Say the word goal. That is disgusting.
+YAF_goal_neutral.wav,neutral,neutral,Say the word goal. It is fine.
+YAF_goal_ps.wav,pleasant_surprise,pleasant_surprise,Say the word goal. What a lovely surprise.
+YAF_goal_sad.wav,sad,sad,Say the word goal. I am so sad.
+YAF_good_angry.wav,angry,pleasant_surprise,Say the word good. What a lovely surprise.
+YAF_good_disgust.wav,disgust,disgust,Say the word good. That is disgusting.
+YAF_good_fear.wav,fear,fear,Say the word good. I am terrified.
+YAF_good_happy.wav,happy,happy,Say the word good. I am so happy.
+YAF_good_neutral.wav,neutral,neutral,Say the word good. It is fine.
+YAF_good_ps.wav,pleasant_surprise,pleasant_surprise,Say the word good. What a lovely surprise.
+YAF_good_sad.wav,sad,angry,Say the word good. I am furious.
+YAF_goose_angry.wav,angry,neutral,Say the word goose. It is fine.
+YAF_goose_disgust.wav,disgust,happy,Say the word goose. I am so happy.
+YAF_goose_fear.wav,fear,happy,Say the word goose. I am so happy.
+YAF_goose_happy.wav,happy,angry,Say the word goose. I am furious.
+YAF_goose_neutral.wav,neutral,neutral,Say the word goose. It is fine.
+YAF_goose_ps.wav,pleasant_surprise,disgust,Say the word goose. That is disgusting.
+YAF_goose_sad.wav,sad,sad,Say the word goose. I am so sad.
+YAF_gun_angry.wav,angry,angry,Say the word gun. I am furious.
+YAF_gun_disgust.wav,disgust,fear,Say the word gun. I am terrified.
+YAF_gun_fear.wav,fear,fear,Say the word gun. I am terrified.
+YAF_gun_happy.wav,happy,angry,Say the word gun. I am furious.
+YAF_gun_neutral.wav,neutral,neutral,Say the word gun. It is fine.
+YAF_gun_ps.wav,pleasant_surprise,pleasant_surprise,Say the word gun. What a lovely surprise.
+YAF_gun_sad.wav,sad,sad,Say the word gun. I am so sad.
+YAF_half_angry.wav,angry,disgust,Say the word half. That is disgusting.
+YAF_half_disgust.wav,disgust,disgust,Say the word half. That is disgusting.
+YAF_half_fear.wav,fear,fear,Say the word half. I am terrified.
+YAF_half_happy.wav,happy,sad,Say the word half. I am so sad.
+YAF_half_neutral.wav,neutral,neutral,Say the word half. It is fine.
+YAF_half_ps.wav,pleasant_surprise,pleasant_surprise,Say the word half. What a lovely surprise.
+YAF_half_sad.wav,sad,sad,Say the word half. I am so sad.
+YAF_hall_angry.wav,angry,angry,Say the word hall. I am furious.
+YAF_hall_disgust.wav,disgust,disgust,Say the word hall. That is disgusting.
+YAF_hall_fear.wav,fear,happy,Say the word hall. I am so happy.
+YAF_hall_happy.wav,happy,angry,Say the word hall. I am furious.
+YAF_hall_neutral.wav,neutral,neutral,Say the word hall. It is fine.
+YAF_hall_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hall. What a lovely surprise.
+YAF_hall_sad.wav,sad,pleasant_surprise,Say the word hall. What a lovely surprise.
+YAF_hash_angry.wav,angry,pleasant_surprise,Say the word hash. What a lovely surprise.
+YAF_hash_disgust.wav,disgust,disgust,Say the word hash. That is disgusting.
+YAF_hash_fear.wav,fear,angry,Say the word hash. I am furious.
+YAF_hash_happy.wav,happy,happy,Say the word hash. I am so happy.
+YAF_hash_neutral.wav,neutral,neutral,Say the word hash. It is fine.
+YAF_hash_ps.wav,pleasant_surprise,fear,Say the word hash. I am terrified.
+YAF_hash_sad.wav,sad,sad,Say the word hash. I am so sad.
+YAF_hate_angry.wav,angry,angry,Say the word hate. I am furious.
+YAF_hate_disgust.wav,disgust,angry,Say the word hate. I am furious.
+YAF_hate_fear.wav,fear,happy,Say the word hate. I am so happy.
+YAF_hate_happy.wav,happy,happy,Say the word hate. I am so happy.
+YAF_hate_neutral.wav,neutral,sad,Say the word hate. I am so sad.
+YAF_hate_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hate. What a lovely surprise.
+YAF_hate_sad.wav,sad,angry,Say the word hate. I am furious.
+YAF_have_angry.wav,angry,fear,Say the word have. I am terrified.
+YAF_have_disgust.wav,disgust,disgust,Say the word have. That is disgusting.
+YAF_have_fear.wav,fear,fear,Say the word have. I am terrified.
+YAF_have_happy.wav,happy,happy,Say the word have. I am so happy.
+YAF_have_neutral.wav,neutral,neutral,Say the word have. It is fine.
+YAF_have_ps.wav,pleasant_surprise,pleasant_surprise,Say the word have. What a lovely surprise.
+YAF_have_sad.wav,sad,pleasant_surprise,Say the word have. What a lovely surprise.
+YAF_haze_angry.wav,angry,happy,Say the word haze. I am so happy.
+YAF_haze_disgust.wav,disgust,angry,Say the word haze. I am furious.
+YAF_haze_fear.wav,fear,fear,Say the word haze. I am terrified.
+YAF_haze_happy.wav,happy,angry,Say the word haze. I am furious.
+YAF_haze_neutral.wav,neutral,angry,Say the word haze. I am furious.
+YAF_haze_ps.wav,pleasant_surprise,pleasant_surprise,Say the word haze. What a lovely surprise.
+YAF_haze_sad.wav,sad,sad,Say the word haze. I am so sad.
+YAF_hire_angry.wav,angry,sad,Say the word hire. I am so sad.
+YAF_hire_disgust.wav,disgust,disgust,Say the word hire. That is disgusting.
+YAF_hire_fear.wav,fear,happy,Say the word hire. I am so happy.
+YAF_hire_happy.wav,happy,fear,Say the word hire. I am terrified.
+YAF_hire_neutral.wav,neutral,neutral,Say the word hire. It is fine.
+YAF_hire_ps.wav,pleasant_surprise,disgust,Say the word hire. That is disgusting.
+YAF_hire_sad.wav,sad,neutral,Say the word hire. It is fine.
+YAF_hit_angry.wav,angry,angry,Say the word hit. I am furious.
+YAF_hit_disgust.wav,disgust,disgust,Say the word hit. That is disgusting.
+YAF_hit_fear.wav,fear,fear,Say the word hit. I am terrified.
+YAF_hit_happy.wav,happy,happy,Say the word hit. I am so happy.
+YAF_hit_neutral.wav,neutral,angry,Say the word hit. I am furious.
+YAF_hit_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hit. What a lovely surprise.
+YAF_hit_sad.wav,sad,happy,Say the word hit. I am so happy.
+YAF_hole_angry.wav,angry,angry,Say the word hole. I am furious.
+YAF_hole_disgust.wav,disgust,disgust,Say the word hole. That is disgusting.
+YAF_hole_fear.wav,fear,angry,Say the word hole. I am furious.
+YAF_hole_happy.wav,happy,happy,Say the word hole. I am so happy.
+YAF_hole_neutral.wav,neutral,neutral,Say the word hole. It is fine.
+YAF_hole_ps.wav,pleasant_surprise,neutral,Say the word hole. It is fine.
+YAF_hole_sad.wav,sad,sad,Say the word hole. I am so sad.
+YAF_home_angry.wav,angry,angry,Say the word home. I am furious.
+YAF_home_disgust.wav,disgust,disgust,Say the word home. That is disgusting.
+YAF_home_fear.wav,fear,neutral,Say the word home. It is fine.
+YAF_home_happy.wav,happy,happy,Say the word home. I am so happy.
+YAF_home_neutral.wav,neutral,happy,Say the word home. I am so happy.
+YAF_home_ps.wav,pleasant_surprise,pleasant_surprise,Say the word home. What a lovely surprise.
+YAF_home_sad.wav,sad,fear,Say the word home. I am terrified.
+YAF_hurl_angry.wav,angry,angry,Say the word hurl. I am furious.
+YAF_hurl_disgust.wav,disgust,neutral,Say the word hurl. It is fine.
+YAF_hurl_fear.wav,fear,sad,Say the word hurl. I am so sad.
+YAF_hurl_happy.wav,happy,happy,Say the word hurl. I am so happy.
+YAF_hurl_neutral.wav,neutral,neutral,Say the word hurl. It is fine.
+YAF_hurl_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hurl. What a lovely surprise.
+YAF_hurl_sad.wav,sad,sad,Say the word hurl. I am so sad.
+YAF_hush_angry.wav,angry,angry,Say the word hush. I am furious.
+YAF_hush_disgust.wav,disgust,disgust,Say the word hush. That is disgusting.
+YAF_hush_fear.wav,fear,pleasant_surprise,Say the word hush. What a lovely surprise.
+YAF_hush_happy.wav,happy,fear,Say the word hush. I am terrified.
+YAF_hush_neutral.wav,neutral,neutral,Say the word hush. It is fine.
+YAF_hush_ps.wav,pleasant_surprise,pleasant_surprise,Say the word hush. What a lovely surprise.
+YAF_hush_sad.wav,sad,sad,Say the word hush. I am so sad.
+YAF_jail_angry.wav,angry,angry,Say the word jail. I am furious.
+YAF_jail_disgust.wav,disgust,disgust,Say the word jail. That is disgusting.
+YAF_jail_fear.wav,fear,fear,Say the word jail. I am terrified.
+YAF_jail_happy.wav,happy,happy,Say the word jail. I am so happy.
+YAF_jail_neutral.wav,neutral,neutral,Say the word jail. It is fine.
+YAF_jail_ps.wav,pleasant_surprise,pleasant_surprise,Say the word jail. What a lovely surprise.
+YAF_jail_sad.wav,sad,sad,Say the word jail. I am so sad.
+YAF_jar_angry.wav,angry,fear,Say the word jar. I am terrified.
+YAF_jar_disgust.wav,disgust,disgust,Say the word jar. That is disgusting.
+YAF_jar_fear.wav,fear,fear,Say the word jar. I am terrified.
+YAF_jar_happy.wav,happy,happy,Say the word jar. I am so happy.
+YAF_jar_neutral.wav,neutral,neutral,Say the word jar. It is fine.
+YAF_jar_ps.wav,pleasant_surprise,pleasant_surprise,Say the word jar. What a lovely surprise.
+YAF_jar_sad.wav,sad,angry,Say the word jar. I am furious.
+YAF_join_angry.wav,angry,angry,Say the word join. I am furious.
+YAF_join_disgust.wav,disgust,disgust,Say the word join. That is disgusting.
+YAF_join_fear.wav,fear,fear,Say the word join. I am terrified.
+YAF_join_happy.wav,happy,happy,Say the word join. I am so happy.
+YAF_join_neutral.wav,neutral,neutral,Say the word join. It is fine.
+YAF_join_ps.wav,pleasant_surprise,neutral,Say the word join. It is fine.
+YAF_join_sad.wav,sad,sad,Say the word join. I am so sad.
+YAF_judge_angry.wav,angry,angry,Say the word judge. I am furious.
+YAF_judge_disgust.wav,disgust,happy,Say the word judge. I am so happy.
+YAF_judge_fear.wav,fear,fear,Say the word judge. I am terrified.
+YAF_judge_happy.wav,happy,disgust,Say the word judge. That is disgusting.
+YAF_judge_neutral.wav,neutral,neutral,Say the word judge. It is fine.
+YAF_judge_ps.wav,pleasant_surprise,neutral,Say the word judge. It is fine.
+YAF_judge_sad.wav,sad,sad,Say the word judge. I am so sad.
+YAF_jug_angry.wav,angry,happy,Say the word jug. I am so happy.
+YAF_jug_disgust.wav,disgust,pleasant_surprise,Say the word jug. What a lovely surprise.
+YAF_jug_fear.wav,fear,disgust,Say the word jug. That is disgusting.
+YAF_jug_happy.wav,happy,happy,Say the word jug. I am so happy.
+YAF_jug_neutral.wav,neutral,neutral,Say the word jug. It is fine.
+YAF_jug_ps.wav,pleasant_surprise,pleasant_surprise,Say the word jug. What a lovely surprise.
+YAF_jug_sad.wav,sad,sad,Say the word jug. I am so sad.
+YAF_juice_angry.wav,angry,pleasant_surprise,Say the word juice. What a lovely surprise.
+YAF_juice_disgust.wav,disgust,disgust,Say the word juice. That is disgusting.
+YAF_juice_fear.wav,fear,fear,Say the word juice. I am terrified.
+YAF_juice_happy.wav,happy,happy,Say the word juice. I am so happy.
+YAF_juice_neutral.wav,neutral,pleasant_surprise,Say the word juice. What a lovely surprise.
+YAF_juice_ps.wav,pleasant_surprise,pleasant_surprise,Say the word juice. What a lovely surprise.
+YAF_juice_sad.wav,sad,sad,Say the word juice. I am so sad.
+YAF_keen_angry.wav,angry,sad,Say the word keen. I am so sad.
+YAF_keen_disgust.wav,disgust,fear,Say the word keen. I am terrified.
+YAF_keen_fear.wav,fear,fear,Say the word keen. I am terrified.
+YAF_keen_happy.wav,happy,happy,Say the word keen. I am so happy.
+YAF_keen_neutral.wav,neutral,angry,Say the word keen. I am furious.
+YAF_keen_ps.wav,pleasant_surprise,happy,Say the word keen. I am so happy.
+YAF_keen_sad.wav,sad,sad,Say the word keen. I am so sad.
+YAF_keep_angry.wav,angry,angry,Say the word keep. I am furious.
+YAF_keep_disgust.wav,disgust,disgust,Say the word keep. That is disgusting.
+YAF_keep_fear.wav,fear,neutral,Say the word keep. It is fine.
+YAF_keep_happy.wav,happy,happy,Say the word keep. I am so happy.
+YAF_keep_neutral.wav,neutral,pleasant_surprise,Say the word keep. What a lovely surprise.
+YAF_keep_ps.wav,pleasant_surprise,fear,Say the word keep. I am terrified.
+YAF_keep_sad.wav,sad,sad,Say the word keep. I am so sad.
+YAF_keg_angry.wav,angry,neutral,Say the word keg. It is fine.
+YAF_keg_disgust.wav,disgust,disgust,Say the word keg. That is disgusting.
+YAF_keg_fear.wav,fear,fear,Say the word keg. I am terrified.
+YAF_keg_happy.wav,happy,happy,Say the word keg. I am so happy.
+YAF_keg_neutral.wav,neutral,neutral,Say the word keg. It is fine.
+YAF_keg_ps.wav,pleasant_surprise,pleasant_surprise,Say the word keg. What a lovely surprise.
+YAF_keg_sad.wav,sad,angry,Say the word keg. I am furious.
+YAF_kick_angry.wav,angry,angry,Say the word kick. I am furious.
+YAF_kick_disgust.wav,disgust,disgust,Say the word kick. That is disgusting.
+YAF_kick_fear.wav,fear,fear,Say the word kick. I am terrified.
+YAF_kick_happy.wav,happy,pleasant_surprise,Say the word kick. What a lovely surprise.
+YAF_kick_neutral.wav,neutral,disgust,Say the word kick. That is disgusting.
+YAF_kick_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kick. What a lovely surprise.
+YAF_kick_sad.wav,sad,happy,Say the word kick. I am so happy.
+YAF_kill_angry.wav,angry,angry,Say the word kill. I am furious.
+YAF_kill_disgust.wav,disgust,neutral,Say the word kill. It is fine.
+YAF_kill_fear.wav,fear,fear,Say the word kill. I am terrified.
+YAF_kill_happy.wav,happy,happy,Say the word kill. I am so happy.
+YAF_kill_neutral.wav,neutral,neutral,Say the word kill. It is fine.
+YAF_kill_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kill. What a lovely surprise.
+YAF_kill_sad.wav,sad,neutral,Say the word kill. It is fine.
+YAF_king_angry.wav,angry,angry,Say the word king. I am furious.
+YAF_king_disgust.wav,disgust,disgust,Say the word king. That is disgusting.
+YAF_king_fear.wav,fear,fear,Say the word king. I am terrified.
+YAF_king_happy.wav,happy,happy,Say the word king. I am so happy.
+YAF_king_neutral.wav,neutral,neutral,Say the word king. It is fine.
+YAF_king_ps.wav,pleasant_surprise,pleasant_surprise,Say the word king. What a lovely surprise.
+YAF_king_sad.wav,sad,sad,Say the word king. I am so sad.
+YAF_kite_angry.wav,angry,pleasant_surprise,Say the word kite. What a lovely surprise.
+YAF_kite_disgust.wav,disgust,fear,Say the word kite. I am terrified.
+YAF_kite_fear.wav,fear,neutral,Say the word kite. It is fine.
+YAF_kite_happy.wav,happy,happy,Say the word kite. I am so happy.
+YAF_kite_neutral.wav,neutral,neutral,Say the word kite. It is fine.
+YAF_kite_ps.wav,pleasant_surprise,pleasant_surprise,Say the word kite. What a lovely surprise.
+YAF_kite_sad.wav,sad,happy,Say the word kite. I am so happy.
+YAF_knock_angry.wav,angry,angry,Say the word knock. I am furious.
+YAF_knock_disgust.wav,disgust,angry,Say the word knock. I am furious.
+YAF_knock_fear.wav,fear,fear,Say the word knock. I am terrified.
+YAF_knock_happy.wav,happy,happy,Say the word knock. I am so happy.
+YAF_knock_neutral.wav,neutral,neutral,Say the word knock. It is fine.
+YAF_knock_ps.wav,pleasant_surprise,pleasant_surprise,Say the word knock. What a lovely surprise.
+YAF_knock_sad.wav,sad,sad,Say the word knock. I am so sad.
+YAF_late_angry.wav,angry,angry,Say the word late. I am furious.
+YAF_late_disgust.wav,disgust,disgust,Say the word late. That is disgusting.
+YAF_late_fear.wav,fear,fear,Say the word late. I am terrified.
+YAF_late_happy.wav,happy,happy,Say the word late. I am so happy.
+YAF_late_neutral.wav,neutral,happy,Say the word late. I am so happy.
+YAF_late_ps.wav,pleasant_surprise,fear,Say the word late. I am terrified.
+YAF_late_sad.wav,sad,neutral,Say the word late. It is fine.
+YAF_laud_angry.wav,angry,angry,Say the word laud. I am furious.
+YAF_laud_disgust.wav,disgust,pleasant_surprise,Say the word laud. What a lovely surprise.
+YAF_laud_fear.wav,fear,angry,Say the word laud. I am furious.
+YAF_laud_happy.wav,happy,happy,Say the word laud. I am so happy.
+YAF_laud_neutral.wav,neutral,sad,Say the word laud. I am so sad.
+YAF_laud_ps.wav,pleasant_surprise,pleasant_surprise,Say the word laud. What a lovely surprise.
+YAF_laud_sad.wav,sad,sad,Say the word laud. I am so sad.
+YAF_lean_angry.wav,angry,angry,Say the word lean. I am furious.
+YAF_lean_disgust.wav,disgust,sad,Say the word lean. I am so sad.
+YAF_lean_fear.wav,fear,disgust,Say the word lean. That is disgusting.
+YAF_lean_happy.wav,happy,sad,Say the word lean. I am so sad.
+YAF_lean_neutral.wav,neutral,neutral,Say the word lean. It is fine.
+YAF_lean_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lean. What a lovely surprise.
+YAF_lean_sad.wav,sad,disgust,Say the word lean. That is disgusting.
+YAF_learn_angry.wav,angry,angry,Say the word learn. I am furious.
+YAF_learn_disgust.wav,disgust,angry,Say the word learn. I am furious.
+YAF_learn_fear.wav,fear,fear,Say the word learn. I am terrified.
+YAF_learn_happy.wav,happy,angry,Say the word learn. I am furious.
+YAF_learn_neutral.wav,neutral,neutral,Say the word learn. It is fine.
+YAF_learn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word learn. What a lovely surprise.
+YAF_learn_sad.wav,sad,disgust,Say the word learn. That is disgusting.
+YAF_lease_angry.wav,angry,happy,Say the word lease. I am so happy.
+YAF_lease_disgust.wav,disgust,neutral,Say the word lease. It is fine.
+YAF_lease_fear.wav,fear,fear,Say the word lease. I am terrified.
+YAF_lease_happy.wav,happy,angry,Say the word lease. I am furious.
+YAF_lease_neutral.wav,neutral,sad,Say the word lease. I am so sad.
+YAF_lease_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lease. What a lovely surprise.
+YAF_lease_sad.wav,sad,disgust,Say the word lease. That is disgusting.
+YAF_lid_angry.wav,angry,angry,Say the word lid. I am furious.
+YAF_lid_disgust.wav,disgust,disgust,Say the word lid. That is disgusting.
+YAF_lid_fear.wav,fear,fear,Say the word lid. I am terrified.
+YAF_lid_happy.wav,happy,happy,Say the word lid. I am so happy.
+YAF_lid_neutral.wav,neutral,neutral,Say the word lid. It is fine.
+YAF_lid_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lid. What a lovely surprise.
+YAF_lid_sad.wav,sad,pleasant_surprise,Say the word lid. What a lovely surprise.
+YAF_life_angry.wav,angry,fear,Say the word life. I am terrified.
+YAF_life_disgust.wav,disgust,disgust,Say the word life. That is disgusting.
+YAF_life_fear.wav,fear,happy,Say the word life. I am so happy.
+YAF_life_happy.wav,happy,happy,Say the word life. I am so happy.
+YAF_life_neutral.wav,neutral,sad,Say the word life. I am so sad.
+YAF_life_ps.wav,pleasant_surprise,pleasant_surprise,Say the word life. What a lovely surprise.
+YAF_life_sad.wav,sad,sad,Say the word life. I am so sad.
+YAF_limb_angry.wav,angry,neutral,Say the word limb. It is fine.
+YAF_limb_disgust.wav,disgust,pleasant_surprise,Say the word limb. What a lovely surprise.
+YAF_limb_fear.wav,fear,disgust,Say the word limb. That is disgusting.
+YAF_limb_happy.wav,happy,happy,Say the word limb. I am so happy.
+YAF_limb_neutral.wav,neutral,happy,Say the word limb. I am so happy.
+YAF_limb_ps.wav,pleasant_surprise,pleasant_surprise,Say the word limb. What a lovely surprise.
+YAF_limb_sad.wav,sad,sad,Say the word limb. I am so sad.
+YAF_live_angry.wav,angry,angry,Say the word live. I am furious.
+YAF_live_disgust.wav,disgust,disgust,Say the word live. That is disgusting.
+YAF_live_fear.wav,fear,fear,Say the word live. I am terrified.
+YAF_live_happy.wav,happy,happy,Say the word live. I am so happy.
+YAF_live_neutral.wav,neutral,happy,Say the word live. I am so happy.
+YAF_live_ps.wav,pleasant_surprise,pleasant_surprise,Say the word live. What a lovely surprise.
+YAF_live_sad.wav,sad,sad,Say the word live. I am so sad.
+YAF_loaf_angry.wav,angry,angry,Say the word loaf. I am furious.
+YAF_loaf_disgust.wav,disgust,angry,Say the word loaf. I am furious.
+YAF_loaf_fear.wav,fear,disgust,Say the word loaf. That is disgusting.
+YAF_loaf_happy.wav,happy,pleasant_surprise,Say the word loaf. What a lovely surprise.
+YAF_loaf_neutral.wav,neutral,neutral,Say the word loaf. It is fine.
+YAF_loaf_ps.wav,pleasant_surprise,happy,Say the word loaf. I am so happy.
+YAF_loaf_sad.wav,sad,neutral,Say the word loaf. It is fine.
+YAF_long_angry.wav,angry,neutral,Say the word long. It is fine.
+YAF_long_disgust.wav,disgust,disgust,Say the word long. That is disgusting.
+YAF_long_fear.wav,fear,fear,Say the word long. I am terrified.
+YAF_long_happy.wav,happy,neutral,Say the word long. It is fine.
+YAF_long_neutral.wav,neutral,pleasant_surprise,Say the word long. What a lovely surprise.
+YAF_long_ps.wav,pleasant_surprise,pleasant_surprise,Say the word long. What a lovely surprise.
+YAF_long_sad.wav,sad,sad,Say the word long. I am so sad.
+YAF_lore_angry.wav,angry,sad,Say the word lore. I am so sad.
+YAF_lore_disgust.wav,disgust,disgust,Say the word lore. That is disgusting.
+YAF_lore_fear.wav,fear,fear,Say the word lore. I am terrified.
+YAF_lore_happy.wav,happy,happy,Say the word lore. I am so happy.
+YAF_lore_neutral.wav,neutral,neutral,Say the word lore. It is fine.
+YAF_lore_ps.wav,pleasant_surprise,neutral,Say the word lore. It is fine.
+YAF_lore_sad.wav,sad,angry,Say the word lore. I am furious.
+YAF_lose_angry.wav,angry,neutral,Say the word lose. It is fine.
+YAF_lose_disgust.wav,disgust,disgust,Say the word lose. That is disgusting.
+YAF_lose_fear.wav,fear,disgust,Say the word lose. That is disgusting.
+YAF_lose_happy.wav,happy,sad,Say the word lose. I am so sad.
+YAF_lose_neutral.wav,neutral,fear,Say the word lose. I am terrified.
+YAF_lose_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lose. What a lovely surprise.
+YAF_lose_sad.wav,sad,sad,Say the word lose. I am so sad.
+YAF_lot_angry.wav,angry,angry,Say the word lot. I am furious.
+YAF_lot_disgust.wav,disgust,sad,Say the word lot. I am so sad.
+YAF_lot_fear.wav,fear,angry,Say the word lot. I am furious.
+YAF_lot_happy.wav,happy,fear,Say the word lot. I am terrified.
+YAF_lot_neutral.wav,neutral,angry,Say the word lot. I am furious.
+YAF_lot_ps.wav,pleasant_surprise,pleasant_surprise,Say the word lot. What a lovely surprise.
+YAF_lot_sad.wav,sad,neutral,Say the word lot. It is fine.
+YAF_love_angry.wav,angry,sad,Say the word love. I am so sad.
+YAF_love_disgust.wav,disgust,disgust,Say the word love. That is disgusting.
+YAF_love_fear.wav,fear,sad,Say the word love. I am so sad.
+YAF_love_happy.wav,happy,happy,Say the word love. I am so happy.
+YAF_love_neutral.wav,neutral,neutral,Say the word love. It is fine.
+YAF_love_ps.wav,pleasant_surprise,pleasant_surprise,Say the word love. What a lovely surprise.
+YAF_love_sad.wav,sad,pleasant_surprise,Say the word love. What a lovely surprise.
+YAF_luck_angry.wav,angry,disgust,Say the word luck. That is disgusting.
+YAF_luck_disgust.wav,disgust,disgust,Say the word luck. That is disgusting.
+YAF_luck_fear.wav,fear,happy,Say the word luck. I am so happy.
+YAF_luck_happy.wav,happy,disgust,Say the word luck. That is disgusting.
+YAF_luck_neutral.wav,neutral,neutral,Say the word luck. It is fine.
+YAF_luck_ps.wav,pleasant_surprise,pleasant_surprise,Say the word luck. What a lovely surprise.
+YAF_luck_sad.wav,sad,fear,Say the word luck. I am terrified.
+YAF_make_angry.wav,angry,angry,Say the word make. I am furious.
+YAF_make_disgust.wav,disgust,disgust,Say the word make. That is disgusting.
+YAF_make_fear.wav,fear,fear,Say the word make. I am terrified.
+YAF_make_happy.wav,happy,happy,Say the word make. I am so happy.
+YAF_make_neutral.wav,neutral,neutral,Say the word make. It is fine.
+YAF_make_ps.wav,pleasant_surprise,neutral,Say the word make. It is fine.
+YAF_make_sad.wav,sad,angry,Say the word make. I am furious.
+YAF_match_angry.wav,angry,neutral,Say the word match. It is fine.
+YAF_match_disgust.wav,disgust,disgust,Say the word match. That is disgusting.
+YAF_match_fear.wav,fear,fear,Say the word match. I am terrified.
+YAF_match_happy.wav,happy,happy,Say the word match. I am so happy.
+YAF_match_neutral.wav,neutral,angry,Say the word match. I am furious.
+YAF_match_ps.wav,pleasant_surprise,angry,Say the word match. I am furious.
+YAF_match_sad.wav,sad,sad,Say the word match. I am so sad.
+YAF_merge_angry.wav,angry,sad,Say the word merge. I am so sad.
+YAF_merge_disgust.wav,disgust,disgust,Say the word merge. That is disgusting.
+YAF_merge_fear.wav,fear,neutral,Say the word merge. It is fine.
+YAF_merge_happy.wav,happy,happy,Say the word merge. I am so happy.
+YAF_merge_neutral.wav,neutral,angry,Say the word merge. I am furious.
+YAF_merge_ps.wav,pleasant_surprise,happy,Say the word merge. I am so happy.
+YAF_merge_sad.wav,sad,sad,Say the word merge. I am so sad.
+YAF_mess_angry.wav,angry,angry,Say the word mess. I am furious.
+YAF_mess_disgust.wav,disgust,sad,Say the word mess. I am so sad.
+YAF_mess_fear.wav,fear,fear,Say the word mess. I am terrified.
+YAF_mess_happy.wav,happy,happy,Say the word mess. I am so happy.
+YAF_mess_neutral.wav,neutral,neutral,Say the word mess. It is fine.
+YAF_mess_ps.wav,pleasant_surprise,angry,Say the word mess. I am furious.
+YAF_mess_sad.wav,sad,pleasant_surprise,Say the word mess. What a lovely surprise.
+YAF_met_angry.wav,angry,pleasant_surprise,Say the word met. What a lovely surprise.
+YAF_met_disgust.wav,disgust,disgust,Say the word met. That is disgusting.
+YAF_met_fear.wav,fear,fear,Say the word met. I am terrified.
+YAF_met_happy.wav,happy,disgust,Say the word met. That is disgusting.
+YAF_met_neutral.wav,neutral,happy,Say the word met. I am so happy.
+YAF_met_ps.wav,pleasant_surprise,happy,Say the word met. I am so happy.
+YAF_met_sad.wav,sad,pleasant_surprise,Say the word met. What a lovely surprise.
+YAF_mill_angry.wav,angry,angry,Say the word mill. I am furious.
+YAF_mill_disgust.wav,disgust,disgust,Say the word mill. That is disgusting.
+YAF_mill_fear.wav,fear,fear,Say the word mill. I am terrified.
+YAF_mill_happy.wav,happy,happy,Say the word mill. I am so happy.
+YAF_mill_neutral.wav,neutral,neutral,Say the word mill. It is fine.
+YAF_mill_ps.wav,pleasant_surprise,pleasant_surprise,Say the word mill. What a lovely surprise.
+YAF_mill_sad.wav,sad,sad,Say the word mill. I am so sad.
+YAF_mob_angry.wav,angry,angry,Say the word mob. I am furious.
+YAF_mob_disgust.wav,disgust,disgust,Say the word mob. That is disgusting.
+YAF_mob_fear.wav,fear,neutral,Say the word mob. It is fine.
+YAF_mob_happy.wav,happy,happy,Say the word mob. I am so happy.
+YAF_mob_neutral.wav,neutral,disgust,Say the word mob. That is disgusting.
+YAF_mob_ps.wav,pleasant_surprise,angry,Say the word mob. I am furious.
+YAF_mob_sad.wav,sad,sad,Say the word mob. I am so sad.
+YAF_mode_angry.wav,angry,angry,Say the word mode. I am furious.
+YAF_mode_disgust.wav,disgust,disgust,Say the word mode. That is disgusting.
+YAF_mode_fear.wav,fear,fear,Say the word mode. I am terrified.
+YAF_mode_happy.wav,happy,happy,Say the word mode. I am so happy.
+YAF_mode_neutral.wav,neutral,neutral,Say the word mode. It is fine.
+YAF_mode_ps.wav,pleasant_surprise,pleasant_surprise,Say the word mode. What a lovely surprise.
+YAF_mode_sad.wav,sad,sad,Say the word mode. I am so sad.
+YAF_mood_angry.wav,angry,angry,Say the word mood. I am furious.
+YAF_mood_disgust.wav,disgust,happy,Say the word mood. I am so happy.
+YAF_mood_fear.wav,fear,fear,Say the word mood. I am terrified.
+YAF_mood_happy.wav,happy,happy,Say the word mood. I am so happy.
+YAF_mood_neutral.wav,neutral,neutral,Say the word mood. It is fine.
+YAF_mood_ps.wav,pleasant_surprise,pleasant_surprise,Say the word mood. What a lovely surprise.
+YAF_mood_sad.wav,sad,neutral,Say the word mood. It is fine.
+YAF_moon_angry.wav,angry,happy,Say the word moon. I am so happy.
+YAF_moon_disgust.wav,disgust,disgust,Say the word moon. That is disgusting.
+YAF_moon_fear.wav,fear,fear,Say the word moon. I am terrified.
+YAF_moon_happy.wav,happy,happy,Say the word moon. I am so happy.
+YAF_moon_neutral.wav,neutral,fear,Say the word moon. I am terrified.
+YAF_moon_ps.wav,pleasant_surprise,pleasant_surprise,Say the word moon. What a lovely surprise.
+YAF_moon_sad.wav,sad,sad,Say the word moon. I am so sad.
+YAF_mop_angry.wav,angry,pleasant_surprise,Say the word mop. What a lovely surprise.
+YAF_mop_disgust.wav,disgust,disgust,Say the word mop. That is disgusting.
+YAF_mop_fear.wav,fear,fear,Say the word mop. I am terrified.
+YAF_mop_happy.wav,happy,happy,Say the word mop. I am so happy.
+YAF_mop_neutral.wav,neutral,neutral,Say the word mop. It is fine.
+YAF_mop_ps.wav,pleasant_surprise,fear,Say the word mop. I am terrified.
+YAF_mop_sad.wav,sad,sad,Say the word mop. I am so sad.
+YAF_mouse_angry.wav,angry,angry,Say the word mouse. I am furious.
+YAF_mouse_disgust.wav,disgust,disgust,Say the word mouse. That is disgusting.
+YAF_mouse_fear.wav,fear,fear,Say the word mouse. I am terrified.
+YAF_mouse_happy.wav,happy,pleasant_surprise,Say the word mouse. What a lovely surprise.
+YAF_mouse_neutral.wav,neutral,neutral,Say the word mouse. It is fine.
+YAF_mouse_ps.wav,pleasant_surprise,neutral,Say the word mouse. It is fine.
+YAF_mouse_sad.wav,sad,sad,Say the word mouse. I am so sad.
+YAF_nag_angry.wav,angry,angry,Say the word nag. I am furious.
+YAF_nag_disgust.wav,disgust,happy,Say the word nag. I am so happy.
+YAF_nag_fear.wav,fear,fear,Say the word nag. I am terrified.
+YAF_nag_happy.wav,happy,happy,Say the word nag. I am so happy.
+YAF_nag_neutral.wav,neutral,happy,Say the word nag. I am so happy.
+YAF_nag_ps.wav,pleasant_surprise,pleasant_surprise,Say the word nag. What a lovely surprise.
+YAF_nag_sad.wav,sad,sad,Say the word nag. I am so sad.
+YAF_name_angry.wav,angry,angry,Say the word name. I am furious.
+YAF_name_disgust.wav,disgust,disgust,Say the word name. That is disgusting.
+YAF_name_fear.wav,fear,angry,Say the word name. I am furious.
+YAF_name_happy.wav,happy,happy,Say the word name. I am so happy.
+YAF_name_neutral.wav,neutral,neutral,Say the word name. It is fine.
+YAF_name_ps.wav,pleasant_surprise,pleasant_surprise,Say the word name. What a lovely surprise.
+YAF_name_sad.wav,sad,sad,Say the word name. I am so sad.
+YAF_near_angry.wav,angry,angry,Say the word near. I am furious.
+YAF_near_disgust.wav,disgust,neutral,Say the word near. It is fine.
+YAF_near_fear.wav,fear,fear,Say the word near. I am terrified.
+YAF_near_happy.wav,happy,angry,Say the word near. I am furious.
+YAF_near_neutral.wav,neutral,fear,Say the word near. I am terrified.
+YAF_near_ps.wav,pleasant_surprise,neutral,Say the word near. It is fine.
+YAF_near_sad.wav,sad,sad,Say the word near. I am so sad.
+YAF_neat_angry.wav,angry,angry,Say the word neat. I am furious.
+YAF_neat_disgust.wav,disgust,pleasant_surprise,Say the word neat. What a lovely surprise.
+YAF_neat_fear.wav,fear,fear,Say the word neat. I am terrified.
+YAF_neat_happy.wav,happy,happy,Say the word neat. I am so happy.
+YAF_neat_neutral.wav,neutral,pleasant_surprise,Say the word neat. What a lovely surprise.
+YAF_neat_ps.wav,pleasant_surprise,fear,Say the word neat. I am terrified.
+YAF_neat_sad.wav,sad,happy,Say the word neat. I am so happy.
+YAF_nice_angry.wav,angry,disgust,Say the word nice. That is disgusting.
+YAF_nice_disgust.wav,disgust,disgust,Say the word nice. That is disgusting.
+YAF_nice_fear.wav,fear,fear,Say the word nice. I am terrified.
+YAF_nice_happy.wav,happy,sad,Say the word nice. I am so sad.
+YAF_nice_neutral.wav,neutral,neutral,Say the word nice. It is fine.
+YAF_nice_ps.wav,pleasant_surprise,pleasant_surprise,Say the word nice. What a lovely surprise.
+YAF_nice_sad.wav,sad,sad,Say the word nice. I am so sad.
+YAF_note_angry.wav,angry,angry,Say the word note. I am furious.
+YAF_note_disgust.wav,disgust,fear,Say the word note. I am terrified.
+YAF_note_fear.wav,fear,pleasant_surprise,Say the word note. What a lovely surprise.
+YAF_note_happy.wav,happy,fear,Say the word note. I am terrified.
+YAF_note_neutral.wav,neutral,fear,Say the word note. I am terrified.
+YAF_note_ps.wav,pleasant_surprise,pleasant_surprise,Say the word note. What a lovely surprise.
+YAF_note_sad.wav,sad,angry,Say the word note. I am furious.
+YAF_numb_angry.wav,angry,disgust,Say the word numb. That is disgusting.
+YAF_numb_disgust.wav,disgust,fear,Say the word numb. I am terrified.
+YAF_numb_fear.wav,fear,angry,Say the word numb. I am furious.
+YAF_numb_happy.wav,happy,happy,Say the word numb. I am so happy.
+YAF_numb_neutral.wav,neutral,pleasant_surprise,Say the word numb. What a lovely surprise.
+YAF_numb_ps.wav,pleasant_surprise,pleasant_surprise,Say the word numb. What a lovely surprise.
+YAF_numb_sad.wav,sad,pleasant_surprise,Say the word numb. What a lovely surprise.
+YAF_pad_angry.wav,angry,disgust,Say the word pad. That is disgusting.
+YAF_pad_disgust.wav,disgust,disgust,Say the word pad. That is disgusting.
+YAF_pad_fear.wav,fear,sad,Say the word pad. I am so sad.
+YAF_pad_happy.wav,happy,happy,Say the word pad. I am so happy.
+YAF_pad_neutral.wav,neutral,neutral,Say the word pad. It is fine.
+YAF_pad_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pad. What a lovely surprise.
+YAF_pad_sad.wav,sad,sad,Say the word pad. I am so sad.
+YAF_page_angry.wav,angry,pleasant_surprise,Say the word page. What a lovely surprise.
+YAF_page_disgust.wav,disgust,disgust,Say the word page. That is disgusting.
+YAF_page_fear.wav,fear,neutral,Say the word page. It is fine.
+YAF_page_happy.wav,happy,happy,Say the word page. I am so happy.
+YAF_page_neutral.wav,neutral,neutral,Say the word page. It is fine.
+YAF_page_ps.wav,pleasant_surprise,pleasant_surprise,Say the word page. What a lovely surprise.
+YAF_page_sad.wav,sad,fear,Say the word page. I am terrified.
+YAF_pain_angry.wav,angry,happy,Say the word pain. I am so happy.
+YAF_pain_disgust.wav,disgust,disgust,Say the word pain. That is disgusting.
+YAF_pain_fear.wav,fear,fear,Say the word pain. I am terrified.
+YAF_pain_happy.wav,happy,happy,Say the word pain. I am so happy.
+YAF_pain_neutral.wav,neutral,pleasant_surprise,Say the word pain. What a lovely surprise.
+YAF_pain_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pain. What a lovely surprise.
+YAF_pain_sad.wav,sad,sad,Say the word pain. I am so sad.
+YAF_pass_angry.wav,angry,angry,Say the word pass. I am furious.
+YAF_pass_disgust.wav,disgust,sad,Say the word pass. I am so sad.
+YAF_pass_fear.wav,fear,fear,Say the word pass. I am terrified.
+YAF_pass_happy.wav,happy,neutral,Say the word pass. It is fine.
+YAF_pass_neutral.wav,neutral,disgust,Say the word pass. That is disgusting.
+YAF_pass_ps.wav,pleasant_surprise,angry,Say the word pass. I am furious.
+YAF_pass_sad.wav,sad,angry,Say the word pass. I am furious.
+YAF_pearl_angry.wav,angry,angry,Say the word pearl. I am furious.
+YAF_pearl_disgust.wav,disgust,happy,Say the word pearl. I am so happy.
+YAF_pearl_fear.wav,fear,neutral,Say the word pearl. It is fine.
+YAF_pearl_happy.wav,happy,happy,Say the word pearl. I am so happy.
+YAF_pearl_neutral.wav,neutral,neutral,Say the word pearl. It is fine.
+YAF_pearl_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pearl. What a lovely surprise.
+YAF_pearl_sad.wav,sad,angry,Say the word pearl. I am furious.
+YAF_peg_angry.wav,angry,fear,Say the word peg. I am terrified.
+YAF_peg_disgust.wav,disgust,neutral,Say the word peg. It is fine.
+YAF_peg_fear.wav,fear,fear,Say the word peg. I am terrified.
+YAF_peg_happy.wav,happy,happy,Say the word peg. I am so happy.
+YAF_peg_neutral.wav,neutral,neutral,Say the word peg. It is fine.
+YAF_peg_ps.wav,pleasant_surprise,pleasant_surprise,Say the word peg. What a lovely surprise.
+YAF_peg_sad.wav,sad,sad,Say the word peg. I am so sad.
+YAF_perch_angry.wav,angry,angry,Say the word perch. I am furious.
+YAF_perch_disgust.wav,disgust,fear,Say the word perch. I am terrified.
+YAF_perch_fear.wav,fear,fear,Say the word perch. I am terrified.
+YAF_perch_happy.wav,happy,happy,Say the word perch. I am so happy.
+YAF_perch_neutral.wav,neutral,neutral,Say the word perch. It is fine.
+YAF_perch_ps.wav,pleasant_surprise,pleasant_surprise,Say the word perch. What a lovely surprise.
+YAF_perch_sad.wav,sad,sad,Say the word perch. I am so sad.
+YAF_phone_angry.wav,angry,angry,Say the word phone. I am furious.
+YAF_phone_disgust.wav,disgust,disgust,Say the word phone. That is disgusting.
+YAF_phone_fear.wav,fear,fear,Say the word phone. I am terrified.
+YAF_phone_happy.wav,happy,happy,Say the word phone. I am so happy.
+YAF_phone_neutral.wav,neutral,neutral,Say the word phone. It is fine.
+YAF_phone_ps.wav,pleasant_surprise,pleasant_surprise,Say the word phone. What a lovely surprise.
+YAF_phone_sad.wav,sad,sad,Say the word phone. I am so sad.
+YAF_pick_angry.wav,angry,angry,Say the word pick. I am furious.
+YAF_pick_disgust.wav,disgust,disgust,Say the word pick. That is disgusting.
+YAF_pick_fear.wav,fear,fear,Say the word pick. I am terrified.
+YAF_pick_happy.wav,happy,fear,Say the word pick. I am terrified.
+YAF_pick_neutral.wav,neutral,neutral,Say the word pick. It is fine.
+YAF_pick_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pick. What a lovely surprise.
+YAF_pick_sad.wav,sad,sad,Say the word pick. I am so sad.
+YAF_pike_angry.wav,angry,fear,Say the word pike. I am terrified.
+YAF_pike_disgust.wav,disgust,disgust,Say the word pike. That is disgusting.
+YAF_pike_fear.wav,fear,angry,Say the word pike. I am furious.
+YAF_pike_happy.wav,happy,happy,Say the word pike. I am so happy.
+YAF_pike_neutral.wav,neutral,happy,Say the word pike. I am so happy.
+YAF_pike_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pike. What a lovely surprise.
+YAF_pike_sad.wav,sad,angry,Say the word pike. I am furious.
+YAF_pole_angry.wav,angry,neutral,Say the word pole. It is fine.
+YAF_pole_disgust.wav,disgust,disgust,Say the word pole. That is disgusting.
+YAF_pole_fear.wav,fear,sad,Say the word pole. I am so sad.
+YAF_pole_happy.wav,happy,happy,Say the word pole. I am so happy.
+YAF_pole_neutral.wav,neutral,sad,Say the word pole. I am so sad.
+YAF_pole_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pole. What a lovely surprise.
+YAF_pole_sad.wav,sad,sad,Say the word pole. I am so sad.
+YAF_pool_angry.wav,angry,neutral,Say the word pool. It is fine.
+YAF_pool_disgust.wav,disgust,disgust,Say the word pool. That is disgusting.
+YAF_pool_fear.wav,fear,fear,Say the word pool. I am terrified.
+YAF_pool_happy.wav,happy,disgust,Say the word pool. That is disgusting.
+YAF_pool_neutral.wav,neutral,neutral,Say the word pool. It is fine.
+YAF_pool_ps.wav,pleasant_surprise,pleasant_surprise,Say the word pool. What a lovely surprise.
+YAF_pool_sad.wav,sad,sad,Say the word pool. I am so sad.
+YAF_puff_angry.wav,angry,neutral,Say the word puff. It is fine.
+YAF_puff_disgust.wav,disgust,disgust,Say the word puff. That is disgusting.
+YAF_puff_fear.wav,fear,angry,Say the word puff. I am furious.
+YAF_puff_happy.wav,happy,happy,Say the word puff. I am so happy.
+YAF_puff_neutral.wav,neutral,pleasant_surprise,Say the word puff. What a lovely surprise.
+YAF_puff_ps.wav,pleasant_surprise,fear,Say the word puff. I am terrified.
+YAF_puff_sad.wav,sad,sad,Say the word puff. I am so sad.
+YAF_rag_angry.wav,angry,angry,Say the word rag. I am furious.
+YAF_rag_disgust.wav,disgust,neutral,Say the word rag. It is fine.
+YAF_rag_fear.wav,fear,fear,Say the word rag. I am terrified.
+YAF_rag_happy.wav,happy,fear,Say the word rag. I am terrified.
+YAF_rag_neutral.wav,neutral,neutral,Say the word rag. It is fine.
+YAF_rag_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rag. What a lovely surprise.
+YAF_rag_sad.wav,sad,neutral,Say the word rag. It is fine.
+YAF_raid_angry.wav,angry,angry,Say the word raid. I am furious.
+YAF_raid_disgust.wav,disgust,angry,Say the word raid. I am furious.
+YAF_raid_fear.wav,fear,fear,Say the word raid. I am terrified.
+YAF_raid_happy.wav,happy,pleasant_surprise,Say the word raid. What a lovely surprise.
+YAF_raid_neutral.wav,neutral,neutral,Say the word raid. It is fine.
+YAF_raid_ps.wav,pleasant_surprise,pleasant_surprise,Say the word raid. What a lovely surprise.
+YAF_raid_sad.wav,sad,sad,Say the word raid. I am so sad.
+YAF_rain_angry.wav,angry,fear,Say the word rain. I am terrified.
+YAF_rain_disgust.wav,disgust,disgust,Say the word rain. That is disgusting.
+YAF_rain_fear.wav,fear,neutral,Say the word rain. It is fine.
+YAF_rain_happy.wav,happy,happy,Say the word rain. I am so happy.
+YAF_rain_neutral.wav,neutral,neutral,Say the word rain. It is fine.
+YAF_rain_ps.wav,pleasant_surprise,fear,Say the word rain. I am terrified.
+YAF_rain_sad.wav,sad,sad,Say the word rain. I am so sad.
+YAF_raise_angry.wav,angry,sad,Say the word raise. I am so sad.
+YAF_raise_disgust.wav,disgust,disgust,Say the word raise. That is disgusting.
+YAF_raise_fear.wav,fear,neutral,Say the word raise. It is fine.
+YAF_raise_happy.wav,happy,disgust,Say the word raise. That is disgusting.
+YAF_raise_neutral.wav,neutral,neutral,Say the word raise. It is fine.
+YAF_raise_ps.wav,pleasant_surprise,pleasant_surprise,Say the word raise. What a lovely surprise.
+YAF_raise_sad.wav,sad,sad,Say the word raise. I am so sad.
+YAF_rat_angry.wav,angry,angry,Say the word rat. I am furious.
+YAF_rat_disgust.wav,disgust,disgust,Say the word rat. That is disgusting.
+YAF_rat_fear.wav,fear,fear,Say the word rat. I am terrified.
+YAF_rat_happy.wav,happy,happy,Say the word rat. I am so happy.
+YAF_rat_neutral.wav,neutral,sad,Say the word rat. I am so sad.
+YAF_rat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rat. What a lovely surprise.
+YAF_rat_sad.wav,sad,sad,Say the word rat. I am so sad.
+YAF_reach_angry.wav,angry,angry,Say the word reach. I am furious.
+YAF_reach_disgust.wav,disgust,pleasant_surprise,Say the word reach. What a lovely surprise.
+YAF_reach_fear.wav,fear,neutral,Say the word reach. It is fine.
+YAF_reach_happy.wav,happy,happy,Say the word reach. I am so happy.
+YAF_reach_neutral.wav,neutral,neutral,Say the word reach. It is fine.
+YAF_reach_ps.wav,pleasant_surprise,pleasant_surprise,Say the word reach. What a lovely surprise.
+YAF_reach_sad.wav,sad,sad,Say the word reach. I am so sad.
+YAF_read_angry.wav,angry,angry,Say the word read. I am furious.
+YAF_read_disgust.wav,disgust,happy,Say the word read. I am so happy.
+YAF_read_fear.wav,fear,pleasant_surprise,Say the word read. What a lovely surprise.
+YAF_read_happy.wav,happy,happy,Say the word read. I am so happy.
+YAF_read_neutral.wav,neutral,neutral,Say the word read. It is fine.
+YAF_read_ps.wav,pleasant_surprise,pleasant_surprise,Say the word read. What a lovely surprise.
+YAF_read_sad.wav,sad,sad,Say the word read. I am so sad.
+YAF_red_angry.wav,angry,angry,Say the word red. I am furious.
+YAF_red_disgust.wav,disgust,angry,Say the word red. I am furious.
+YAF_red_fear.wav,fear,fear,Say the word red. I am terrified.
+YAF_red_happy.wav,happy,angry,Say the word red. I am furious.
+YAF_red_neutral.wav,neutral,neutral,Say the word red. It is fine.
+YAF_red_ps.wav,pleasant_surprise,pleasant_surprise,Say the word red. What a lovely surprise.
+YAF_red_sad.wav,sad,angry,Say the word red. I am furious.
+YAF_ring_angry.wav,angry,sad,Say the word ring. I am so sad.
+YAF_ring_disgust.wav,disgust,sad,Say the word ring. I am so sad.
+YAF_ring_fear.wav,fear,fear,Say the word ring. I am terrified.
+YAF_ring_happy.wav,happy,happy,Say the word ring. I am so happy.
+YAF_ring_neutral.wav,neutral,happy,Say the word ring. I am so happy.
+YAF_ring_ps.wav,pleasant_surprise,pleasant_surprise,Say the word ring. What a lovely surprise.
+YAF_ring_sad.wav,sad,disgust,Say the word ring. That is disgusting.
+YAF_ripe_angry.wav,angry,angry,Say the word ripe. I am furious.
+YAF_ripe_disgust.wav,disgust,disgust,Say the word ripe. That is disgusting.
+YAF_ripe_fear.wav,fear,fear,Say the word ripe. I am terrified.
+YAF_ripe_happy.wav,happy,neutral,Say the word ripe. It is fine.
+YAF_ripe_neutral.wav,neutral,neutral,Say the word ripe. It is fine.
+YAF_ripe_ps.wav,pleasant_surprise,fear,Say the word ripe. I am terrified.
+YAF_ripe_sad.wav,sad,happy,Say the word ripe. I am so happy.
+YAF_road_angry.wav,angry,angry,Say the word road. I am furious.
+YAF_road_disgust.wav,disgust,angry,Say the word road. I am furious.
+YAF_road_fear.wav,fear,fear,Say the word road. I am terrified.
+YAF_road_happy.wav,happy,happy,Say the word road. I am so happy.
+YAF_road_neutral.wav,neutral,neutral,Say the word road. It is fine.
+YAF_road_ps.wav,pleasant_surprise,pleasant_surprise,Say the word road. What a lovely surprise.
+YAF_road_sad.wav,sad,neutral,Say the word road. It is fine.
+YAF_room_angry.wav,angry,neutral,Say the word room. It is fine.
+YAF_room_disgust.wav,disgust,disgust,Say the word room. That is disgusting.
+YAF_room_fear.wav,fear,sad,Say the word room. I am so sad.
+YAF_room_happy.wav,happy,happy,Say the word room. I am so happy.
+YAF_room_neutral.wav,neutral,neutral,Say the word room. It is fine.
+YAF_room_ps.wav,pleasant_surprise,pleasant_surprise,Say the word room. What a lovely surprise.
+YAF_room_sad.wav,sad,pleasant_surprise,Say the word room. What a lovely surprise.
+YAF_rose_angry.wav,angry,happy,Say the word rose. I am so happy.
+YAF_rose_disgust.wav,disgust,angry,Say the word rose. I am furious.
+YAF_rose_fear.wav,fear,sad,Say the word rose. I am so sad.
+YAF_rose_happy.wav,happy,happy,Say the word rose. I am so happy.
+YAF_rose_neutral.wav,neutral,angry,Say the word rose. I am furious.
+YAF_rose_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rose. What a lovely surprise.
+YAF_rose_sad.wav,sad,fear,Say the word rose. I am terrified.
+YAF_rot_angry.wav,angry,angry,Say the word rot. I am furious.
+YAF_rot_disgust.wav,disgust,fear,Say the word rot. I am terrified.
+YAF_rot_fear.wav,fear,pleasant_surprise,Say the word rot. What a lovely surprise.
+YAF_rot_happy.wav,happy,happy,Say the word rot. I am so happy.
+YAF_rot_neutral.wav,neutral,neutral,Say the word rot. It is fine.
+YAF_rot_ps.wav,pleasant_surprise,happy,Say the word rot. I am so happy.
+YAF_rot_sad.wav,sad,angry,Say the word rot. I am furious.
+YAF_rough_angry.wav,angry,disgust,Say the word rough. That is disgusting.
+YAF_rough_disgust.wav,disgust,disgust,Say the word rough. That is disgusting.
+YAF_rough_fear.wav,fear,neutral,Say the word rough. It is fine.
+YAF_rough_happy.wav,happy,happy,Say the word rough. I am so happy.
+YAF_rough_neutral.wav,neutral,neutral,Say the word rough. It is fine.
+YAF_rough_ps.wav,pleasant_surprise,pleasant_surprise,Say the word rough. What a lovely surprise.
+YAF_rough_sad.wav,sad,sad,Say the word rough. I am so sad.
+YAF_rush_angry.wav,angry,sad,Say the word rush. I am so sad.
+YAF_rush_disgust.wav,disgust,disgust,Say the word rush. That is disgusting.
+YAF_rush_fear.wav,fear,fear,Say the word rush. I am terrified.
+YAF_rush_happy.wav,happy,happy,Say the word rush. I am so happy.
+YAF_rush_neutral.wav,neutral,neutral,Say the word rush. It is fine.
+YAF_rush_ps.wav,pleasant_surprise,fear,Say the word rush. I am terrified.
+YAF_rush_sad.wav,sad,disgust,Say the word rush. That is disgusting.
+YAF_said_angry.wav,angry,angry,Say the word said. I am furious.
+YAF_said_disgust.wav,disgust,happy,Say the word said. I am so happy.
+YAF_said_fear.wav,fear,fear,Say the word said. I am terrified.
+YAF_said_happy.wav,happy,happy,Say the word said. I am so happy.
+YAF_said_neutral.wav,neutral,angry,Say the word said. I am furious.
+YAF_said_ps.wav,pleasant_surprise,pleasant_surprise,Say the word said. What a lovely surprise.
+YAF_said_sad.wav,sad,neutral,Say the word said. It is fine.
+YAF_sail_angry.wav,angry,angry,Say the word sail. I am furious.
+YAF_sail_disgust.wav,disgust,disgust,Say the word sail. That is disgusting.
+YAF_sail_fear.wav,fear,neutral,Say the word sail. It is fine.
+YAF_sail_happy.wav,happy,happy,Say the word sail. I am so happy.
+YAF_sail_neutral.wav,neutral,fear,Say the word sail. I am terrified.
+YAF_sail_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sail. What a lovely surprise.
+YAF_sail_sad.wav,sad,neutral,Say the word sail. It is fine.
+YAF_search_angry.wav,angry,disgust,Say the word search. That is disgusting.
+YAF_search_disgust.wav,disgust,pleasant_surprise,Say the word search. What a lovely surprise.
+YAF_search_fear.wav,fear,fear,Say the word search. I am terrified.
+YAF_search_happy.wav,happy,angry,Say the word search. I am furious.
+YAF_search_neutral.wav,neutral,neutral,Say the word search. It is fine.
+YAF_search_ps.wav,pleasant_surprise,pleasant_surprise,Say the word search. What a lovely surprise.
+YAF_search_sad.wav,sad,disgust,Say the word search. That is disgusting.
+YAF_seize_angry.wav,angry,angry,Say the word seize. I am furious.
+YAF_seize_disgust.wav,disgust,sad,Say the word seize. I am so sad.
+YAF_seize_fear.wav,fear,neutral,Say the word seize. It is fine.
+YAF_seize_happy.wav,happy,angry,Say the word seize. I am furious.
+YAF_seize_neutral.wav,neutral,disgust,Say the word seize. That is disgusting.
+YAF_seize_ps.wav,pleasant_surprise,pleasant_surprise,Say the word seize. What a lovely surprise.
+YAF_seize_sad.wav,sad,sad,Say the word seize. I am so sad.
+YAF_sell_angry.wav,angry,angry,Say the word sell. I am furious.
+YAF_sell_disgust.wav,disgust,sad,Say the word sell. I am so sad.
+YAF_sell_fear.wav,fear,fear,Say the word sell. I am terrified.
+YAF_sell_happy.wav,happy,fear,Say the word sell. I am terrified.
+YAF_sell_neutral.wav,neutral,neutral,Say the word sell. It is fine.
+YAF_sell_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sell. What a lovely surprise.
+YAF_sell_sad.wav,sad,happy,Say the word sell. I am so happy.
+YAF_shack_angry.wav,angry,neutral,Say the word shack. It is fine.
+YAF_shack_disgust.wav,disgust,happy,Say the word shack. I am so happy.
+YAF_shack_fear.wav,fear,fear,Say the word shack. I am terrified.
+YAF_shack_happy.wav,happy,happy,Say the word shack. I am so happy.
+YAF_shack_neutral.wav,neutral,neutral,Say the word shack. It is fine.
+YAF_shack_ps.wav,pleasant_surprise,neutral,Say the word shack. It is fine.
+YAF_shack_sad.wav,sad,sad,Say the word shack. I am so sad.
+YAF_shall_angry.wav,angry,pleasant_surprise,Say the word shall. What a lovely surprise.
+YAF_shall_disgust.wav,disgust,disgust,Say the word shall. That is disgusting.
+YAF_shall_fear.wav,fear,fear,Say the word shall. I am terrified.
+YAF_shall_happy.wav,happy,happy,Say the word shall. I am so happy.
+YAF_shall_neutral.wav,neutral,disgust,Say the word shall. That is disgusting.
+YAF_shall_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shall. What a lovely surprise.
+YAF_shall_sad.wav,sad,sad,Say the word shall. I am so sad.
+YAF_shawl_angry.wav,angry,disgust,Say the word shawl. That is disgusting.
+YAF_shawl_disgust.wav,disgust,disgust,Say the word shawl. That is disgusting.
+YAF_shawl_fear.wav,fear,neutral,Say the word shawl. It is fine.
+YAF_shawl_happy.wav,happy,pleasant_surprise,Say the word shawl. What a lovely surprise.
+YAF_shawl_neutral.wav,neutral,neutral,Say the word shawl. It is fine.
+YAF_shawl_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shawl. What a lovely surprise.
+YAF_shawl_sad.wav,sad,sad,Say the word shawl. I am so sad.
+YAF_sheep_angry.wav,angry,angry,Say the word sheep. I am furious.
+YAF_sheep_disgust.wav,disgust,disgust,Say the word sheep. That is disgusting.
+YAF_sheep_fear.wav,fear,disgust,Say the word sheep. That is disgusting.
+YAF_sheep_happy.wav,happy,happy,Say the word sheep. I am so happy.
+YAF_sheep_neutral.wav,neutral,neutral,Say the word sheep. It is fine.
+YAF_sheep_ps.wav,pleasant_surprise,disgust,Say the word sheep. That is disgusting.
+YAF_sheep_sad.wav,sad,sad,Say the word sheep. I am so sad.
+YAF_shirt_angry.wav,angry,disgust,Say the word shirt. That is disgusting.
+YAF_shirt_disgust.wav,disgust,disgust,Say the word shirt. That is disgusting.
+YAF_shirt_fear.wav,fear,happy,Say the word shirt. I am so happy.
+YAF_shirt_happy.wav,happy,happy,Say the word shirt. I am so happy.
+YAF_shirt_neutral.wav,neutral,neutral,Say the word shirt. It is fine.
+YAF_shirt_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shirt. What a lovely surprise.
+YAF_shirt_sad.wav,sad,sad,Say the word shirt. I am so sad.
+YAF_should_angry.wav,angry,disgust,Say the word should. That is disgusting.
+YAF_should_disgust.wav,disgust,angry,Say the word should. I am furious.
+YAF_should_fear.wav,fear,fear,Say the word should. I am terrified.
+YAF_should_happy.wav,happy,fear,Say the word should. I am terrified.
+YAF_should_neutral.wav,neutral,neutral,Say the word should. It is fine.
+YAF_should_ps.wav,pleasant_surprise,fear,Say the word should. I am terrified.
+YAF_should_sad.wav,sad,angry,Say the word should. I am furious.
+YAF_shout_angry.wav,angry,angry,Say the word shout. I am furious.
+YAF_shout_disgust.wav,disgust,neutral,Say the word shout. It is fine.
+YAF_shout_fear.wav,fear,fear,Say the word shout. I am terrified.
+YAF_shout_happy.wav,happy,happy,Say the word shout. I am so happy.
+YAF_shout_neutral.wav,neutral,neutral,Say the word shout. It is fine.
+YAF_shout_ps.wav,pleasant_surprise,pleasant_surprise,Say the word shout. What a lovely surprise.
+YAF_shout_sad.wav,sad,sad,Say the word shout. I am so sad.
+YAF_size_angry.wav,angry,angry,Say the word size. I am furious.
+YAF_size_disgust.wav,disgust,disgust,Say the word size. That is disgusting.
+YAF_size_fear.wav,fear,fear,Say the word size. I am terrified.
+YAF_size_happy.wav,happy,fear,Say the word size. I am terrified.
+YAF_size_neutral.wav,neutral,neutral,Say the word size. It is fine.
+YAF_size_ps.wav,pleasant_surprise,angry,Say the word size. I am furious.
+YAF_size_sad.wav,sad,neutral,Say the word size. It is fine.
+YAF_soap_angry.wav,angry,angry,Say the word soap. I am furious.
+YAF_soap_disgust.wav,disgust,happy,Say the word soap. I am so happy.
+YAF_soap_fear.wav,fear,fear,Say the word soap. I am terrified.
+YAF_soap_happy.wav,happy,pleasant_surprise,Say the word soap. What a lovely surprise.
+YAF_soap_neutral.wav,neutral,angry,Say the word soap. I am furious.
+YAF_soap_ps.wav,pleasant_surprise,pleasant_surprise,Say the word soap. What a lovely surprise.
+YAF_soap_sad.wav,sad,sad,Say the word soap. I am so sad.
+YAF_soup_angry.wav,angry,angry,Say the word soup. I am furious.
+YAF_soup_disgust.wav,disgust,disgust,Say the word soup. That is disgusting.
+YAF_soup_fear.wav,fear,sad,Say the word soup. I am so sad.
+YAF_soup_happy.wav,happy,happy,Say the word soup. I am so happy.
+YAF_soup_neutral.wav,neutral,neutral,Say the word soup. It is fine.
+YAF_soup_ps.wav,pleasant_surprise,disgust,Say the word soup. That is disgusting.
+YAF_soup_sad.wav,sad,angry,Say the word soup. I am furious.
+YAF_sour_angry.wav,angry,angry,Say the word sour. I am furious.
+YAF_sour_disgust.wav,disgust,angry,Say the word sour. I am furious.
+YAF_sour_fear.wav,fear,fear,Say the word sour. I am terrified.
+YAF_sour_happy.wav,happy,happy,Say the word sour. I am so happy.
+YAF_sour_neutral.wav,neutral,angry,Say the word sour. I am furious.
+YAF_sour_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sour. What a lovely surprise.
+YAF_sour_sad.wav,sad,sad,Say the word sour. I am so sad.
+YAF_south_angry.wav,angry,angry,Say the word south. I am furious.
+YAF_south_disgust.wav,disgust,disgust,Say the word south. That is disgusting.
+YAF_south_fear.wav,fear,fear,Say the word south. I am terrified.
+YAF_south_happy.wav,happy,sad,Say the word south. I am so sad.
+YAF_south_neutral.wav,neutral,neutral,Say the word south. It is fine.
+YAF_south_ps.wav,pleasant_surprise,angry,Say the word south. I am furious.
+YAF_south_sad.wav,sad,sad,Say the word south. I am so sad.
+YAF_sub_angry.wav,angry,angry,Say the word sub. I am furious.
+YAF_sub_disgust.wav,disgust,happy,Say the word sub. I am so happy.
+YAF_sub_fear.wav,fear,fear,Say the word sub. I am terrified.
+YAF_sub_happy.wav,happy,happy,Say the word sub. I am so happy.
+YAF_sub_neutral.wav,neutral,neutral,Say the word sub. It is fine.
+YAF_sub_ps.wav,pleasant_surprise,angry,Say the word sub. I am furious.
+YAF_sub_sad.wav,sad,sad,Say the word sub. I am so sad.
+YAF_such_angry.wav,angry,neutral,Say the word such. It is fine.
+YAF_such_disgust.wav,disgust,disgust,Say the word such. That is disgusting.
+YAF_such_fear.wav,fear,fear,Say the word such. I am terrified.
+YAF_such_happy.wav,happy,fear,Say the word such. I am terrified.
+YAF_such_neutral.wav,neutral,sad,Say the word such. I am so sad.
+YAF_such_ps.wav,pleasant_surprise,pleasant_surprise,Say the word such. What a lovely surprise.
+YAF_such_sad.wav,sad,sad,Say the word such. I am so sad.
+YAF_sure_angry.wav,angry,angry,Say the word sure. I am furious.
+YAF_sure_disgust.wav,disgust,disgust,Say the word sure. That is disgusting.
+YAF_sure_fear.wav,fear,fear,Say the word sure. I am terrified.
+YAF_sure_happy.wav,happy,fear,Say the word sure. I am terrified.
+YAF_sure_neutral.wav,neutral,disgust,Say the word sure. That is disgusting.
+YAF_sure_ps.wav,pleasant_surprise,pleasant_surprise,Say the word sure. What a lovely surprise.
+YAF_sure_sad.wav,sad,sad,Say the word sure. I am so sad.
+YAF_take_angry.wav,angry,fear,Say the word take. I am terrified.
+YAF_take_disgust.wav,disgust,pleasant_surprise,Say the word take. What a lovely surprise.
+YAF_take_fear.wav,fear,fear,Say the word take. I am terrified.
+YAF_take_happy.wav,happy,happy,Say the word take. I am so happy.
+YAF_take_neutral.wav,neutral,neutral,Say the word take. It is fine.
+YAF_take_ps.wav,pleasant_surprise,pleasant_surprise,Say the word take. What a lovely surprise.
+YAF_take_sad.wav,sad,fear,Say the word take. I am terrified.
+YAF_talk_angry.wav,angry,happy,Say the word talk. I am so happy.
+YAF_talk_disgust.wav,disgust,angry,Say the word talk. I am furious.
+YAF_talk_fear.wav,fear,pleasant_surprise,Say the word talk. What a lovely surprise.
+YAF_talk_happy.wav,happy,happy,Say the word talk. I am so happy.
+YAF_talk_neutral.wav,neutral,neutral,Say the word talk. It is fine.
+YAF_talk_ps.wav,pleasant_surprise,neutral,Say the word talk. It is fine.
+YAF_talk_sad.wav,sad,sad,Say the word talk. I am so sad.
+YAF_tape_angry.wav,angry,angry,Say the word tape. I am furious.
+YAF_tape_disgust.wav,disgust,happy,Say the word tape. I am so happy.
+YAF_tape_fear.wav,fear,fear,Say the word tape. I am terrified.
+YAF_tape_happy.wav,happy,happy,Say the word tape. I am so happy.
+YAF_tape_neutral.wav,neutral,pleasant_surprise,Say the word tape. What a lovely surprise.
+YAF_tape_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tape. What a lovely surprise.
+YAF_tape_sad.wav,sad,sad,Say the word tape. I am so sad.
+YAF_team_angry.wav,angry,angry,Say the word team. I am furious.
+YAF_team_disgust.wav,disgust,fear,Say the word team. I am terrified.
+YAF_team_fear.wav,fear,pleasant_surprise,Say the word team. What a lovely surprise.
+YAF_team_happy.wav,happy,happy,Say the word team. I am so happy.
+YAF_team_neutral.wav,neutral,neutral,Say the word team. It is fine.
+YAF_team_ps.wav,pleasant_surprise,neutral,Say the word team. It is fine.
+YAF_team_sad.wav,sad,sad,Say the word team. I am so sad.
+YAF_tell_angry.wav,angry,happy,Say the word tell. I am so happy.
+YAF_tell_disgust.wav,disgust,happy,Say the word tell. I am so happy.
+YAF_tell_fear.wav,fear,fear,Say the word tell. I am terrified.
+YAF_tell_happy.wav,happy,happy,Say the word tell. I am so happy.
+YAF_tell_neutral.wav,neutral,neutral,Say the word tell. It is fine.
+YAF_tell_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tell. What a lovely surprise.
+YAF_tell_sad.wav,sad,sad,Say the word tell. I am so sad.
+YAF_thin_angry.wav,angry,angry,Say the word thin. I am furious.
+YAF_thin_disgust.wav,disgust,disgust,Say the word thin. That is disgusting.
+YAF_thin_fear.wav,fear,disgust,Say the word thin. That is disgusting.
+YAF_thin_happy.wav,happy,happy,Say the word thin. I am so happy.
+YAF_thin_neutral.wav,neutral,neutral,Say the word thin. It is fine.
+YAF_thin_ps.wav,pleasant_surprise,pleasant_surprise,Say the word thin. What a lovely surprise.
+YAF_thin_sad.wav,sad,sad,Say the word thin. I am so sad.
+YAF_third_angry.wav,angry,angry,Say the word third. I am furious.
+YAF_third_disgust.wav,disgust,neutral,Say the word third. It is fine.
+YAF_third_fear.wav,fear,fear,Say the word third. I am terrified.
+YAF_third_happy.wav,happy,happy,Say the word third. I am so happy.
+YAF_third_neutral.wav,neutral,neutral,Say the word third. It is fine.
+YAF_third_ps.wav,pleasant_surprise,pleasant_surprise,Say the word third. What a lovely surprise.
+YAF_third_sad.wav,sad,sad,Say the word third. I am so sad.
+YAF_thought_angry.wav,angry,sad,Say the word thought. I am so sad.
+YAF_thought_disgust.wav,disgust,disgust,Say the word thought. That is disgusting.
+YAF_thought_fear.wav,fear,fear,Say the word thought. I am terrified.
+YAF_thought_happy.wav,happy,sad,Say the word thought. I am so sad.
+YAF_thought_neutral.wav,neutral,sad,Say the word thought. I am so sad.
+YAF_thought_ps.wav,pleasant_surprise,pleasant_surprise,Say the word thought. What a lovely surprise.
+YAF_thought_sad.wav,sad,sad,Say the word thought. I am so sad.
+YAF_thumb_angry.wav,angry,fear,Say the word thumb. I am terrified.
+YAF_thumb_disgust.wav,disgust,sad,Say the word thumb. I am so sad.
+YAF_thumb_fear.wav,fear,fear,Say the word thumb. I am terrified.
+YAF_thumb_happy.wav,happy,pleasant_surprise,Say the word thumb. What a lovely surprise.
+YAF_thumb_neutral.wav,neutral,neutral,Say the word thumb. It is fine.
+YAF_thumb_ps.wav,pleasant_surprise,pleasant_surprise,Say the word thumb. What a lovely surprise.
+YAF_thumb_sad.wav,sad,sad,Say the word thumb. I am so sad.
+YAF_time_angry.wav,angry,angry,Say the word time. I am furious.
+YAF_time_disgust.wav,disgust,happy,Say the word time. I am so happy.
+YAF_time_fear.wav,fear,fear,Say the word time. I am terrified.
+YAF_time_happy.wav,happy,pleasant_surprise,Say the word time. What a lovely surprise.
+YAF_time_neutral.wav,neutral,neutral,Say the word time. It is fine.
+YAF_time_ps.wav,pleasant_surprise,pleasant_surprise,Say the word time. What a lovely surprise.
+YAF_time_sad.wav,sad,sad,Say the word time. I am so sad.
+YAF_tip_angry.wav,angry,angry,Say the word tip. I am furious.
+YAF_tip_disgust.wav,disgust,disgust,Say the word tip. That is disgusting.
+YAF_tip_fear.wav,fear,sad,Say the word tip. I am so sad.
+YAF_tip_happy.wav,happy,neutral,Say the word tip. It is fine.
+YAF_tip_neutral.wav,neutral,disgust,Say the word tip. That is disgusting.
+YAF_tip_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tip. What a lovely surprise.
+YAF_tip_sad.wav,sad,sad,Say the word tip. I am so sad.
+YAF_tire_angry.wav,angry,angry,Say the word tire. I am furious.
+YAF_tire_disgust.wav,disgust,disgust,Say the word tire. That is disgusting.
+YAF_tire_fear.wav,fear,angry,Say the word tire. I am furious.
+YAF_tire_happy.wav,happy,happy,Say the word tire. I am so happy.
+YAF_tire_neutral.wav,neutral,pleasant_surprise,Say the word tire. What a lovely surprise.
+YAF_tire_ps.wav,pleasant_surprise,pleasant_surprise,Say the word tire. What a lovely surprise.
+YAF_tire_sad.wav,sad,fear,Say the word tire. I am terrified.
+YAF_ton_angry.wav,angry,fear,Say the word ton. I am terrified.
+YAF_ton_disgust.wav,disgust,disgust,Say the word ton. That is disgusting.
+YAF_ton_fear.wav,fear,fear,Say the word ton. I am terrified.
+YAF_ton_happy.wav,happy,disgust,Say the word ton. That is disgusting.
+YAF_ton_neutral.wav,neutral,pleasant_surprise,Say the word ton. What a lovely surprise.
+YAF_ton_ps.wav,pleasant_surprise,pleasant_surprise,Say the word ton. What a lovely surprise.
+YAF_ton_sad.wav,sad,sad,Say the word ton. I am so sad.
+YAF_tool_angry.wav,angry,angry,Say the word tool. I am furious.
+YAF_tool_disgust.wav,disgust,fear,Say the word tool. I am terrified.
+YAF_tool_fear.wav,fear,fear,Say the word tool. I am terrified.
+YAF_tool_happy.wav,happy,neutral,Say the word tool. It is fine.
+YAF_tool_neutral.wav,neutral,neutral,Say the word tool. It is fine.
+YAF_tool_ps.wav,pleasant_surprise,sad,Say the word tool. I am so sad.
+YAF_tool_sad.wav,sad,sad,Say the word tool. I am so sad.
+YAF_tough_angry.wav,angry,disgust,Say the word tough. That is disgusting.
+YAF_tough_disgust.wav,disgust,pleasant_surprise,Say the word tough. What a lovely surprise.
+YAF_tough_fear.wav,fear,fear,Say the word tough. I am terrified.
+YAF_tough_happy.wav,happy,happy,Say the word tough. I am so happy.
+YAF_tough_neutral.wav,neutral,neutral,Say the word tough. It is fine.
+YAF_tough_ps.wav,pleasant_surprise,sad,Say the word tough. I am so sad.
+YAF_tough_sad.wav,sad,sad,Say the word tough. I am so sad.
+YAF_turn_angry.wav,angry,angry,Say the word turn. I am furious.
+YAF_turn_disgust.wav,disgust,disgust,Say the word turn. That is disgusting.
+YAF_turn_fear.wav,fear,fear,Say the word turn. I am terrified.
+YAF_turn_happy.wav,happy,happy,Say the word turn. I am so happy.
+YAF_turn_neutral.wav,neutral,neutral,Say the word turn. It is fine.
+YAF_turn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word turn. What a lovely surprise.
+YAF_turn_sad.wav,sad,pleasant_surprise,Say the word turn. What a lovely surprise.
+YAF_vine_angry.wav,angry,neutral,Say the word vine. It is fine.
+YAF_vine_disgust.wav,disgust,neutral,Say the word vine. It is fine.
+YAF_vine_fear.wav,fear,pleasant_surprise,Say the word vine. What a lovely surprise.
+YAF_vine_happy.wav,happy,happy,Say the word vine. I am so happy.
+YAF_vine_neutral.wav,neutral,neutral,Say the word vine. It is fine.
+YAF_vine_ps.wav,pleasant_surprise,fear,Say the word vine. I am terrified.
+YAF_vine_sad.wav,sad,sad,Say the word vine. I am so sad.
+YAF_voice_angry.wav,angry,disgust,Say the word voice. That is disgusting.
+YAF_voice_disgust.wav,disgust,happy,Say the word voice. I am so happy.
+YAF_voice_fear.wav,fear,fear,Say the word voice. I am terrified.
+YAF_voice_happy.wav,happy,happy,Say the word voice. I am so happy.
+YAF_voice_neutral.wav,neutral,neutral,Say the word voice. It is fine.
+YAF_voice_ps.wav,pleasant_surprise,fear,Say the word voice. I am terrified.
+YAF_voice_sad.wav,sad,sad,Say the word voice. I am so sad.
+YAF_void_angry.wav,angry,fear,Say the word void. I am terrified.
+YAF_void_disgust.wav,disgust,disgust,Say the word void. That is disgusting.
+YAF_void_fear.wav,fear,fear,Say the word void. I am terrified.
+YAF_void_happy.wav,happy,happy,Say the word void. I am so happy.
+YAF_void_neutral.wav,neutral,neutral,Say the word void. It is fine.
+YAF_void_ps.wav,pleasant_surprise,angry,Say the word void. I am furious.
+YAF_void_sad.wav,sad,sad,Say the word void. I am so sad.
+YAF_vote_angry.wav,angry,angry,Say the word vote. I am furious.
+YAF_vote_disgust.wav,disgust,happy,Say the word vote. I am so happy.
+YAF_vote_fear.wav,fear,angry,Say the word vote. I am furious.
+YAF_vote_happy.wav,happy,happy,Say the word vote. I am so happy.
+YAF_vote_neutral.wav,neutral,neutral,Say the word vote. It is fine.
+YAF_vote_ps.wav,pleasant_surprise,pleasant_surprise,Say the word vote. What a lovely surprise.
+YAF_vote_sad.wav,sad,sad,Say the word vote. I am so sad.
+YAF_wag_angry.wav,angry,angry,Say the word wag. I am furious.
+YAF_wag_disgust.wav,disgust,disgust,Say the word wag. That is disgusting.
+YAF_wag_fear.wav,fear,fear,Say the word wag. I am terrified.
+YAF_wag_happy.wav,happy,fear,Say the word wag. I am terrified.
+YAF_wag_neutral.wav,neutral,neutral,Say the word wag. It is fine.
+YAF_wag_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wag. What a lovely surprise.
+YAF_wag_sad.wav,sad,sad,Say the word wag. I am so sad.
+YAF_walk_angry.wav,angry,neutral,Say the word walk. It is fine.
+YAF_walk_disgust.wav,disgust,neutral,Say the word walk. It is fine.
+YAF_walk_fear.wav,fear,pleasant_surprise,Say the word walk. What a lovely surprise.
+YAF_walk_happy.wav,happy,happy,Say the word walk. I am so happy.
+YAF_walk_neutral.wav,neutral,neutral,Say the word walk. It is fine.
+YAF_walk_ps.wav,pleasant_surprise,pleasant_surprise,Say the word walk. What a lovely surprise.
+YAF_walk_sad.wav,sad,fear,Say the word walk. I am terrified.
+YAF_wash_angry.wav,angry,angry,Say the word wash. I am furious.
+YAF_wash_disgust.wav,disgust,angry,Say the word wash. I am furious.
+YAF_wash_fear.wav,fear,fear,Say the word wash. I am terrified.
+YAF_wash_happy.wav,happy,sad,Say the word wash. I am so sad.
+YAF_wash_neutral.wav,neutral,neutral,Say the word wash. It is fine.
+YAF_wash_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wash. What a lovely surprise.
+YAF_wash_sad.wav,sad,pleasant_surprise,Say the word wash. What a lovely surprise.
+YAF_week_angry.wav,angry,fear,Say the word week. I am terrified.
+YAF_week_disgust.wav,disgust,angry,Say the word week. I am furious.
+YAF_week_fear.wav,fear,fear,Say the word week. I am terrified.
+YAF_week_happy.wav,happy,happy,Say the word week. I am so happy.
+YAF_week_neutral.wav,neutral,pleasant_surprise,Say the word week. What a lovely surprise.
+YAF_week_ps.wav,pleasant_surprise,pleasant_surprise,Say the word week. What a lovely surprise.
+YAF_week_sad.wav,sad,neutral,Say the word week. It is fine.
+YAF_wheat_angry.wav,angry,angry,Say the word wheat. I am furious.
+YAF_wheat_disgust.wav,disgust,disgust,Say the word wheat. That is disgusting.
+YAF_wheat_fear.wav,fear,fear,Say the word wheat. I am terrified.
+YAF_wheat_happy.wav,happy,happy,Say the word wheat. I am so happy.
+YAF_wheat_neutral.wav,neutral,fear,Say the word wheat. I am terrified.
+YAF_wheat_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wheat. What a lovely surprise.
+YAF_wheat_sad.wav,sad,disgust,Say the word wheat. That is disgusting.
+YAF_when_angry.wav,angry,angry,Say the word when. I am furious.
+YAF_when_disgust.wav,disgust,angry,Say the word when. I am furious.
+YAF_when_fear.wav,fear,disgust,Say the word when. That is disgusting.
+YAF_when_happy.wav,happy,happy,Say the word when. I am so happy.
+YAF_when_neutral.wav,neutral,happy,Say the word when. I am so happy.
+YAF_when_ps.wav,pleasant_surprise,pleasant_surprise,Say the word when. What a lovely surprise.
+YAF_when_sad.wav,sad,sad,Say the word when. I am so sad.
+YAF_which_angry.wav,angry,happy,Say the word which. I am so happy.
+YAF_which_disgust.wav,disgust,disgust,Say the word which. That is disgusting.
+YAF_which_fear.wav,fear,fear,Say the word which. I am terrified.
+YAF_which_happy.wav,happy,happy,Say the word which. I am so happy.
+YAF_which_neutral.wav,neutral,neutral,Say the word which. It is fine.
+YAF_which_ps.wav,pleasant_surprise,pleasant_surprise,Say the word which. What a lovely surprise.
+YAF_which_sad.wav,sad,happy,Say the word which. I am so happy.
+YAF_whip_angry.wav,angry,angry,Say the word whip. I am furious.
+YAF_whip_disgust.wav,disgust,happy,Say the word whip. I am so happy.
+YAF_whip_fear.wav,fear,angry,Say the word whip. I am furious.
+YAF_whip_happy.wav,happy,happy,Say the word whip. I am so happy.
+YAF_whip_neutral.wav,neutral,neutral,Say the word whip. It is fine.
+YAF_whip_ps.wav,pleasant_surprise,neutral,Say the word whip. It is fine.
+YAF_whip_sad.wav,sad,sad,Say the word whip. I am so sad.
+YAF_white_angry.wav,angry,angry,Say the word white. I am furious.
+YAF_white_disgust.wav,disgust,disgust,Say the word white. That is disgusting.
+YAF_white_fear.wav,fear,fear,Say the word white. I am terrified.
+YAF_white_happy.wav,happy,happy,Say the word white. I am so happy.
+YAF_white_neutral.wav,neutral,happy,Say the word white. I am so happy.
+YAF_white_ps.wav,pleasant_surprise,sad,Say the word white. I am so sad.
+YAF_white_sad.wav,sad,neutral,Say the word white. It is fine.
+YAF_wife_angry.wav,angry,angry,Say the word wife. I am furious.
+YAF_wife_disgust.wav,disgust,disgust,Say the word wife. That is disgusting.
+YAF_wife_fear.wav,fear,fear,Say the word wife. I am terrified.
+YAF_wife_happy.wav,happy,happy,Say the word wife. I am so happy.
+YAF_wife_neutral.wav,neutral,neutral,Say the word wife. It is fine.
+YAF_wife_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wife. What a lovely surprise.
+YAF_wife_sad.wav,sad,angry,Say the word wife. I am furious.
+YAF_wire_angry.wav,angry,angry,Say the word wire. I am furious.
+YAF_wire_disgust.wav,disgust,disgust,Say the word wire. That is disgusting.
+YAF_wire_fear.wav,fear,angry,Say the word wire. I am furious.
+YAF_wire_happy.wav,happy,pleasant_surprise,Say the word wire. What a lovely surprise.
+YAF_wire_neutral.wav,neutral,neutral,Say the word wire. It is fine.
+YAF_wire_ps.wav,pleasant_surprise,pleasant_surprise,Say the word wire. What a lovely surprise.
+YAF_wire_sad.wav,sad,sad,Say the word wire. I am so sad.
+YAF_witch_angry.wav,angry,pleasant_surprise,Say the word witch. What a lovely surprise.
+YAF_witch_disgust.wav,disgust,fear,Say the word witch. I am terrified.
+YAF_witch_fear.wav,fear,fear,Say the word witch. I am terrified.
+YAF_witch_happy.wav,happy,happy,Say the word witch. I am so happy.
+YAF_witch_neutral.wav,neutral,fear,Say the word witch. I am terrified.
+YAF_witch_ps.wav,pleasant_surprise,fear,Say the word witch. I am terrified.
+YAF_witch_sad.wav,sad,disgust,Say the word witch. That is disgusting.
+YAF_yearn_angry.wav,angry,angry,Say the word yearn. I am furious.
+YAF_yearn_disgust.wav,disgust,angry,Say the word yearn. I am furious.
+YAF_yearn_fear.wav,fear,fear,Say the word yearn. I am terrified.
+YAF_yearn_happy.wav,happy,happy,Say the word yearn. I am so happy.
+YAF_yearn_neutral.wav,neutral,neutral,Say the word yearn. It is fine.
+YAF_yearn_ps.wav,pleasant_surprise,pleasant_surprise,Say the word yearn. What a lovely surprise.
+YAF_yearn_sad.wav,sad,sad,Say the word yearn. I am so sad.
+YAF_yes_angry.wav,angry,angry,Say the word yes. I am furious.
+YAF_yes_disgust.wav,disgust,disgust,Say the word yes. That is disgusting.
+YAF_yes_fear.wav,fear,fear,Say the word yes. I am terrified.
+YAF_yes_happy.wav,happy,happy,Say the word yes. I am so happy.
+YAF_yes_neutral.wav,neutral,happy,Say the word yes. I am so happy.
+YAF_yes_ps.wav,pleasant_surprise,pleasant_surprise,Say the word yes. What a lovely surprise.
+YAF_yes_sad.wav,sad,sad,Say the word yes. I am so sad.
+YAF_young_angry.wav,angry,angry,Say the word young. I am furious.
+YAF_young_disgust.wav,disgust,neutral,Say the word young. It is fine.
+YAF_young_fear.wav,fear,fear,Say the word young. I am terrified.
+YAF_young_happy.wav,happy,happy,Say the word young. I am so happy.
+YAF_young_neutral.wav,neutral,neutral,Say the word young. It is fine.
+YAF_young_ps.wav,pleasant_surprise,neutral,Say the word young. It is fine.
+YAF_young_sad.wav,sad,sad,Say the word young. I am so sad.
+YAF_youth_angry.wav,angry,neutral,Say the word youth. It is fine.
+YAF_youth_disgust.wav,disgust,disgust,Say the word youth. That is disgusting.
+YAF_youth_fear.wav,fear,fear,Say the word youth. I am terrified.
+YAF_youth_happy.wav,happy,pleasant_surprise,Say the word youth. What a lovely surprise.
+YAF_youth_neutral.wav,neutral,happy,Say the word youth. I am so happy.
+YAF_youth_ps.wav,pleasant_surprise,sad,Say the word youth. I am so sad.
+YAF_youth_sad.wav,sad,disgust,Say the word youth. That is disgusting.

@@ -1,0 +1,6 @@
+cache/
+__pycache__/
+*.pyc
+# only the seed-0 checkpoints are committed (other seeds are re-created by train.py)
+models/*/runs/*/seed[1-9]/best.pt
+Report/_report.html

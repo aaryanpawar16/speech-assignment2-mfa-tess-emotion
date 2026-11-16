@@ -1,0 +1,15 @@
+speaker,emotion,duration_s,F0_mean_Hz,F0_range_5_95_Hz,level_dB
+OAF,angry,1.47,257,106,-14.8
+OAF,disgust,2.32,188,114,-16.4
+OAF,fear,1.56,294,85,-14.5
+OAF,happy,1.96,262,282,-15.7
+OAF,neutral,2.01,190,24,-12.0
+OAF,pleasant_surprise,2.00,235,236,-15.8
+OAF,sad,2.50,194,103,-14.6
+YAF,angry,2.07,240,152,-18.0
+YAF,disgust,2.37,206,249,-17.2
+YAF,fear,1.59,314,188,-15.4
+YAF,happy,1.65,279,190,-15.6
+YAF,neutral,2.03,192,18,-13.4
+YAF,pleasant_surprise,1.88,322,347,-16.4
+YAF,sad,2.16,217,135,-14.1

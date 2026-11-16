@@ -1,0 +1,23 @@
+[
+ {
+  "block": "temporal",
+  "silhouette_emotion": 0.283123254776001,
+  "silhouette_speaker": NaN,
+  "knn5_emotion_acc": 0.9421428571428571,
+  "knn5_speaker_acc": NaN
+ },
+ {
+  "block": "contextual",
+  "silhouette_emotion": -0.004999999888241291,
+  "silhouette_speaker": NaN,
+  "knn5_emotion_acc": 0.14285714285714285,
+  "knn5_speaker_acc": NaN
+ },
+ {
+  "block": "fusion",
+  "silhouette_emotion": 0.2830654978752136,
+  "silhouette_speaker": NaN,
+  "knn5_emotion_acc": 0.9107142857142858,
+  "knn5_speaker_acc": NaN
+ }
+]

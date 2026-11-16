@@ -1,0 +1,7 @@
+utterance,word,canonical_vowel,vowel_chosen,choice,phones,word_ms
+01_sprt1,white,AY,AY,canonical,W AY T,410
+01_sprt1,bait,EY,EY,canonical,B EY T,450
+02_sprt1,new,UW,UW,canonical,N Y UW,410
+02_sprt1,no,OW,OW,canonical,N OW,490
+03_sprt1,bad,AE,EH,VARIANT,B EH D,530
+03_sprt1,bed,EH,EH,canonical,B EH D,550

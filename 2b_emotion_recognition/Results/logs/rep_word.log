@@ -1,0 +1,6 @@
+saved D:\Coding\Machine_Learning\iiith\assignment2\2b_emotion_recognition\Results\representations\tsne_blocks_word_seed0.png
+temporal    silhouette(emotion) 0.657 | silhouette(speaker) 0.021 | 5-NN emotion acc 1.000 | 5-NN speaker acc 0.995
+contextual  silhouette(emotion) -0.013 | silhouette(speaker) -0.004 | 5-NN emotion acc 0.143 | 5-NN speaker acc 0.500
+fusion      silhouette(emotion) 0.819 | silhouette(speaker) 0.007 | 5-NN emotion acc 1.000 | 5-NN speaker acc 0.961
+unimodal speech temporal   silhouette(emotion) 0.711 | 5-NN emotion acc 0.998
+unimodal text   contextual silhouette(emotion) -0.012 | 5-NN emotion acc 0.143

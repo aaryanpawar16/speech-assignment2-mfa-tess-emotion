@@ -1,0 +1,4 @@
+modality,protocol,seed,n_test,accuracy,macro_f1,recall_angry,recall_disgust,recall_fear,recall_happy,recall_neutral,recall_pleasant_surprise,recall_sad
+text,spk_OAF2YAF,0,1400,0.1429,0.0371,0.000,0.000,0.000,0.000,0.995,0.005,0.000
+text,spk_OAF2YAF,1,1400,0.1429,0.0357,0.000,0.000,1.000,0.000,0.000,0.000,0.000
+text,spk_OAF2YAF,2,1400,0.1429,0.0549,0.000,0.000,0.000,0.000,0.865,0.135,0.000

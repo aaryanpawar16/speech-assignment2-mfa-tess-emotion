@@ -1,0 +1,9 @@
+config,utterances,words,phones,phones_<=30ms,pct_phones_<=30ms,unk_or_spn_items,mean_overall_loglik,mean_speech_loglik,mean_phone_dur_deviation
+A1_naive_stock_arpa,6,241,1016,78,7.7,6,-49.43,-47.69,3.07
+A2_norm_stock_arpa,6,244,1028,79,7.7,5,-49.38,-47.70,3.01
+A3_norm_custom_arpa,6,244,1063,84,7.9,0,-49.28,-47.75,2.98
+A4_norm_custom_arpa_ft,6,244,1063,82,7.7,0,-49.27,-47.73,3.01
+A5_norm_custom_adapted,6,244,1063,81,7.6,0,-49.23,-47.76,2.98
+A6_norm_custom_mfa,6,244,1045,98,9.4,0,-43.05,-44.77,3.78
+A7_norm_variants_arpa,6,244,1063,84,7.9,0,-49.34,-47.73,2.99
+A8_trained_on_data_only,6,244,1055,626,59.3,0,nan,nan,nan

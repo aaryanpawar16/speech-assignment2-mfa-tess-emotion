@@ -1,0 +1,41 @@
+config,utterance,word_label,start,end,dur_ms,phones
+A1_naive_stock_arpa,F2BJRLP1,dukakis,15.45,16.00,550,spn
+A1_naive_stock_arpa,F2BJRLP1,melnicove,21.75,22.28,530,spn
+A1_naive_stock_arpa,F2BJRLP2,dukakis,2.73,3.35,620,spn
+A1_naive_stock_arpa,F2BJRLP2,politicize,5.66,6.53,870,spn
+A1_naive_stock_arpa,F2BJRLP2,maffy,23.92,24.34,420,spn
+A2_norm_stock_arpa,F2BJRLP1,dukakis,15.45,16.00,550,spn
+A2_norm_stock_arpa,F2BJRLP1,melnicove,21.75,22.28,530,spn
+A2_norm_stock_arpa,F2BJRLP2,dukakis,2.73,3.35,620,spn
+A2_norm_stock_arpa,F2BJRLP2,politicize,5.66,6.53,870,spn
+A2_norm_stock_arpa,F2BJRLP2,maffy,23.92,24.34,420,spn
+A3_norm_custom_arpa,F2BJRLP1,dukakis,15.44,16.01,570,D UW0 K AA1 K IH0 S
+A3_norm_custom_arpa,F2BJRLP1,melnicove,21.74,22.30,560,M EH1 L N AH0 K OW2 V
+A3_norm_custom_arpa,F2BJRLP2,dukakis,2.72,3.36,640,D UW1 K AA1 K IH0 S
+A3_norm_custom_arpa,F2BJRLP2,politicize,5.65,6.51,860,P AH0 L IH1 T AH0 S AY2 Z
+A3_norm_custom_arpa,F2BJRLP2,maffy,23.94,24.33,390,M AE1 F IY0
+A4_norm_custom_arpa_ft,F2BJRLP1,dukakis,15.44,16.01,570,D UW0 K AA1 K IH0 S
+A4_norm_custom_arpa_ft,F2BJRLP1,melnicove,21.74,22.30,560,M EH1 L N AH0 K OW2 V
+A4_norm_custom_arpa_ft,F2BJRLP2,dukakis,2.72,3.36,640,D UW1 K AA1 K IH0 S
+A4_norm_custom_arpa_ft,F2BJRLP2,politicize,5.65,6.51,860,P AH0 L IH1 T AH0 S AY2 Z
+A4_norm_custom_arpa_ft,F2BJRLP2,maffy,23.94,24.33,390,M AE1 F IY0
+A5_norm_custom_adapted,F2BJRLP1,dukakis,15.44,16.01,570,D UW0 K AA1 K IH0 S
+A5_norm_custom_adapted,F2BJRLP1,melnicove,21.74,22.30,560,M EH1 L N AH0 K OW2 V
+A5_norm_custom_adapted,F2BJRLP2,dukakis,2.72,3.36,640,D UW1 K AA1 K IH0 S
+A5_norm_custom_adapted,F2BJRLP2,politicize,5.65,6.51,860,P AH0 L IH1 T AH0 S AY2 Z
+A5_norm_custom_adapted,F2BJRLP2,maffy,23.94,24.33,390,M AE1 F IY0
+A6_norm_custom_mfa,F2BJRLP1,dukakis,15.44,16.00,560,d ɐ cʰ æ c ɪ s
+A6_norm_custom_mfa,F2BJRLP1,melnicove,21.74,22.29,550,m ɛ ɫ n ə kʰ ow v
+A6_norm_custom_mfa,F2BJRLP2,dukakis,2.72,3.36,640,dʲ ʉ cʰ æ c ɪ s
+A6_norm_custom_mfa,F2BJRLP2,politicize,5.65,6.52,870,pʰ ə ʎ ɪ tʲ ɪ s aj z
+A6_norm_custom_mfa,F2BJRLP2,maffy,23.94,24.33,390,m æ fʲ i
+A7_norm_variants_arpa,F2BJRLP1,dukakis,15.44,16.01,570,D UW0 K AA1 K IH0 S
+A7_norm_variants_arpa,F2BJRLP1,melnicove,21.74,22.30,560,M EH1 L N AH0 K OW2 V
+A7_norm_variants_arpa,F2BJRLP2,dukakis,2.72,3.36,640,D UW1 K AA1 K IH0 S
+A7_norm_variants_arpa,F2BJRLP2,politicize,5.65,6.51,860,P AH0 L IH1 T AH0 S AY2 Z
+A7_norm_variants_arpa,F2BJRLP2,maffy,23.94,24.33,390,M AE1 F IY0
+A8_trained_on_data_only,F2BJRLP1,dukakis,16.79,17.40,610,D AH1 K AA1 K IH0 S
+A8_trained_on_data_only,F2BJRLP1,melnicove,22.84,23.14,300,M EH1 L N IH0 K OW2 V
+A8_trained_on_data_only,F2BJRLP2,dukakis,4.44,4.74,300,D AH1 K AA1 K IH0 S
+A8_trained_on_data_only,F2BJRLP2,politicize,6.10,6.52,420,P AH0 L AY1 T AH0 S AY2 Z
+A8_trained_on_data_only,F2BJRLP2,maffy,23.33,23.52,190,M AH0 F IY0

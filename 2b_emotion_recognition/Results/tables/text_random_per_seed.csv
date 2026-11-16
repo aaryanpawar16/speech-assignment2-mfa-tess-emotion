@@ -1,0 +1,4 @@
+modality,protocol,seed,n_test,accuracy,macro_f1,recall_angry,recall_disgust,recall_fear,recall_happy,recall_neutral,recall_pleasant_surprise,recall_sad
+text,random,0,560,0.1411,0.0360,0.000,0.000,0.000,0.000,0.000,0.000,0.988
+text,random,1,560,0.1429,0.0357,1.000,0.000,0.000,0.000,0.000,0.000,0.000
+text,random,2,560,0.1304,0.0407,0.000,0.000,0.037,0.875,0.000,0.000,0.000
