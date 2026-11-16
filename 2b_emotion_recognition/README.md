@@ -52,7 +52,7 @@ Mean of OAF -> YAF and YAF -> OAF accuracy (full table with std and macro-F1: `R
 | synthetic text that states the emotion (60% correct): text only | 60.9 |
 | ... fusion concat / gated / cross, log-mel speech | 47.1 / 41.5 / 42.8 (text not exploited) |
 | ... fusion concat + modality dropout | 54.0 |
-| ... fusion concat, wav2vec2 speech | 70.8 (vs 66.6 speech only) |
+| ... fusion concat, wav2vec2 speech | 70.8 (vs 66.6 speech only; the control with the original text scores 67.6 +- 10, so the gain is within noise) |
 
 The synthetic-text experiment only checks the fusion code (it is not a TESS result). Section E of the report discusses all of it,
 including the negative results.
@@ -60,7 +60,7 @@ including the negative results.
 ```bash
 python scripts/extract_ssl.py        --tess "<TESS folder>" --cache cache      # wav2vec2 features (cache/speech_w2v.npz, ~400 MB, not committed)
 python scripts/make_synthetic_text.py --cache cache                            # synthetic informative text (data/synthetic_text_p060.csv)
-python scripts/run_extras.py --cache cache --variants spkn noaug meanpool cnn gru w2v w2v_spkn synth_text synth_fusion_concat synth_fusion_gated synth_fusion_cross synth_fusion_concat_md synth_w2v_fusion_concat
+python scripts/run_extras.py --cache cache --variants spkn noaug meanpool cnn gru w2v w2v_spkn synth_text synth_fusion_concat synth_fusion_gated synth_fusion_cross synth_fusion_concat_md fusion_w2v synth_w2v_fusion_concat
 python scripts/run_extras.py --summary                                         # only rebuild the tables from Results/extras/*.json
 ```
 Extras checkpoints (`models/*/runs_extras/`) are not committed.
