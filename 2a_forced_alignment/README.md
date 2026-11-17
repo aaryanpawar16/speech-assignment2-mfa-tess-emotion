@@ -122,9 +122,9 @@ python scripts/manual_check_figures.py --root .   # -> outputs/manual_check/*.pn
 
 `outputs/analysis/manual_check_template.csv` lists 12 word starts (the ones where the two acoustic models disagree most, plus a spread of agreeing ones).
 `python scripts/manual_check_figures.py --root . [--blind]` draws one zoomed waveform + spectrogram per boundary (`outputs/manual_check/` with the A3/A6 times,
-`outputs/manual_check_blind/` without them, for unbiased reading). The reference in `outputs/analysis/manual_check_filled.csv` was read **visually from the blind
-figures by the author of this report (an AI assistant), without listening or Praat**, so it is a rough reference (about +-10-30 ms); 3 of the 12 starts were not
-determinable and are left empty (with a note per row). To use your own corrections, fill the `praat_time_s` column (open the wav + TextGrid from `outputs/praat_view/` in Praat),
+`outputs/manual_check_blind/` without them, for unbiased reading). The reference in `outputs/analysis/manual_check_filled.csv` has a `source` per row: 9 starts were read **visually from the blind figures by the AI assistant that wrote this report (no audio, about +-10-30 ms)**,
+1 start (*thirty*, 16.30 s) was set **by ear in Praat by the author**, and for 2 starts (*to*, *bad*) the author confirmed by ear in Praat that A3's boundary is correct
+(this favours A3 by construction, so `manual_check_errors_independent10.csv` scores only the 10 other starts; `manual_check_errors_all12.csv` scores all 12). To use your own corrections, fill the `praat_time_s` column (open the wav + TextGrid from `outputs/praat_view/` in Praat),
 save as a new CSV and run `python scripts/extras_analysis.py --root . --manual <csv>`: it prints the mean/maximum error of every configuration
 and writes `outputs/analysis/manual_check_errors.csv`.
 

@@ -1,13 +1,13 @@
-utterance,word_index,word,boundary,A3_time_s,A6_time_s,praat_time_s,note
-F2BJRLP2,17,he,word_start,8.040,7.790,8.06,"onset of the faint h-noise just before voicing at 8.10; the 7.78-8.00 noise is a breath, not part of the word"
-ISLE_SESS0131_BLOCKD02_02_sprt1,3,not,word_start,1.450,1.290,1.46,start of the n murmur (small periodic pulses growing to the vowel at 1.535); low confidence
-F2BJRLP2,4,democratic,word_start,1.500,1.380,1.43,onset of the voice bar of the d closure; release burst at 1.535
-F2BJRLP3,46,thirty,word_start,16.190,16.300,,"not determinable: weak voiceless th- onset, +-40 ms"
-ISLE_SESS0131_BLOCKD02_01_sprt1,4,bait,word_start,1.800,1.700,1.65,onset of the voice bar of the b closure after voiceless t; release burst at 1.83
-F2BJRLP3,75,to,word_start,27.950,28.040,,not determinable: closure shared with the final t of 'not'; release burst at 27.96
-F2BJRLP3,24,give,word_start,9.260,9.280,9.27,closure starts where the s noise of 'admirers' ends; release burst at 9.335
-ISLE_SESS0131_BLOCKD02_02_sprt1,0,i,word_start,0.620,0.610,0.63,onset of voicing of the initial vowel
-F2BJRLP2,24,the,word_start,10.520,10.510,10.55,burst/voicing onset of dh after the d of 'head'; low confidence
-ISLE_SESS0131_BLOCKD02_03_sprt1,2,bad,word_start,0.660,0.660,,not determinable: closure not separable from the d of 'said'; release burst at 0.68
-F2BJRLP3,6,hundred,word_start,1.400,1.400,1.40,h-noise right after the t burst of 'eight' (burst at ~1.39); vowel from 1.44
-F2BJRLP2,6,michael,word_start,2.410,2.410,2.41,m murmur before the rising F2 of the diphthong 2.47-2.57; 2.24-2.40 is the end of 'governor'
+utterance,word_index,word,boundary,A3_time_s,A6_time_s,praat_time_s,note,source
+F2BJRLP2,17,he,word_start,8.040,7.790,8.06,"onset of the faint h-noise just before voicing at 8.10; the 7.78-8.00 noise is a breath, not part of the word","visual (Claude, blind figure, no audio)"
+ISLE_SESS0131_BLOCKD02_02_sprt1,3,not,word_start,1.450,1.290,1.46,start of the n murmur (small periodic pulses growing to the vowel at 1.535); low confidence,"visual (Claude, blind figure, no audio)"
+F2BJRLP2,4,democratic,word_start,1.500,1.380,1.43,onset of the voice bar of the d closure; release burst at 1.535,"visual (Claude, blind figure, no audio)"
+F2BJRLP3,46,thirty,word_start,16.190,16.300,16.30,"user, by ear in Praat: 'thirty' starts around 16.30 s","user (by ear, Praat)"
+ISLE_SESS0131_BLOCKD02_01_sprt1,4,bait,word_start,1.800,1.700,1.65,onset of the voice bar of the b closure after voiceless t; release burst at 1.83,"visual (Claude, blind figure, no audio)"
+F2BJRLP3,75,to,word_start,27.950,28.040,27.95,user confirmed by ear in Praat that the A3 boundary (27.95) is correct,"user (by ear, Praat): confirms A3"
+F2BJRLP3,24,give,word_start,9.260,9.280,9.27,closure starts where the s noise of 'admirers' ends; release burst at 9.335,"visual (Claude, blind figure, no audio)"
+ISLE_SESS0131_BLOCKD02_02_sprt1,0,i,word_start,0.620,0.610,0.63,onset of voicing of the initial vowel,"visual (Claude, blind figure, no audio)"
+F2BJRLP2,24,the,word_start,10.520,10.510,10.55,burst/voicing onset of dh after the d of 'head'; low confidence,"visual (Claude, blind figure, no audio)"
+ISLE_SESS0131_BLOCKD02_03_sprt1,2,bad,word_start,0.660,0.660,0.66,user confirmed by ear in Praat that the A3 boundary (0.66) is correct,"user (by ear, Praat): confirms A3"
+F2BJRLP3,6,hundred,word_start,1.400,1.400,1.40,h-noise right after the t burst of 'eight' (burst at ~1.39); vowel from 1.44,"visual (Claude, blind figure, no audio)"
+F2BJRLP2,6,michael,word_start,2.410,2.410,2.41,m murmur before the rising F2 of the diphthong 2.47-2.57; 2.24-2.40 is the end of 'governor',"visual (Claude, blind figure, no audio)"

@@ -1,0 +1,10 @@
+config,n,mean_error_ms,mean_abs_error_ms,max_abs_error_ms
+A1_naive_stock_arpa,10,3.0,41.0,150
+A2_norm_stock_arpa,10,3.0,41.0,150
+A3_norm_custom_arpa,10,3.0,41.0,150
+A4_norm_custom_arpa_ft,10,3.0,41.0,150
+A5_norm_custom_adapted,10,3.0,41.0,150
+A6_norm_custom_mfa,10,-49.0,61.0,270
+A7_norm_variants_arpa,10,3.0,41.0,150
+A8_trained_on_data_only,10,1050.0,1176.0,2400
+A9_norm_trained_g2p,10,3.0,41.0,150
