@@ -5,6 +5,8 @@
 | **2a** | [`2a_forced_alignment/`](2a_forced_alignment) | Montreal Forced Aligner on six utterances (3 news reading, 3 non-native minimal-pair sentences): setup, data preparation, custom G2P dictionaries, nine alignment configurations (two acoustic models, fine-tuning, speaker adaptation, pronunciation variants, a model trained from scratch, a G2P model trained here), TextGrids, error analysis, figures, report |
 | **2b** | [`2b_emotion_recognition/`](2b_emotion_recognition) | Speech-only, text-only and fusion emotion recognition on TESS: three pipelines, experiments on four evaluation protocols, noise robustness, t-SNE / separability of the Temporal, Contextual and Fusion blocks, failure analysis, extra experiments (ablations, wav2vec2 features, synthetic-text fusion check), report |
 
+The two reports in one file (the form submission): [`Report_Assignment2_2a_2b.pdf`](Report_Assignment2_2a_2b.pdf).
+
 Each folder has its own README with installation, preparation and run commands (copy-paste ready).
 
 ## 2a in short
