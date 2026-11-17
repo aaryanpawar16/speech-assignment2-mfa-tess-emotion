@@ -1,0 +1,7 @@
+heldout_words,500,WER_pct,50.8,WER_nostress_pct,40.2,PER_pct,12.8,PER_nostress_pct,9.4
+
+oov_word,trained_top1,pretrained_top1,edit_top1,edit_best_of_3x3
+dukakis,D UW0 K AE1 K IY0 Z,D UW1 K AA1 K IH0 S,3,3
+maffy,M AA1 F IY0,M AE1 F IY0,1,0
+melnicove,M EY0 N IY1 K OW0 V,M EH1 L N IH0 K OW2 V,3,2
+politicize,P AH0 L IH1 T IH0 S AY2 Z,P AH0 L IH1 T IH0 S AY2 Z,0,0

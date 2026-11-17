@@ -2,7 +2,7 @@
 
 | Part | Folder | What it contains |
 |---|---|---|
-| **2a** | [`2a_forced_alignment/`](2a_forced_alignment) | Montreal Forced Aligner on six utterances (3 news reading, 3 non-native minimal-pair sentences): setup, data preparation, custom G2P dictionaries, eight alignment configurations (two acoustic models, fine-tuning, speaker adaptation, pronunciation variants, a model trained from scratch), TextGrids, error analysis, figures, report |
+| **2a** | [`2a_forced_alignment/`](2a_forced_alignment) | Montreal Forced Aligner on six utterances (3 news reading, 3 non-native minimal-pair sentences): setup, data preparation, custom G2P dictionaries, nine alignment configurations (two acoustic models, fine-tuning, speaker adaptation, pronunciation variants, a model trained from scratch, a G2P model trained here), TextGrids, error analysis, figures, report |
 | **2b** | [`2b_emotion_recognition/`](2b_emotion_recognition) | Speech-only, text-only and fusion emotion recognition on TESS: three pipelines, experiments on four evaluation protocols, noise robustness, t-SNE / separability of the Temporal, Contextual and Fusion blocks, failure analysis, extra experiments (ablations, wav2vec2 features, synthetic-text fusion check), report |
 
 Each folder has its own README with installation, preparation and run commands (copy-paste ready).
@@ -11,7 +11,7 @@ Each folder has its own README with installation, preparation and run commands (
 
 ```bash
 bash 2a_forced_alignment/setup_mfa.sh            # MFA 3.4.3 via conda-forge (inside WSL on Windows)
-bash 2a_forced_alignment/scripts/run_pipeline.sh # prepare, validate, G2P dictionary, 8 alignments, analysis, figures
+bash 2a_forced_alignment/scripts/run_pipeline.sh # prepare, validate, G2P dictionary, 9 alignments, analysis, figures
 ```
 
 TextGrids: `2a_forced_alignment/outputs/<configuration>/<speaker>/<utterance>.TextGrid`; ready-to-open Praat pairs in `outputs/praat_view/`;

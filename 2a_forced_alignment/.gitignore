@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 models/*.zip
 models/*.dict
+!models/g2p_trained_subset.zip

@@ -24,7 +24,7 @@ import numpy as np
 import tgt
 
 CONFIGS = ["A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft",
-           "A5_norm_custom_adapted", "A6_norm_custom_mfa", "A7_norm_variants_arpa", "A8_trained_on_data_only"]
+           "A5_norm_custom_adapted", "A6_norm_custom_mfa", "A7_norm_variants_arpa", "A8_trained_on_data_only", "A9_norm_trained_g2p"]
 REF = "A3_norm_custom_arpa"
 FRAME = 0.010                                   # MFA feature frame shift: every boundary is a multiple of 10 ms
 OOV_WORDS = ["dukakis", "politicize", "maffy", "melnicove", "wbur"]

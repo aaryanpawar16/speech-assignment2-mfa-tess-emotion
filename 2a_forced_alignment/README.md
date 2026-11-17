@@ -7,9 +7,9 @@ errors. Everything is automated by one script.
 | | |
 |---|---|
 | **Tool** | Montreal Forced Aligner 3.4.3 (Kaldi, HMM-GMM) |
-| **Acoustic models** | `english_us_arpa` (main), `english_mfa` (second model), `english_us_arpa` adapted to these speakers, and one trained from scratch on the six clips |
+| **Acoustic models** | `english_us_arpa` (main), `english_mfa` (second model), `english_us_arpa` adapted to these speakers, and one trained from scratch on the six clips (plus a **G2P model trained here** for the dictionary) |
 | **Dictionaries** | stock `english_us_arpa` / `english_us_mfa`, and **custom dictionaries** = stock + G2P pronunciations for the out-of-vocabulary words |
-| **Outputs** | TextGrid files for 8 configurations x 6 utterances (`outputs/`), CSV analysis (`outputs/analysis/`), figures (`outputs/figures/`) |
+| **Outputs** | TextGrid files for 9 configurations x 6 utterances (`outputs/`), CSV analysis (`outputs/analysis/`), figures (`outputs/figures/`) |
 | **Report** | `report/Report_2a.pdf` (also sent by e-mail, as the assignment requires) |
 
 ## Repository layout
@@ -19,16 +19,19 @@ errors. Everything is automated by one script.
 ├── data/                      the provided dataset: wav/ and transcripts/ (unchanged)
 ├── scripts/
 │   ├── prepare_data.py        -> MFA corpus layout (speaker folders, .wav + .lab), two transcript variants
-│   ├── run_pipeline.sh        -> validate, G2P dictionary, 8 alignments, adaptation, training from scratch, analysis, figures (the whole pipeline)
+│   ├── run_pipeline.sh        -> validate, G2P dictionary, 9 alignments, adaptation, training from scratch, analysis, figures (the whole pipeline)
 │   ├── analyze_alignments.py  -> statistics, system agreement, OOV handling, squeezed phones, pauses vs punctuation
 │   ├── make_variant_dictionary.py -> dictionary with confusable vowel variants for the minimal-pair words (A7)
 │   ├── extras_analysis.py     -> A7 vowel choice, boundary check against an energy-based reference, manual-check template/evaluation
+│   ├── make_g2p_training_set.py -> 25k-word sample of the stock dictionary to train a G2P model (A9) + 500 held-out words
+│   ├── g2p_eval.py            -> word / phone error rate of the trained G2P model; its OOV pronunciations vs the pretrained ones
+│   ├── manual_check_figures.py -> zoomed spectrogram per boundary of the manual-check template (outputs/manual_check/)
 │   ├── isle_vowels.py         -> F1/F2 of the minimal-pair vowels (Praat via parselmouth)
 │   └── visualize.py           -> Praat-style figures + outputs/praat_view/
 ├── dictionaries/              oov_words_<dict>.txt (OOV lists), oov_<dict>.dict (G2P output), english_us_arpa_custom.dict, english_us_mfa_custom.dict
 ├── models/                    english_us_arpa_adapted.zip: acoustic model adapted with `mfa adapt` (92 MB, created by the pipeline, not committed)
 ├── outputs/
-│   ├── A1_naive_stock_arpa/ ... A8_trained_on_data_only/    TextGrids  <config>/<speaker>/<utterance>.TextGrid
+│   ├── A1_naive_stock_arpa/ ... A9_norm_trained_g2p/    TextGrids  <config>/<speaker>/<utterance>.TextGrid
 │   ├── analysis/              CSV tables + summary.txt
 │   ├── figures/               alignment figures
 │   └── praat_view/            wav + TextGrid pairs of the main configuration, ready to open in Praat
@@ -90,10 +93,15 @@ mfa align corpus_norm dictionaries/english_us_arpa_custom.dict english_us_arpa o
 # d) other configurations: --fine_tune, an adapted model (mfa adapt), a second acoustic model (english_mfa)
 mfa adapt corpus_norm dictionaries/english_us_arpa_custom.dict english_us_arpa models/english_us_arpa_adapted.zip
 mfa align corpus_norm dictionaries/english_us_mfa_custom.dict english_mfa outputs/A6_norm_custom_mfa --clean
-# e) pronunciation variants (A7) and an acoustic model trained on the six clips only (A8)
+# e) pronunciation variants (A7), an acoustic model trained on the six clips only (A8), a G2P model trained here (A9)
 python scripts/make_variant_dictionary.py
 mfa align corpus_norm dictionaries/english_us_arpa_variants.dict english_us_arpa outputs/A7_norm_variants_arpa --clean
 mfa train corpus_norm dictionaries/english_us_arpa_custom.dict models/trained_on_six_clips.zip --output_directory outputs/A8_trained_on_data_only --beam 100 --retry_beam 400 --single_speaker --clean
+python scripts/make_g2p_training_set.py --dict <stock english_us_arpa.dict> --n 25000 --out dictionaries/g2p_train_subset.dict
+mfa train_g2p dictionaries/g2p_train_subset.dict models/g2p_trained_subset.zip --clean -j 3 --overwrite      # ~10 min
+mfa g2p dictionaries/oov_words_english_us_arpa.txt models/g2p_trained_subset.zip dictionaries/oov_trained_g2p.dict -n 3
+cat <stock english_us_arpa.dict> dictionaries/oov_trained_g2p.dict > dictionaries/english_us_arpa_trainedg2p.dict
+mfa align corpus_norm dictionaries/english_us_arpa_trainedg2p.dict english_us_arpa outputs/A9_norm_trained_g2p --clean
 ```
 
 On Windows, start the pipeline from PowerShell/Git Bash with
@@ -106,14 +114,19 @@ python scripts/analyze_alignments.py --root .     # -> outputs/analysis/*.csv, s
 python scripts/isle_vowels.py --root .            # -> outputs/analysis/isle_vowel_formants.csv, figures/isle_vowel_chart.png
 python scripts/visualize.py --root .              # -> outputs/figures/*.png, outputs/praat_view/
 python scripts/extras_analysis.py --root .        # -> variant_choice_A7.csv, pause_boundary_vs_energy*.csv, manual_check_template.csv
+python scripts/g2p_eval.py --root .               # -> g2p_trained_vs_pretrained.csv (held-out WER/PER of the trained G2P, OOV pronunciations)
+python scripts/manual_check_figures.py --root .   # -> outputs/manual_check/*.png (one zoomed figure per boundary to check by hand)
 ```
 
-### Optional: check boundaries by hand in Praat
+### Manual check of 12 word starts
 
 `outputs/analysis/manual_check_template.csv` lists 12 word starts (the ones where the two acoustic models disagree most, plus a spread of agreeing ones).
-Open the wav + TextGrid from `outputs/praat_view/`, read the time of each word start from the spectrogram/waveform, fill the `praat_time_s` column,
-save as `manual_check_filled.csv` and run `python scripts/extras_analysis.py --root . --manual outputs/analysis/manual_check_filled.csv`:
-it prints the mean/maximum error of every configuration against your corrections.
+`python scripts/manual_check_figures.py --root . [--blind]` draws one zoomed waveform + spectrogram per boundary (`outputs/manual_check/` with the A3/A6 times,
+`outputs/manual_check_blind/` without them, for unbiased reading). The reference in `outputs/analysis/manual_check_filled.csv` was read **visually from the blind
+figures by the author of this report (an AI assistant), without listening or Praat**, so it is a rough reference (about +-10-30 ms); 3 of the 12 starts were not
+determinable and are left empty (with a note per row). To use your own corrections, fill the `praat_time_s` column (open the wav + TextGrid from `outputs/praat_view/` in Praat),
+save as a new CSV and run `python scripts/extras_analysis.py --root . --manual <csv>`: it prints the mean/maximum error of every configuration
+and writes `outputs/analysis/manual_check_errors.csv`.
 
 ### Configurations
 
@@ -127,6 +140,7 @@ it prints the mean/maximum error of every configuration against your corrections
 | A6 | spoken form | custom (`english_us_mfa`) | `english_mfa` | a different pre-trained model (IPA phone set) |
 | A7 | spoken form | custom + **pronunciation variants** of the minimal-pair words (`make_variant_dictionary.py`) | `english_us_arpa` | which vowel does the aligner pick when both are allowed? |
 | A8 | spoken form | custom | **trained from scratch on the six clips** (`mfa train`, 97 s) | shows why pre-trained models are needed (degenerate result) |
+| A9 | spoken form | stock + OOV pronunciations from a **G2P model trained here** (`mfa train_g2p`, 25k-word sample of the stock dictionary) | `english_us_arpa` | does a small trained G2P change the alignment? (held-out WER 50.8%, PER 12.8%; word boundaries identical to A3 within 10 ms) |
 
 ## 4. Inspecting the output in Praat
 

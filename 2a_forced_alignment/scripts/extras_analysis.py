@@ -19,7 +19,7 @@ import soundfile as sf
 import tgt
 
 CONFIGS = ["A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft",
-           "A5_norm_custom_adapted", "A6_norm_custom_mfa", "A7_norm_variants_arpa", "A8_trained_on_data_only"]
+           "A5_norm_custom_adapted", "A6_norm_custom_mfa", "A7_norm_variants_arpa", "A8_trained_on_data_only", "A9_norm_trained_g2p"]
 CANON = {"white": "AY", "bait": "EY", "new": "UW", "no": "OW", "bad": "AE", "bed": "EH"}
 NONSPEECH = ("", "sil", "sp", "spn", "<eps>")
 
@@ -172,7 +172,7 @@ def manual_template(root, out, n=12):
 def manual_eval(root, out, path, configs):
     gold = [r for r in csv.DictReader(open(path, encoding="utf-8")) if r["praat_time_s"].strip()]
     data = {c: load_config(root, c) for c in configs}
-    print("\n== error against YOUR hand-corrected word starts (%d boundaries, ms)" % len(gold))
+    print("\n== error against the manual reference word starts (%d boundaries, ms)" % len(gold))
     rows = []
     for c in configs:
         errs = []

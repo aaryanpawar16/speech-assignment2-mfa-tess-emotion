@@ -8,6 +8,7 @@ A5_norm_custom_adapted        6    244   1063       81     7.6      0    -49.23 
 A6_norm_custom_mfa            6    244   1045       98     9.4      0    -43.05    -44.77     3.78
 A7_norm_variants_arpa         6    244   1063       84     7.9      0    -49.34    -47.73     2.99
 A8_trained_on_data_only       6    244   1055      626    59.3      0       nan       nan      nan
+A9_norm_trained_g2p           6    244   1062       82     7.7      0    -49.33    -47.78     2.97
 
 == Word- and phone-boundary agreement with A3_norm_custom_arpa (ms; 'within' = share of boundaries differing by at most that much)
 config                     level       n     mean   median      p90      max   <=20ms   <=50ms
@@ -24,6 +25,8 @@ A7_norm_variants_arpa      word      488      0.2      0.0      0.0       20    
 A7_norm_variants_arpa      phone    2124      0.1      0.0      0.0       20    99.9%   100.0%
 A8_trained_on_data_only    word      488    928.3    790.0   1840.0     3180     1.8%     3.3%
 A8_trained_on_data_only    phone    2010    975.1    870.0   1890.0     3180     0.7%     2.3%
+A9_norm_trained_g2p        word      488      0.0      0.0      0.0       10   100.0%   100.0%
+A9_norm_trained_g2p        phone    2104      0.1      0.0      0.0       30    99.9%   100.0%
 
 == Out-of-vocabulary words: how each configuration handled them
 A1_naive_stock_arpa      F2BJRLP1       dukakis      15.45-16.00    550 ms  spn

@@ -22,8 +22,8 @@ def img(name, cap, w="100%"):
 
 
 CSS = """
-@page { size: A4; margin: 14mm 14mm; }
-body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1b1b1b; }
+@page { size: A4; margin: 11mm 13mm; }
+body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 8.9pt; line-height: 1.31; color: #1b1b1b; }
 h1 { font-size: 17pt; margin: 0 0 2pt; } .sub { color: #555; margin-bottom: 7pt; font-size: 9pt; }
 h2 { font-size: 11.5pt; margin: 11pt 0 3pt; border-bottom: 1.5px solid #2b4c7e; color: #2b4c7e; page-break-after: avoid; }
 table { border-collapse: collapse; width: 100%; margin: 4pt 0 6pt; font-size: 8.4pt; page-break-inside: avoid; }
@@ -51,6 +51,7 @@ def main():
     d_wb = (abs(f("white", "F1_50%") - f("bait", "F1_50%")), abs(f("white", "F2_50%") - f("bait", "F2_50%")))
     d_nn = (abs(f("new", "F1_50%") - f("no", "F1_50%")), abs(f("new", "F2_50%") - f("no", "F2_50%")))
     ag = lambda c, l: agree[(c, l)]
+    mm = {r["config"]: r for r in rows("manual_check_errors.csv")}
     p = []
     A = p.append
     A("<h1>Assignment 2a: Forced alignment with the Montreal Forced Aligner</h1>")
@@ -58,7 +59,7 @@ def main():
     A("<h2>1. What was done</h2>")
     A("<p>The six provided utterances (97 s) were aligned at word and phone level with <b>MFA 3.4.3</b> (Kaldi HMM-GMM; run in WSL Ubuntu). "
       "The pipeline is fully automated (<code>scripts/run_pipeline.sh</code>): corpus preparation, validation, a <b>custom pronunciation dictionary built with MFA's G2P model</b>, "
-      "alignment with <b>eight configurations</b> (two pre-trained acoustic models, an adapted model, a model trained from scratch, a fine-tuning option, a pronunciation-variant dictionary), and an analysis of the TextGrids with quantitative proxies, "
+      "alignment with <b>nine configurations</b> (two pre-trained acoustic models, an adapted model, a model trained from scratch, a fine-tuning option, a pronunciation-variant dictionary, a dictionary from a G2P model trained here), and an analysis of the TextGrids with quantitative proxies, "
       "since no hand-labelled reference alignment exists. TextGrids and figures were also inspected visually (Praat-style plots; the same files open in Praat).</p>")
     A("<h2>2. Data, models and dictionaries</h2>")
     A("<table><tr><th>Files</th><th>Content</th><th>Length</th><th>Words</th></tr>"
@@ -67,7 +68,8 @@ def main():
     A("<table><tr><th></th><th>Transcripts</th><th>Dictionary</th><th>Acoustic model</th><th>Words / phones</th><th>OOV items</th></tr>")
     names = {"A1_naive_stock_arpa": ("A1", "as provided", "stock <code>english_us_arpa</code>", "english_us_arpa"), "A2_norm_stock_arpa": ("A2", "spoken form", "stock", "english_us_arpa"),
              "A3_norm_custom_arpa": ("<b>A3</b>", "spoken form", "<b>custom</b> (stock + G2P)", "english_us_arpa"), "A4_norm_custom_arpa_ft": ("A4", "spoken form", "custom", "english_us_arpa + <code>--fine_tune</code>"),
-             "A5_norm_custom_adapted": ("A5", "spoken form", "custom", "english_us_arpa adapted (<code>mfa adapt</code>)"), "A6_norm_custom_mfa": ("A6", "spoken form", "custom (<code>english_us_mfa</code> + G2P)", "english_mfa (IPA phone set)")}
+             "A5_norm_custom_adapted": ("A5", "spoken form", "custom", "english_us_arpa adapted (<code>mfa adapt</code>)"), "A6_norm_custom_mfa": ("A6", "spoken form", "custom (<code>english_us_mfa</code> + G2P)", "english_mfa (IPA phone set)"),
+             "A9_norm_trained_g2p": ("A9", "spoken form", "stock + <b>trained</b> G2P", "english_us_arpa")}
     for k, (n, t, d, am) in names.items():
         A("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s / %s</td><td>%s</td></tr>" % (n, t, d, am, summ[k]["words"], summ[k]["phones"], summ[k]["unk_or_spn_items"]))
     A("</table>")
@@ -107,17 +109,27 @@ def main():
     A("<li><b>Acoustic model trained from scratch on the six clips (A8, <code>mfa train</code>).</b> With 97 s of audio the monophone/triphone GMMs do not converge: the default beam finds no alignment at all (<code>NoAlignmentsError</code>; it needed <code>--beam 100 --retry_beam 400</code>), "
       "and the result is degenerate: only %s%% of the word boundaries are within 20 ms of A3 (mean difference %s ms), %s%% of the phones are at the 30 ms minimum, and the sentence-final words absorb seconds of silence (figure). "
       "This is the reason to use pre-trained models and, at most, adapt them (A5).</li>" % (ag("A8_trained_on_data_only", "word")["pct_within_20ms"], ag("A8_trained_on_data_only", "word")["mean_ms"], summ["A8_trained_on_data_only"]["pct_phones_<=30ms"]))
+    g2 = next(csv.reader(open(os.path.join(AN, "g2p_trained_vs_pretrained.csv"), encoding="utf-8")))
+    A("<li><b>A G2P model trained here (A9, <code>mfa train_g2p</code>).</b> Besides the pretrained G2P model, I trained one on a seeded random sample of 25,000 words of the stock dictionary (the full 208k-entry dictionary would not fit the 3&nbsp;GB WSL session; "
+      "the corpus OOV words are not in the dictionary, so none can leak into training). On %s held-out dictionary words it reaches a word error rate of %s%% (%s%% ignoring stress) and a phone error rate of %s%% (%s%%), a modest accuracy from 12%% of the data (the pretrained model, trained on the whole dictionary, cannot be scored on these words fairly because it has seen them). "
+      "MFA&rsquo;s own <code>--evaluate</code> printed 100%% for this model, which contradicts its outputs, so the numbers are computed by <code>scripts/g2p_eval.py</code>. "
+      "Its pronunciations for the four OOV names differ from the pretrained ones (identical for <i>politicize</i>; <i>Melnicove</i> loses its L: M EY0 N IH0 K OW1 V; <i>Dukakis</i> ends in IY Z instead of IH S), but the alignment is practically unchanged: %s%% of the word boundaries are within 20 ms of A3 "
+      "(maximum difference %s ms). The phone sequences inside the four names necessarily differ; the word boundaries do not.</li>" % (g2[1], g2[3], g2[5], g2[7], g2[9], ag("A9_norm_trained_g2p", "word")["pct_within_20ms"], ag("A9_norm_trained_g2p", "word")["max_ms"]))
     A("<li><b>An independent acoustic check at the pauses.</b> Without a hand-labelled reference, I compared every boundary between a pause (&ge; 80 ms) and a word with the position where the short-time energy of the waveform crosses the midpoint between silence and speech (search window &plusmn;150 ms; this is an automatic reference, not a manual annotation). "
-      "For A1&ndash;A5 and A7 the mean absolute difference is %s&ndash;%s ms (median 17.5 ms, i.e. 1&ndash;2 frames), A6 %s ms; the from-scratch model A8 is at %s ms. So the pause placement of the pre-trained systems is acoustically consistent, and the energy check does separate a good from a degenerate alignment; it is too coarse to rank A1&ndash;A5, which differ by less than a frame. "
-      "A template of 12 informative boundaries to correct by hand in Praat is provided (<code>outputs/analysis/manual_check_template.csv</code>, evaluated with <code>scripts/extras_analysis.py --manual</code>).</li></ul>" % (
-          min(float(en[c]["mean_abs_error_ms"]) for c in ("A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft", "A5_norm_custom_adapted", "A7_norm_variants_arpa")),
-          max(float(en[c]["mean_abs_error_ms"]) for c in ("A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft", "A5_norm_custom_adapted", "A7_norm_variants_arpa")),
-          en["A6_norm_custom_mfa"]["mean_abs_error_ms"], en["A8_trained_on_data_only"]["mean_abs_error_ms"]))
-    A(img("variants_and_scratch_03_sprt1.png", "&lsquo;I said bad not bed&rsquo;: main alignment (A3, top), A7 phone tier (the aligner picks EH for <i>bad</i>) and the from-scratch model A8 (bottom), which has lost the structure of the utterance.", "44%"))
+      "For A1&ndash;A5, A7 and A9 the mean absolute difference is %s&ndash;%s ms (median 17.5 ms, i.e. 1&ndash;2 frames), A6 %s ms; the from-scratch model A8 is at %s ms. So the pause placement of the pre-trained systems is acoustically consistent, and the energy check does separate a good from a degenerate alignment; it is too coarse to rank A1&ndash;A5, which differ by less than a frame. "
+      "</li>"
+      "<li><b>Manual reference (visual, by me, not by ear).</b> For 12 word starts (largest A3/A6 disagreements plus agreeing ones) I read the start from zoomed waveform and spectrogram figures drawn <i>without</i> the aligners&rsquo; lines (<code>outputs/manual_check_blind/</code>), without listening or using Praat: a rough reference (&plusmn;10&ndash;30 ms), not a gold standard. "
+      "Three starts were not determinable (a weak <i>th</i>, two stop closures merged with the neighbouring word) and were left out, leaving 9. Mean absolute error: <b>%s ms</b> for the stock-model configurations (max %s ms) against <b>%s ms</b> for <code>english_mfa</code> (A6, max %s ms) and %s ms for the from-scratch model; so the ranking agrees with the system-agreement result. "
+      "A3 is within 30 ms on 7 of 9 starts; its largest errors are two voiced stops (<i>bait</i> +150 ms, <i>democratic</i> +70 ms), where it places the start near the release burst while my reference is the onset of the voice bar, so these two depend on that convention. Files: <code>outputs/analysis/manual_check_filled.csv</code>, <code>manual_check_errors.csv</code>.</li></ul>" % (
+          min(float(en[c]["mean_abs_error_ms"]) for c in ("A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft", "A5_norm_custom_adapted", "A7_norm_variants_arpa", "A9_norm_trained_g2p")),
+          max(float(en[c]["mean_abs_error_ms"]) for c in ("A1_naive_stock_arpa", "A2_norm_stock_arpa", "A3_norm_custom_arpa", "A4_norm_custom_arpa_ft", "A5_norm_custom_adapted", "A7_norm_variants_arpa", "A9_norm_trained_g2p")),
+          en["A6_norm_custom_mfa"]["mean_abs_error_ms"], en["A8_trained_on_data_only"]["mean_abs_error_ms"],
+          mm["A3_norm_custom_arpa"]["mean_abs_error_ms"], mm["A3_norm_custom_arpa"]["max_abs_error_ms"], mm["A6_norm_custom_mfa"]["mean_abs_error_ms"], mm["A6_norm_custom_mfa"]["max_abs_error_ms"], "%.0f" % float(mm["A8_trained_on_data_only"]["mean_abs_error_ms"])))
+    A(img("variants_and_scratch_03_sprt1.png", "&lsquo;I said bad not bed&rsquo;: main alignment (A3, top), A7 phone tier (the aligner picks EH for <i>bad</i>) and the from-scratch model A8 (bottom), which has lost the structure of the utterance.", "30%"))
     A("<h2>6. Limitations and extra credit</h2>")
     A("<p>No gold alignment exists, so accuracy was assessed through system agreement, acoustic plausibility and visual inspection, not as an error rate against a reference; the six recordings are few and the formant analysis uses one token per word. "
-      "<b>Extra credit covered:</b> custom dictionary trained with the G2P model plus a pronunciation-variant dictionary; several acoustic models compared (<code>english_us_arpa</code>, <code>english_mfa</code>, adapted, trained from scratch); a fully automated pipeline (<code>setup_mfa.sh</code>, <code>run_pipeline.sh</code>). "
-      "<b>Outputs:</b> <code>outputs/&lt;configuration&gt;/&lt;speaker&gt;/&lt;utterance&gt;.TextGrid</code> (8 x 6 files), <code>outputs/analysis/*.csv</code>, <code>outputs/figures/</code>, <code>outputs/praat_view/</code>.</p>")
+      "<b>Extra credit covered:</b> custom dictionaries from MFA&rsquo;s pretrained G2P model, a G2P model trained here (<code>mfa train_g2p</code>, A9) and a pronunciation-variant dictionary; several acoustic models compared (<code>english_us_arpa</code>, <code>english_mfa</code>, adapted, trained from scratch); a fully automated pipeline (<code>setup_mfa.sh</code>, <code>run_pipeline.sh</code>). "
+      "<b>Outputs:</b> <code>outputs/&lt;configuration&gt;/&lt;speaker&gt;/&lt;utterance&gt;.TextGrid</code> (9 x 6 files), <code>outputs/analysis/*.csv</code>, <code>outputs/figures/</code>, <code>outputs/praat_view/</code>.</p>")
     html = "<!doctype html><html><head><meta charset='utf-8'><title>Assignment 2a report</title><style>%s</style></head><body>%s</body></html>" % (CSS, "\n".join(p))
     hp = os.path.join(ROOT, "report", "Report_2a.html")
     open(hp, "w", encoding="utf-8").write(html)

@@ -97,12 +97,23 @@ if need "$ROOT/models/trained_on_six_clips.zip"; then
 fi
 echo "[A8_trained_on_data_only] TextGrids:" $(find "$OUT/A8_trained_on_data_only" -name '*.TextGrid' | wc -l)
 
+# A9  a G2P model TRAINED here (mfa train_g2p on a seeded 25k-word sample of the stock dictionary) builds the dictionary for the OOV words
+if need "$ROOT/models/g2p_trained_subset.zip"; then
+  { python "$ROOT/scripts/make_g2p_training_set.py" --dict "$PRE/dictionary/english_us_arpa.dict" --n 25000 --out "$DICT_DIR/g2p_train_subset.dict" 2>/dev/null     || python3 "$ROOT/scripts/make_g2p_training_set.py" --dict "$PRE/dictionary/english_us_arpa.dict" --n 25000 --out "$DICT_DIR/g2p_train_subset.dict"; }
+  $MFA train_g2p "$DICT_DIR/g2p_train_subset.dict" "$ROOT/models/g2p_trained_subset.zip" --clean -j 3 --overwrite   # ~10 min; its built-in --evaluate reports WER 100 (see scripts/g2p_eval.py)
+fi
+$MFA g2p "$DICT_DIR/oov_words_english_us_arpa.txt" "$ROOT/models/g2p_trained_subset.zip" "$DICT_DIR/oov_trained_g2p.dict" -n 3 --clean --quiet -j 1
+$MFA g2p "$DICT_DIR/g2p_heldout_words.txt" "$ROOT/models/g2p_trained_subset.zip" "$DICT_DIR/g2p_heldout_pred.dict" -n 1 --clean --quiet -j 2
+cat "$PRE/dictionary/english_us_arpa.dict" "$DICT_DIR/oov_trained_g2p.dict" > "$DICT_DIR/english_us_arpa_trainedg2p.dict"
+align A9_norm_trained_g2p      corpus_norm  "$DICT_DIR/english_us_arpa_trainedg2p.dict" english_us_arpa
+
 # ---------------------------------------------------------------------------------------------
 step "4. Analyse the alignments and draw figures (plain Python, no MFA needed)"
 PY=python; command -v python >/dev/null 2>&1 || PY=python3
 if $PY -c "import numpy, scipy, matplotlib, soundfile, tgt" 2>/dev/null; then
   $PY "$ROOT/scripts/analyze_alignments.py" --root "$ROOT"
   $PY "$ROOT/scripts/extras_analysis.py" --root "$ROOT"
+  $PY "$ROOT/scripts/g2p_eval.py" --root "$ROOT"
   $PY "$ROOT/scripts/visualize.py" --root "$ROOT"
 else
   echo "numpy/scipy/matplotlib/soundfile/tgt not available in this environment: run"

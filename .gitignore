@@ -7,3 +7,6 @@ cache/
 2b_emotion_recognition/models/*/runs/*/seed[1-9]/best.pt
 2b_work/
 2b_emotion_recognition/models/*/runs_extras/
+2a_forced_alignment/dictionaries/english_us_arpa_trainedg2p.dict
+2a_forced_alignment/dictionaries/g2p_train_subset.dict
+2a_forced_alignment/report/Report_2a.html
